@@ -1,0 +1,282 @@
+[
+    {
+        "id": "intro_01",
+        "type": "narration",
+        "text": "There stood two young boys, both no older than 12, in front of a deep cave at the edge of their village.",
+        "background": "...",
+        "next": "intro_02"
+    },
+    {
+        "id": "intro_02",
+        "type": "narration",
+        "text": "One, a human boy, the other, a (race).",
+        "background": "...",
+        "next": "intro_03"
+    },
+    {
+        "id": "intro_03",
+        "type": "narration",
+        "text": "In the young human's hair, (description).",
+        "background": "...",
+        "next": "intro_04"
+    },
+    {
+        "id": "intro_04",
+        "type": "narration",
+        "text": "From behind the pair, approaches the current chief of the village, a 48 year old (description). Accompanying him were some of the elders of his village, all look to be of the age of 48 except for one.",
+        "background": "...",
+        "next": "intro_05"
+    },
+    {
+        "id": "intro_05",
+        "type": "narration",
+        "text": "Alongside them was also a slightly younger man, a 35 year old (race). The boys recognized him.",
+        "background": "...",
+        "next": "intro_06"
+    },
+    {
+        "id": "intro_06",
+        "type": "narration",
+        "text": "This man was to take over and become the next chieftain of the village. The two boys watch as the group walks past them and enters the cave.",
+        "background": "...",
+        "next": "intro_07"
+    },
+    {
+        "id": "intro_07",
+        "type": "narration",
+        "text": "The boys remain outside alone, all is quiet for now.",
+        "background": "...",
+        "next": "intro_08"
+    },
+    {
+        "id": "intro_08",
+        "type": "narration",
+        "text": "BOOM",
+        "background": "...",
+        "next": "intro_09"
+    },
+    {
+        "id": "intro_09",
+        "type": "narration",
+        "text": "\"Worthy\"",
+        "background": "...",
+        "next": "intro_10"
+    },
+    {
+        "id": "intro_10",
+        "type": "narration",
+        "text": "BOOM",
+        "background": "...",
+        "next": "intro_11"
+    },
+    {
+        "id": "intro_11",
+        "type": "narration",
+        "text": "\"Worthy\"",
+        "background": "...",
+        "next": "intro_12"
+    },
+    {
+        "id": "intro_12",
+        "type": "narration",
+        "text": "BOOM",
+        "background": "...",
+        "next": "intro_13"
+    },
+    {
+        "id": "intro_13",
+        "type": "narration",
+        "text": "\"Worthy\"",
+        "background": "...",
+        "next": "intro_14"
+    },
+    {
+        "id": "intro_14",
+        "type": "narration",
+        "text": "Getting louder with every reiteration",
+        "background": "...",
+        "next": "intro_15"
+    },
+    {
+        "id": "intro_15",
+        "type": "narration",
+        "text": "BOOM",
+        "background": "...",
+        "next": "intro_16"
+    },
+    {
+        "id": "intro_16",
+        "type": "narration",
+        "text": "\"Worthy\"",
+        "background": "...",
+        "next": "intro_17"
+    },
+    {
+        "id": "intro_17",
+        "type": "narration",
+        "text": "BOOM",
+        "background": "...",
+        "next": "intro_18"
+    },
+    {
+        "id": "intro_18",
+        "type": "narration",
+        "text": "\"Worthy\"",
+        "background": "...",
+        "next": "intro_19"
+    },
+    {
+        "id": "intro_19",
+        "type": "narration",
+        "text": "BOOM",
+        "background": "...",
+        "next": "intro_20"
+    },
+    {
+        "id": "intro_20",
+        "type": "narration",
+        "text": "\"Worthy\"",
+        "background": "...",
+        "next": "intro_21"
+    },
+    {
+        "id": "intro_21",
+        "type": "narration",
+        "text": "Silence",
+        "background": "...",
+        "next": "intro_22"
+    },
+    {
+        "id": "intro_22",
+        "type": "narration",
+        "text": "Then cries.",
+        "background": "...",
+        "next": "intro_23"
+    },
+    {
+        "id": "intro_23",
+        "type": "narration",
+        "text": "But not just any crying.",
+        "background": "...",
+        "next": "intro_24"
+    },
+    {
+        "id": "intro_24",
+        "type": "narration",
+        "text": "It was the cries of what seemed like a number of babies.",
+        "background": "...",
+        "next": "intro_25"
+    },
+    {
+        "id": "intro_25",
+        "type": "narration",
+        "text": "Emerging from the cave was the soon-to-be chieftain, in his arms, a baby. A gnome baby to be exact.",
+        "background": "...",
+        "next": "intro_26"
+    },
+    {
+        "id": "intro_26",
+        "type": "narration",
+        "text": "The man spots the two boys still outside, both visibly shaken, with the human boy in unbridled tears. He places the tiny gnome into the hands of the young human before entering the cave once more.",
+        "background": "...",
+        "next": "intro_27"
+    },
+    {
+        "id": "intro_27",
+        "type": "narration",
+        "text": "It was only a few minutes before he re-emerged again. With another baby in his arms. This time, a dwarf.",
+        "background": "...",
+        "next": "intro_28"
+    },
+    {
+        "id": "intro_28",
+        "type": "narration",
+        "text": "The man repeats his journey in and out of the cave, each time, carrying another infant. A tiefling, a half-elf, a halfing and a (race).",
+        "background": "...",
+        "next": "intro_29"
+    },
+    {
+        "id": "intro_29",
+        "type": "narration",
+        "text": "The young (race) laid his eyes on the baby (race). It was uncanny, the little (race) shared a striking resemblance with him.",
+        "background": "...",
+        "next": "intro_30"
+    },
+    {
+        "id": "intro_30",
+        "type": "narration",
+        "text": "The (race) brought his hands to pick up the little one, raising them up to eye-level.",
+        "background": "...",
+        "next": "intro_31"
+    },
+    {
+        "id": "intro_31",
+        "type": "narration",
+        "text": "He suddenly felt this surge of adoration for the small creature. A fierce devotion to this tiny infant that he just met.",
+        "background": "...",
+        "next": "intro_32"
+    },
+    {
+        "id": "intro_32",
+        "type": "narration",
+        "text": "“You’re my brother now,” uttered the boy.",
+        "background": "...",
+        "next": "intro_33"
+    },
+    {
+        "id": "intro_33",
+        "type": "narration",
+        "text": "The boy vowed that he would cherish that baby.",
+        "background": "...",
+        "next": "intro_34"
+    },
+    {
+        "id": "intro_34",
+        "type": "narration",
+        "text": "That he would always be there to protect that baby.",
+        "background": "...",
+        "next": "intro_35"
+    },
+    {
+        "id": "intro_35",
+        "type": "narration",
+        "text": "That he would nurture that baby to grow up and live a prosperous life.",
+        "background": "...",
+        "next": "intro_36"
+    },
+    {
+        "id": "intro_36",
+        "type": "narration",
+        "text": "But that baby wasn’t me.",
+        "background": "...",
+        "next": "intro_37"
+    },
+    {
+        "id": "intro_37",
+        "type": "narration",
+        "text": "I was the first baby that the soon-to-be chieftain carried out of the cave. The baby gnome.",
+        "background": "...",
+        "next": "intro_38"
+    },
+    {
+        "id": "intro_38",
+        "type": "narration",
+        "text": "Fursttryl (pronounced as First Trial).",
+        "background": "...",
+        "next": "intro_39"
+    },
+    {
+        "id": "intro_39",
+        "type": "narration",
+        "text": "...",
+        "background": "...",
+        "next": "intro_40"
+    },
+    {
+        "id": "intro_40",
+        "type": "narration",
+        "text": "...",
+        "background": "...",
+        "next": "intro_41"
+    }
+]
