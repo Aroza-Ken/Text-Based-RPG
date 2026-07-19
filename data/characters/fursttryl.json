@@ -1,0 +1,47 @@
+{
+  "id": "fursttryl",
+  "name": "Fursttryl",
+  "age": {"child": 8, "adult": 35},
+  "class": "Cleric",
+  "level": {"child": 1, "adult": 3},
+  "race": "Gnome",
+  "alignment": "Chaotic Neutral",
+  "HP": {"child": 9, "adult": 21},
+  "stats": {
+    "strength": 13,
+    "dexterity": 16,
+    "constitution": 13,
+    "intelligence": 10,
+    "wisdom": 16,
+    "charisma": 10
+  },
+  "sprites": {
+    "smile": "assets/sprites/fursttryl_smile.png"
+  },
+  "abilities": [
+    {
+      "id": "sacred_flame",
+      "name": "Sacred Flame",
+      "type": "attack",
+      "damage": {"min": 3, "max": 8}
+    },
+    {
+      "id": "inflict_wounds",
+      "name": "Inflict Wounds",
+      "type": "attack",
+      "damage": {"min": 0, "max": 11}
+    },
+    {
+      "id": "guidance",
+      "name": "Guidance",
+      "type": "assist",
+      "boost": {"min": 0, "max": 4}
+    },
+    {
+      "id": "cure_wounds",
+      "name": "Cure Wounds",
+      "type": "assist",
+      "healing": {"min": 6, "max": 13}
+    }
+  ]
+}

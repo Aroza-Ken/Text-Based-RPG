@@ -268,15 +268,498 @@
     {
         "id": "intro_39",
         "type": "narration",
-        "text": "...",
+        "text": "That other baby was Reid.",
         "background": "...",
         "next": "intro_40"
     },
     {
         "id": "intro_40",
         "type": "narration",
-        "text": "...",
+        "text": "Stupid stupid Reid. Adored by Caine. The blatantly obvious favourite.",
         "background": "...",
         "next": "intro_41"
+    },
+    {
+        "id": "intro_41",
+        "type": "narration",
+        "text": "I hated watching Reid get showered with affection from Caine. I couldn’t avoid it either since we more or less were raised together. Along with the other babies from the ritual.",
+        "background": "...",
+        "next": "intro_42"
+    },
+    {
+        "id": "intro_42",
+        "type": "narration",
+        "text": "Ingot",
+        "background": "...",
+        "next": "intro_43"
+    },
+    {
+        "id": "intro_43",
+        "type": "narration",
+        "text": "Willow",
+        "background": "...",
+        "next": "intro_44"
+    },
+    {
+        "id": "intro_44",
+        "type": "narration",
+        "text": "Ilydia",
+        "background": "...",
+        "next": "intro_45"
+    },
+    {
+        "id": "intro_45",
+        "type": "narration",
+        "text": "John",
+        "background": "...",
+        "next": "intro_46"
+    },
+    {
+        "id": "intro_46",
+        "type": "narration",
+        "text": "We weren’t siblings, there was no blood relation between any of us. But we all grew up together.",
+        "background": "...",
+        "next": "intro_47"
+    },
+    {
+        "id": "intro_47",
+        "type": "narration",
+        "text": "Learnt about the world together.",
+        "background": "...",
+        "next": "intro_48"
+    },
+    {
+        "id": "intro_48",
+        "type": "narration",
+        "text": "Experienced a lot of life together.",
+        "background": "...",
+        "next": "intro_49"
+    },
+    {
+        "id": "intro_49",
+        "type": "narration",
+        "text": "Experience *that* event together.",
+        "background": "...",
+        "next": "intro_50"
+    },
+    {
+        "id": "intro_50",
+        "type": "narration",
+        "text": "That day.",
+        "background": "...",
+        "next": "intro_51"
+    },
+    {
+        "id": "intro_51",
+        "type": "narration",
+        "text": "We were left unsupervised by the adults of our village. We all went out looking for the chief, having no clue where he was, we searched and searched until we reached the forest neighboring the village.",
+        "background": "...",
+        "next": "intro_52"
+    },
+    {
+        "id": "intro_52",
+        "type": "narration",
+        "text": "Should we have asked an adult if we were allowed to venture into it? Maybe.",
+        "background": "...",
+        "next": "intro_53"
+    },
+    {
+        "id": "intro_53",
+        "type": "narration",
+        "text": "Should we have gone to Caine and asked for permission? Probably.",
+        "background": "...",
+        "next": "intro_54"
+    },
+    {
+        "id": "intro_54",
+        "type": "narration",
+        "text": "Would we have gotten in serious trouble for doing this? Most likely.",
+        "background": "...",
+        "next": "intro_55"
+    },
+    {
+        "id": "intro_55",
+        "type": "narration",
+        "text": "But we were 8. We thought we had the world in our hands. In our little minds, we took orders from no one but ourselves.",
+        "background": "...",
+        "next": "intro_56"
+    },
+    {
+        "id": "intro_56",
+        "type": "narration",
+        "text": "So no one knew or saw 6 brave, but naive, little figures entering the forest on their own.",
+        "background": "...",
+        "next": "intro_57"
+    },
+    {
+        "id": "intro_57",
+        "type": "narration",
+        "text": "The trees of the forest towered over our tiny forms, surrounding us on all sides and blocking the sky from us.",
+        "background": "...",
+        "next": "intro_58"
+    },
+    {
+        "id": "intro_58",
+        "type": "narration",
+        "text": "It made us feel so small. So small and vulnerable to whatever awaits us in the forest.",
+        "background": "...",
+        "next": "intro_59"
+    },
+    {
+        "id": "intro_59",
+        "type": "narration",
+        "text": "But despite that, we continued delving deeper and deeper into the forest, nothing would keep us from finding the chief.",
+        "background": "...",
+        "next": "intro_60"
+    },
+    {
+        "id": "intro_60",
+        "type": "narration",
+        "text": "How far were we from the village at this point? I had no idea. It felt like the forest was never-ending.",
+        "background": "...",
+        "next": "intro_61"
+    },
+    {
+        "id": "intro_61",
+        "type": "narration",
+        "text": "We traversed past tree after tree after tree after tree, and what was after that tree?",
+        "background": "...",
+        "next": "intro_62"
+    },
+    {
+        "id": "intro_62",
+        "type": "narration",
+        "text": "Another tree.",
+        "background": "...",
+        "next": "intro_63"
+    },
+    {
+        "id": "intro_63",
+        "type": "narration",
+        "text": "Then another tree. Then another tree.",
+        "background": "...",
+        "next": "intro_64"
+    },
+    {
+        "id": "intro_64",
+        "type": "narration",
+        "text": "Then not a tree.",
+        "background": "...",
+        "next": "intro_65"
+    },
+    {
+        "id": "intro_65",
+        "type": "narration",
+        "text": "What stood just a few feet from us did not look like a tree at all.",
+        "background": "...",
+        "next": "intro_66"
+    },
+    {
+        "id": "intro_66",
+        "type": "narration",
+        "text": "It wasn’t as tall as a tree. It wasn’t the same color as the trees we passed. It didn’t stay motionless like a tree.",
+        "background": "...",
+        "next": "intro_67"
+    },
+    {
+        "id": "intro_67",
+        "type": "narration",
+        "text": "It wasn’t a tree at all.",
+        "background": "...",
+        "next": "intro_68"
+    },
+    {
+        "id": "intro_68",
+        "type": "narration",
+        "text": "Across from us was a large monstrous creature, its size alone probably could envelop all of us easily.",
+        "background": "...",
+        "next": "intro_69"
+    },
+    {
+        "id": "intro_69",
+        "type": "narration",
+        "text": "Its brown fur combined with its yellowish-brown feathers made the beast look so contrasting and alien to creatures we were used to seeing.",
+        "background": "...",
+        "next": "intro_70"
+    },
+    {
+        "id": "intro_70",
+        "type": "narration",
+        "text": "Its pointy beak, which looked like it could pierce our tiny bodies through and through like a spear could, and its sharp claws, which looked like it could slash our skin easily like a sword, told all 6 of us all we needed to know.",
+        "background": "...",
+        "next": "intro_71"
+    },
+    {
+        "id": "intro_71",
+        "type": "narration",
+        "text": "We may have never seen a creature like this before but we knew it was dangerous. And worst, it wasn’t alone.",
+        "background": "...",
+        "next": "intro_72"
+    },
+    {
+        "id": "intro_72",
+        "type": "narration",
+        "text": "Besides its two hind legs were two smaller versions of it. Presumably its cubs.",
+        "background": "...",
+        "next": "intro_73"
+    },
+    {
+        "id": "intro_73",
+        "type": "narration",
+        "text": "Despite being babies, those horrifying little beasts looked like they could still maul us if we weren’t careful.",
+        "background": "...",
+        "next": "intro_74"
+    },
+    {
+        "id": "intro_74",
+        "type": "narration",
+        "text": "And we weren’t careful.",
+        "background": "...",
+        "next": "intro_75"
+    },
+    {
+        "id": "intro_75",
+        "type": "narration",
+        "text": "As the mother owlbear and its cubs looked right at us.",
+        "background": "...",
+        "next": "intro_76"
+    },
+    {
+        "id": "intro_76",
+        "type": "narration",
+        "text": "None of us even had a chance to react when one of the cubs suddenly pounced. And attacked John.",
+        "background": "...",
+        "next": "intro_77"
+    },
+    {
+        "id": "intro_77",
+        "type": "narration",
+        "text": "The creature mercilessly slashed little John with its claw.",
+        "background": "...",
+        "next": "intro_78"
+    },
+    {
+        "id": "intro_78",
+        "type": "narration",
+        "text": "Even without experiencing the attack myself, I could tell the beast’s attack was lethal from how weakened John, someone who was far stronger than I could ever be, appeared from just one hit.",
+        "background": "...",
+        "next": "intro_79"
+    },
+    {
+        "id": "intro_79",
+        "type": "narration",
+        "text": "Without a second thought, I rushed to John’s side and used Cure Wounds on him.",
+        "background": "...",
+        "next": "intro_80"
+    },
+    {
+        "id": "intro_80",
+        "type": "narration",
+        "text": "I was the healer of the group, it was my responsibility to make sure no one dies.",
+        "background": "...",
+        "next": "intro_81"
+    },
+    {
+        "id": "intro_81",
+        "type": "narration",
+        "text": "At least that’s what I initially thought.",
+        "background": "...",
+        "next": "intro_82"
+    },
+    {
+        "id": "intro_82",
+        "type": "narration",
+        "text": "While I was occupied with healing John, the other kids fought back against the beasts. Landing hit after hit and attack after attack.",
+        "background": "...",
+        "next": "intro_83"
+    },
+    {
+        "id": "intro_83",
+        "type": "narration",
+        "text": "But then I watched as the mother owlbear set her sights on Reid. Her large figure looming over his small frame before she went and pierced him with her beak.",
+        "background": "...",
+        "next": "intro_84"
+    },
+    {
+        "id": "intro_84",
+        "type": "narration",
+        "text": "Young Reid, who was earlier attacking the owlbears, froze on the spot. And then he let out a raw, piercing wail.",
+        "background": "...",
+        "next": "intro_85"
+    },
+    {
+        "id": "intro_85",
+        "type": "narration",
+        "text": "“BROTHER!!!”",
+        "background": "...",
+        "next": "intro_86"
+    },
+    {
+        "id": "intro_86",
+        "type": "narration",
+        "text": "He cried out, almost instinctually, for Caine, despite the older boy not being anywhere nearby. His cries didn’t, couldn’t reach Caine.",
+        "background": "...",
+        "next": "intro_87"
+    },
+    {
+        "id": "intro_87",
+        "type": "narration",
+        "text": "But they did reach me.",
+        "background": "...",
+        "next": "intro_88"
+    },
+    {
+        "id": "intro_88",
+        "type": "narration",
+        "text": "I stood just a few feet away from Reid.",
+        "background": "...",
+        "next": "intro_89"
+    },
+    {
+        "id": "intro_89",
+        "type": "narration",
+        "text": "I could reach him.",
+        "background": "...",
+        "next": "intro_90"
+    },
+    {
+        "id": "intro_90",
+        "type": "narration",
+        "text": "Heal him like I did with John.",
+        "background": "...",
+        "next": "intro_91"
+    },
+    {
+        "id": "intro_91",
+        "type": "narration",
+        "text": "It was my responsibility as a healer after all.",
+        "background": "...",
+        "next": "intro_92"
+    },
+    {
+        "id": "intro_92",
+        "type": "narration",
+        "text": "But all I could think at that moment was.",
+        "background": "...",
+        "next": "intro_93"
+    },
+    {
+        "id": "intro_93",
+        "type": "narration",
+        "text": "“I hate him.”",
+        "background": "...",
+        "next": "intro_94"
+    },
+    {
+        "id": "intro_94",
+        "type": "narration",
+        "text": "So, instead of helping young 8-year-old Reid like a good healer should, I took the chance to attack the mother owlbear, using Inflict Wounds.",
+        "background": "...",
+        "next": "intro_95"
+    },
+    {
+        "id": "intro_95",
+        "type": "narration",
+        "text": "My attack hardly fazed the creature, I doubt she even cared that much as she continued to focus on the already close-to-death Reid.",
+        "background": "...",
+        "next": "intro_96"
+    },
+    {
+        "id": "intro_96",
+        "type": "narration",
+        "text": "Then, undeterred, the mother owlbear strikes down at the young, crying boy once more.",
+        "background": "...",
+        "next": "intro_97"
+    },
+    {
+        "id": "intro_97",
+        "type": "narration",
+        "text": "And that was all it took.",
+        "background": "...",
+        "next": "intro_98"
+    },
+    {
+        "id": "intro_98",
+        "type": "narration",
+        "text": "But Reid didn’t just fall to the ground lifeless.",
+        "background": "...",
+        "next": "intro_99"
+    },
+    {
+        "id": "intro_99",
+        "type": "narration",
+        "text": "His small body first started to fray, blurring into a fine mist of sand, before ultimately dissolving completely into the air.",
+        "background": "...",
+        "next": "intro_100"
+    },
+    {
+        "id": "intro_100",
+        "type": "narration",
+        "text": "Reid was dead.",
+        "background": "...",
+        "next": "intro_101"
+    },
+    {
+        "id": "intro_101",
+        "type": "narration",
+        "text": "I let Reid die.",
+        "background": "...",
+        "next": "intro_102"
+    },
+    {
+        "id": "intro_102",
+        "type": "narration",
+        "text": "Yet despite bearing the knowledge that I played a minor role in his death, I felt no sympathy.",
+        "background": "...",
+        "next": "intro_103"
+    },
+    {
+        "id": "intro_103",
+        "type": "narration",
+        "text": "No guilt.",
+        "background": "...",
+        "next": "intro_104"
+    },
+    {
+        "id": "intro_104",
+        "type": "narration",
+        "text": "Strangely, the opposite.",
+        "background": "...",
+        "next": "intro_105"
+    },
+    {
+        "id": "intro_105",
+        "type": "narration",
+        "text": "All I thought to myself was.",
+        "background": "...",
+        "next": "intro_106"
+    },
+    {
+        "id": "intro_106",
+        "type": "narration",
+        "text": "“Now, I won’t have to hear his annoying cries anymore.”",
+        "background": "...",
+        "next": "intro_107"
+    },
+    {
+        "id": "intro_107",
+        "type": "narration",
+        "text": "Quite a cruel thing to think of at such a young age but I didn’t have time to ruminate about the morality of the situation.",
+        "background": "...",
+        "next": "intro_108"
+    },
+    {
+        "id": "intro_108",
+        "type": "narration",
+        "text": "The owlbears were still attacking us. The other kids were still in danger.",
+        "background": "...",
+        "next": "intro_109"
+    },
+    {
+        "id": "intro_109",
+        "type": "narration",
+        "text": "I may not have cared for Reid’s fate but I did care for the other’s.",
+        "background": "...",
+        "next": null
     }
 ]
