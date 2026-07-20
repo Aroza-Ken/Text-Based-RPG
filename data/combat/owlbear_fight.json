@@ -1,0 +1,33 @@
+{
+    "party": ["fursttryl", "ingot", "willow", "ilydia", "john"],
+    "enemies": [
+        {
+            "id": "mother_owlbear",
+            "name": "Mother Owlbear",
+            "HP": "TBD",
+            "damage": {"min": 0, "max": "TBD"},
+            "sprite": "..."
+        },
+        {
+            "id": "top_baby_owlbear",
+            "name": "Top Baby Owlbear",
+            "HP": "TBD",
+            "damage": {"min": 0, "max": "TBD"},
+            "sprite": "..."
+        },
+        {
+            "id": "bottom_baby_owlbear",
+            "name": "Bottom Baby Owlbear",
+            "HP": "TBD",
+            "damage": {"min": 0, "max": "TBD"},
+            "sprite": "..."
+        }
+    ],
+    "rotation": ["fursttryl", "john", "top_baby_owlbear", "mother_owlbear", "ilydia", "ingot", "willow", "bottom_baby_owlbear"],
+    "background": "...",
+    "win_hp_condition": 5,
+    "next_scene": {
+        "win": "owlbearfight_win",
+        "lose": "postfight"
+    }
+}

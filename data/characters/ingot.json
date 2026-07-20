@@ -1,0 +1,40 @@
+{
+    "id": "ingot",
+    "name": "Ingot",
+    "age": {"child": 8, "adult": 35},
+    "class": "Paladin",
+    "level": {"child": 1, "adult": 3},
+    "race": "Dwarf",
+    "alignment": "Neutral Good",
+    "HP": {"child": "TBD", "adult": "TBD"},
+    "stats": {
+        "strength": "check later",
+        "dexterity": "check later",
+        "constitution": "check later",
+        "intelligence": 6,
+        "wisdom": "check later",
+        "charisma": 16
+    },
+    "sprites": {
+    },
+    "abilities": [
+        {
+            "id": "TBD",
+            "name": "TBD",
+            "type": "attack",
+            "damage": {"min": "TBD", "max": "TBD"}
+        },
+        {
+            "id": "TBD",
+            "name": "TBD",
+            "type": "attack",
+            "damage": {"min": "TBD", "max": "TBD"}
+        },
+        {
+            "id": "lay_on_hands",
+            "name": "Lay On Hands",
+            "type": "assist",
+            "healing": {"min": 1, "max": 5}
+        }
+    ]
+}

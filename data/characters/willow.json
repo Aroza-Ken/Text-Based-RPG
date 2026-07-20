@@ -1,0 +1,40 @@
+{
+    "id": "willow",
+    "name": "Willow",
+    "age": {"child": 8, "adult": 35},
+    "class": "Rogue",
+    "level": {"child": 1, "adult": 3},
+    "race": "Tiefling",
+    "alignment": "Chaotic Neutral",
+    "HP": {"child": "TBD", "adult": "TBD"},
+    "stats": {
+        "strength": "check later",
+        "dexterity": "check later",
+        "constitution": "check later",
+        "intelligence": "check later",
+        "wisdom": "check later",
+        "charisma": "check later"
+    },
+    "sprites": {
+    },
+    "abilities": [
+        {
+            "id": "TBD",
+            "name": "TBD",
+            "type": "attack",
+            "damage": {"min": "TBD", "max": "TBD"}
+        },
+        {
+            "id": "TBD",
+            "name": "TBD",
+            "type": "attack",
+            "damage": {"min": "TBD", "max": "TBD"}
+        },
+        {
+            "id": "TBD",
+            "name": "TBD",
+            "type": "attack",
+            "healing": {"min": "TBD", "max": "TBD"}
+        }
+    ]
+}
