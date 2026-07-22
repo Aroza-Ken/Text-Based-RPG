@@ -6,35 +6,35 @@
     "level": {"child": 1, "adult": 3},
     "race": "Halfling",
     "alignment": "Neutral Good",
-    "HP": {"child": "TBD", "adult": "TBD"},
+    "HP": {"child": 13, "adult": 27},
     "stats": {
-        "strength": "check later",
-        "dexterity": "check later",
-        "constitution": "check later",
-        "intelligence": "check later",
-        "wisdom": "check later",
-        "charisma": "check later"
+        "strength": 18,
+        "dexterity": 16,
+        "constitution": 14,
+        "intelligence": 12,
+        "wisdom": 8,
+        "charisma": 14
     },
     "sprites": {
     },
     "abilities": [
         {
-            "id": "TBD",
-            "name": "TBD",
+            "id": "great_axe",
+            "name": "Great Axe",
             "type": "attack",
-            "damage": {"min": "TBD", "max": "TBD"}
+            "damage": {"min": 0, "max": 15}
         },
         {
-            "id": "TBD",
-            "name": "TBD",
+            "id": "hand_axe",
+            "name": "Hand Axe",
             "type": "attack",
-            "damage": {"min": "TBD", "max": "TBD"}
+            "damage": {"min": 3, "max": 11}
         },
         {
-            "id": "TBD",
-            "name": "TBD",
+            "id": "sickle",
+            "name": "Sickle",
             "type": "attack",
-            "damage": {"min": "TBD", "max": "TBD"}
+            "damage": {"min": 3, "max": 6}
         }
     ]
 }

@@ -6,29 +6,29 @@
     "level": {"child": 1, "adult": 3},
     "race": "Dwarf",
     "alignment": "Neutral Good",
-    "HP": {"child": "TBD", "adult": "TBD"},
+    "HP": {"child": 15, "adult": 30},
     "stats": {
-        "strength": "check later",
-        "dexterity": "check later",
-        "constitution": "check later",
+        "strength": 16,
+        "dexterity": 13,
+        "constitution": 16,
         "intelligence": 6,
-        "wisdom": "check later",
+        "wisdom": 14,
         "charisma": 16
     },
     "sprites": {
     },
     "abilities": [
         {
-            "id": "TBD",
-            "name": "TBD",
+            "id": "longsword",
+            "name": "Longsword",
             "type": "attack",
-            "damage": {"min": "TBD", "max": "TBD"}
+            "damage": {"min": 1, "max": 12}
         },
         {
-            "id": "TBD",
-            "name": "TBD",
+            "id": "divine_smite",
+            "name": "Divine Smite",
             "type": "attack",
-            "damage": {"min": "TBD", "max": "TBD"}
+            "damage": {"min": 0, "max": 15}
         },
         {
             "id": "lay_on_hands",

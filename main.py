@@ -1,9 +1,9 @@
 import json
 import random
 
-owlbearfight_alive = {"fursttryl": True, "ingot": True, "willow": True, "ilydia": True, "john": True, 
+owlbearfight_alive = {"fursttryl": True, "ingot": True, "willow": True, "illydia": True, "john": True, 
                       "mother_owlbear": True, "top_baby_owlbear": True, "bottom_baby_owlbear": True}
-owlbearfight_guidance = {"fursttryl": 0, "ingot": 0, "willow": 0, "ilydia": 0, "john": 0}
+owlbearfight_guidance = {"fursttryl": 0, "ingot": 0, "willow": 0, "illydia": 0, "john": 0}
 
 def win_scene():
     # add win scene here
@@ -61,6 +61,10 @@ def owlbear_fight():
             
             # loop through updated rotation
             for character in updated_rotation:
+                
+                if (character not in alive_enemy and character not in alive_party and character != "fursttryl"):
+                    continue
+
                 if (character == "fursttryl"): # player-controlled character
                     turn_over = False
                     while (True):
@@ -142,13 +146,17 @@ def owlbear_fight():
                                             chosen_target = current_enemies[int(target)]
                                             updated_HP = enemy_HP[chosen_target] - damage
                                             enemy_HP.update({chosen_target: updated_HP})
+                                            print(f"{party_lookup[character]["name"]} deals {damage} damage onto {enemy_lookup[chosen_target]["name"]} using {player_attacks[int(select)]["name"]}")
 
                                             if (updated_HP <= 0): # update character to dead if HP falls below 0
                                                 owlbearfight_alive.update({chosen_target: False})
+                                                print(f"{enemy_lookup[chosen_target]["name"]} falls!")
+                                                alive_enemy.remove(chosen_target) # remove the dead enemy from alive_enemy
                                             # if the mother owlbear HP falls to the win condition
                                             if (chosen_target == "mother_owlbear" and updated_HP <= win_HP_boundary):
                                                 fight_over = True
                                                 win = True
+                                                break
                                             owlbearfight_guidance[character] = 0
                                             turn_over = True
                                         elif (int(target) in current_enemies): # player chooses return, goes back to pick ability
@@ -236,6 +244,7 @@ def owlbear_fight():
                                             chosen_target = current_party[int(target)]
                                             owlbearfight_guidance.update({chosen_target: boost})
                                             turn_over = True
+                                            print(f"{party_lookup[character]["name"]} boosts {party_lookup[chosen_target]["name"]}'s attack by {boost} using {player_assists[int(select)]["name"]}")
                                         elif (int(target) in current_party): # player chooses return, goes back to pick ability
                                             break
                                         else:
@@ -281,12 +290,15 @@ def owlbear_fight():
                                             max_healing = player_assists[int(select)]["healing"]["max"]
                                             healing = random.randint(min_healing, max_healing)
                                             chosen_target = current_party[int(target)]
+                                            target_cur_hp = party_HP[chosen_target]
                                             updated_HP = party_HP[chosen_target] + healing
                                             # can only heal HP up to target's max HP
                                             if (updated_HP > party_lookup[chosen_target]["HP"]["child"]):
                                                 updated_HP = party_lookup[chosen_target]["HP"]["child"]
+                                                healing = updated_HP - target_cur_hp
                                             party_HP.update({chosen_target: updated_HP})
                                             turn_over = True
+                                            print(f"{party_lookup[character]["name"]} heals {party_lookup[chosen_target]["name"]} for {healing} using {player_assists[int(select)]["name"]}")
                                         elif (int(target) in current_party): # player chooses return, goes back to pick ability
                                             break
                                         else:
@@ -310,14 +322,21 @@ def owlbear_fight():
                         chosen_target = alive_party[target]
                         updated_HP = party_HP[chosen_target] - damage
                         party_HP.update({chosen_target: updated_HP})
+                        print(f"{enemy_lookup[character]["name"]} deals {damage} onto {party_lookup[chosen_target]["name"]}")
                         if (updated_HP <= 0): # update character to dead if HP falls below 0
                             owlbearfight_alive.update({chosen_target: False})
+                            print(f"{party_lookup[chosen_target]["name"]} falls!")
+                            alive_party.remove(chosen_target) # remove the dead party member from alive_enemy
                     else:
                         updated_HP = party_HP["fursttryl"] - damage
                         party_HP.update({"fursttryl": updated_HP})
+                        print(f"{enemy_lookup[character]["name"]} deals {damage} onto {party_lookup[chosen_target]["name"]}")
                         if (updated_HP <= 0): # update character to dead if HP falls below 0
                             owlbearfight_alive.update({"fursttryl": False})
                             fight_over = True
+                            print(f"{party_lookup[chosen_target]["name"]} falls!")
+                            alive_party.remove(chosen_target) # remove the dead party member from alive_enemy
+                            break
                 else: # party NPC
                     attacks = []
                     assists = []
@@ -349,30 +368,43 @@ def owlbear_fight():
                         if (owlbearfight_guidance[character] > 0):
                             damage += owlbearfight_guidance[character]
 
-                        target = random.randint(0, len(alive_enemy) - 1)
+                        target = 0
+                        if (len(alive_enemy) > 1): # if there is more than one enemy alive, randomize target
+                            target = random.randint(0, len(alive_enemy) - 1)
                         chosen_target = alive_enemy[target]
                         updated_HP = enemy_HP[chosen_target] - damage
                         enemy_HP.update({chosen_target: updated_HP})
                         owlbearfight_guidance[character] = 0
+                        print(f"{party_lookup[character]["name"]} deals {damage} damage onto {enemy_lookup[chosen_target]["name"]} using {chosen_move["name"]}")
                         if (updated_HP <= 0): # update character to dead if HP falls below 0
                             owlbearfight_alive.update({chosen_target: False})
+                            print(f"{enemy_lookup[chosen_target]["name"]} falls!")
+                            alive_enemy.remove(chosen_target) # remove the dead enemy from alive_enemy
                         # if the mother owlbear HP falls to the win condition
                         if (chosen_target == "mother_owlbear" and updated_HP <= win_HP_boundary):
                             fight_over = True
                             win = True
+                            break
                     # if assist, randomize healing effect and target
                     # then update target current HP
                     else:
                         min_healing = assists[0]["healing"]["min"]
                         max_healing = assists[0]["healing"]["max"]
                         healing = random.randint(min_healing, max_healing)
-                        target = random.randint(0, len(alive_party) - 1)
+
+                        target = 0
+                        if (len(alive_enemy) > 1): # if there is more than one party member (besides the payer) alive, randomize target
+                            target = random.randint(0, len(alive_enemy) - 1)
+
                         chosen_target = alive_party[target]
+                        target_cur_hp = party_HP[chosen_target]
                         updated_HP = party_HP[chosen_target] + healing
                         # can only heal HP up to target's max HP
                         if (updated_HP > party_lookup[chosen_target]["HP"]["child"]):
                             updated_HP = party_lookup[chosen_target]["HP"]["child"]
+                            healing = updated_HP - target_cur_hp
                         party_HP.update({chosen_target: updated_HP})
+                        print(f"{party_lookup[character]["name"]} heals {party_lookup[chosen_target]["name"]} for {healing} using {assists[0]["name"]}")
 
             # check if win or loss conditions are met
             if (fight_over == True):

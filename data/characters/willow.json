@@ -6,35 +6,35 @@
     "level": {"child": 1, "adult": 3},
     "race": "Tiefling",
     "alignment": "Chaotic Neutral",
-    "HP": {"child": "TBD", "adult": "TBD"},
+    "HP": {"child": 11, "adult": 23},
     "stats": {
-        "strength": "check later",
-        "dexterity": "check later",
-        "constitution": "check later",
-        "intelligence": "check later",
-        "wisdom": "check later",
-        "charisma": "check later"
+        "strength": 7,
+        "dexterity": 16,
+        "constitution": 14,
+        "intelligence": 18,
+        "wisdom": 12,
+        "charisma": 12
     },
     "sprites": {
     },
     "abilities": [
         {
-            "id": "TBD",
-            "name": "TBD",
+            "id": "sneak_attack",
+            "name": "Sneak Attack",
             "type": "attack",
-            "damage": {"min": "TBD", "max": "TBD"}
+            "damage": {"min": 0, "max": 15}
         },
         {
-            "id": "TBD",
-            "name": "TBD",
+            "id": "short_sword",
+            "name": "Short Sword",
             "type": "attack",
-            "damage": {"min": "TBD", "max": "TBD"}
+            "damage": {"min": 3, "max": 12}
         },
         {
-            "id": "TBD",
-            "name": "TBD",
+            "id": "dagger",
+            "name": "Dagger",
             "type": "attack",
-            "damage": {"min": "TBD", "max": "TBD"}
+            "damage": {"min": 2, "max": 8}
         }
     ]
 }

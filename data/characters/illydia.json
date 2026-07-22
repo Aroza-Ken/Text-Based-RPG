@@ -1,0 +1,40 @@
+{
+    "id": "illydia",
+    "name": "Illydia",
+    "age": {"child": 8, "adult": 35},
+    "class": "Wizard",
+    "level": {"child": 1, "adult": 3},
+    "race": "Half Elf",
+    "alignment": "Chaotic Neutral",
+    "HP": {"child": 11, "adult": 24},
+    "stats": {
+        "strength": 9,
+        "dexterity": 13,
+        "constitution": 15,
+        "intelligence": 19,
+        "wisdom": 12,
+        "charisma": 10
+    },
+    "sprites": {
+    },
+    "abilities": [
+        {
+            "id": "witch_bolt",
+            "name": "Witch Bolt",
+            "type": "attack",
+            "damage": {"min": 0, "max": 15}
+        },
+        {
+            "id": "frost_bite",
+            "name": "Frost Bite",
+            "type": "attack",
+            "damage": {"min": 4, "max": 12}
+        },
+        {
+            "id": "chill_touch",
+            "name": "Chill Touch",
+            "type": "attack",
+            "damage": {"min": 5, "max": 7}
+        }
+    ]
+}
