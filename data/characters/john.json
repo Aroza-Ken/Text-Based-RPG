@@ -34,7 +34,7 @@
             "id": "TBD",
             "name": "TBD",
             "type": "attack",
-            "healing": {"min": "TBD", "max": "TBD"}
+            "damage": {"min": "TBD", "max": "TBD"}
         }
     ]
 }
