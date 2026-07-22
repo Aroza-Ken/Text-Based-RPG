@@ -3,6 +3,7 @@ import random
 
 owlbearfight_alive = {"fursttryl": True, "ingot": True, "willow": True, "ilydia": True, "john": True, 
                       "mother_owlbear": True, "top_baby_owlbear": True, "bottom_baby_owlbear": True}
+owlbearfight_guidance = {"fursttryl": 0, "ingot": 0, "willow": 0, "ilydia": 0, "john": 0}
 
 def win_scene():
     # add win scene here
@@ -69,6 +70,8 @@ def owlbear_fight():
                         pick = input("\n")
                         if (pick == "1"): # Attack
                             while (True):
+                                if (turn_over == True):
+                                    break
                                 display_moves = [] # purely used to display the attack name with its representative number
                                 player_attacks = {} # holds the actual attack data with its representative number
                                 count_moves = 1
@@ -99,6 +102,9 @@ def owlbear_fight():
                                 # player chooses one of the attack abilities
                                 if (int(select) in player_attacks and player_attacks[int(select)] != "Return"):
                                     while (True):
+                                        if (turn_over == True):
+                                            break
+
                                         display_enemies = [] # purely used to display the enemy name with its representative number
                                         current_enemies = {} # holds the actual enemy data with its representative number
                                         count_enemies = 1
@@ -128,6 +134,11 @@ def owlbear_fight():
                                             min_damage = player_attacks[int(select)]["damage"]["min"]
                                             max_damage = player_attacks[int(select)]["damage"]["max"]
                                             damage = random.randint(min_damage, max_damage)
+
+                                            # check if there is a current boost to the character's attack
+                                            if (owlbearfight_guidance[character] > 0):
+                                                damage += owlbearfight_guidance[character]
+
                                             chosen_target = current_enemies[int(target)]
                                             updated_HP = enemy_HP[chosen_target] - damage
                                             enemy_HP.update({chosen_target: updated_HP})
@@ -138,6 +149,7 @@ def owlbear_fight():
                                             if (chosen_target == "mother_owlbear" and updated_HP <= win_HP_boundary):
                                                 fight_over = True
                                                 win = True
+                                            owlbearfight_guidance[character] = 0
                                             turn_over = True
                                         elif (int(target) in current_enemies): # player chooses return, goes back to pick ability
                                             break
@@ -149,6 +161,9 @@ def owlbear_fight():
                                     continue                     
                         elif (pick == "2"): # Assist
                             while (True):
+                                if (turn_over == True):
+                                    break
+
                                 display_moves = [] # purely used to display the assist name with its representative number
                                 player_assists = {} # holds the actual assist data with its representative number
                                 count_moves = 1
@@ -181,10 +196,55 @@ def owlbear_fight():
                                     break
                                 # if not return, player chooses one of the assist abilities
                                 elif (int(select) in player_assists and player_assists[int(select)]["name"] == "Guidance"):
-                                    # to be implemented
-                                    continue
+                                    while (True):
+                                        if (turn_over == True):
+                                            break
+
+                                        display_party = [] # purely used to display the enemy name with its representative number
+                                        current_party = {} # holds the actual enemy data with its representative number
+                                        count_party = 1
+                                        for member in alive_party:
+                                            display_member = f"{count_party}: {party_lookup[member]["name"]}"
+                                            display_party.append(display_member)
+                                            current_party.update({count_party: member})
+                                            count_party += 1
+                                        
+                                        # add player character to list and dict
+                                        display_player = f"{count_party}: {party_lookup["fursttryl"]["name"]}"
+                                        display_party.append(display_player)
+                                        current_party.update({count_party: "fursttryl"})
+                                        count_party += 1
+                                        
+                                        # add a return option (in both the list and dict)
+                                        return_assists = f"{count_party}: Return"
+                                        display_party.append(return_assists)
+                                        current_party.update({count_party: "Return"})
+                                        for display_options in display_party:
+                                            print(display_options)
+                                        
+                                        target = input("\n")
+                                        try:
+                                            number = int(target)
+                                        except ValueError:
+                                            continue
+
+                                        # player chooses one of the alive targets, boost is randomized and stored for future use
+                                        if (int(target) in current_party and current_party[int(target)] != "Return"):
+                                            min_boost = player_assists[int(select)]["boost"]["min"]
+                                            max_boost = player_assists[int(select)]["boost"]["max"]
+                                            boost = random.randint(min_boost, max_boost)
+                                            chosen_target = current_party[int(target)]
+                                            owlbearfight_guidance.update({chosen_target: boost})
+                                            turn_over = True
+                                        elif (int(target) in current_party): # player chooses return, goes back to pick ability
+                                            break
+                                        else:
+                                            continue
                                 elif (int(select) in player_assists and player_assists[int(select)]["name"] == "Cure Wounds"):
                                     while (True):
+                                        if (turn_over == True):
+                                            break
+
                                         display_party = [] # purely used to display the enemy name with its representative number
                                         current_party = {} # holds the actual enemy data with its representative number
                                         count_party = 1
@@ -215,7 +275,7 @@ def owlbear_fight():
                                         except ValueError:
                                             continue
 
-                                        # player chooses one of the alive targets, damage is randomized and target HP is updated
+                                        # player chooses one of the alive targets, healing is randomized and target HP is updated
                                         if (int(target) in current_party and current_party[int(target)] != "Return"):
                                             min_healing = player_assists[int(select)]["healing"]["min"]
                                             max_healing = player_assists[int(select)]["healing"]["max"]
@@ -285,10 +345,15 @@ def owlbear_fight():
                         max_damage = chosen_move["damage"]["max"]
                         damage = random.randint(min_damage, max_damage)
                         
+                        # check if there is a current boost to the character's attack
+                        if (owlbearfight_guidance[character] > 0):
+                            damage += owlbearfight_guidance[character]
+
                         target = random.randint(0, len(alive_enemy) - 1)
                         chosen_target = alive_enemy[target]
                         updated_HP = enemy_HP[chosen_target] - damage
                         enemy_HP.update({chosen_target: updated_HP})
+                        owlbearfight_guidance[character] = 0
                         if (updated_HP <= 0): # update character to dead if HP falls below 0
                             owlbearfight_alive.update({chosen_target: False})
                         # if the mother owlbear HP falls to the win condition
