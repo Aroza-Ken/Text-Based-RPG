@@ -306,7 +306,34 @@ def owlbear_fight():
                                 else:
                                     continue
                         elif (pick == "3"): # Stats(Health)
-                            continue
+                            while (True):
+                                display_health = [] # purely used to display the enemy name with its representative number
+                                current_health = {} # holds the actual enemy data with its representative number
+                                count_chars = 1
+
+                                # add player character to list and dict
+                                for member in alive_party:
+                                    display_member = f"{count_chars}: {party_lookup[member]["name"]}"
+                                    display_health.append(display_member)
+                                    current_health.update({count_chars: member})
+                                    count_chars += 1
+                                
+                                for display_options in display_health:
+                                    print(display_options)
+
+                                target = input("\n")
+                                
+                                try:
+                                    number = int(target)
+                                except ValueError:
+                                    continue
+
+                                if (int(target) in current_health and current_health[int(target)] in party_lookup):
+                                    chosen_target = current_health[int(target)]
+                                    print(f"{party_lookup[chosen_target]["name"]}: {party_HP[chosen_target]} HP")
+                                    break
+                                else:
+                                    continue
                         else: # Prompt player again for valid input
                             continue
 
@@ -330,12 +357,12 @@ def owlbear_fight():
                     else:
                         updated_HP = party_HP["fursttryl"] - damage
                         party_HP.update({"fursttryl": updated_HP})
-                        print(f"{enemy_lookup[character]["name"]} deals {damage} onto {party_lookup[chosen_target]["name"]}")
+                        print(f"{enemy_lookup[character]["name"]} deals {damage} onto {party_lookup["fursttryl"]["name"]}")
                         if (updated_HP <= 0): # update character to dead if HP falls below 0
                             owlbearfight_alive.update({"fursttryl": False})
                             fight_over = True
-                            print(f"{party_lookup[chosen_target]["name"]} falls!")
-                            alive_party.remove(chosen_target) # remove the dead party member from alive_enemy
+                            print(f"{party_lookup["fursttryl"]["name"]} falls!")
+                            alive_party.remove("fursttryl") # remove the dead party member from alive_enemy
                             break
                 else: # party NPC
                     attacks = []
@@ -393,8 +420,8 @@ def owlbear_fight():
                         healing = random.randint(min_healing, max_healing)
 
                         target = 0
-                        if (len(alive_enemy) > 1): # if there is more than one party member (besides the payer) alive, randomize target
-                            target = random.randint(0, len(alive_enemy) - 1)
+                        if (len(alive_party) > 1): # if there is more than one party member (besides the payer) alive, randomize target
+                            target = random.randint(0, len(alive_party) - 1)
 
                         chosen_target = alive_party[target]
                         target_cur_hp = party_HP[chosen_target]
