@@ -9,28 +9,28 @@
     {
         "id": "intro_02",
         "type": "narration",
-        "text": "One, a human boy, the other, a (race).",
+        "text": "One, a human boy, the other, a wood elf.",
         "background": "...",
         "next": "intro_03"
     },
     {
         "id": "intro_03",
         "type": "narration",
-        "text": "In the young human's hair, (description).",
+        "text": "The two stand alone together before the cave, staring into its depth. Though, they weren't alone for long.",
         "background": "...",
         "next": "intro_04"
     },
     {
         "id": "intro_04",
         "type": "narration",
-        "text": "From behind the pair, approaches the current chief of the village, a 48 year old (description). Accompanying him were some of the elders of his village, all look to be of the age of 48 except for one.",
+        "text": "From behind the pair, approaches the current chief of the village, a 48 year old orc. Accompanying him were some of the elders of his village, all look to be of the age of 48 except for one.",
         "background": "...",
         "next": "intro_05"
     },
     {
         "id": "intro_05",
         "type": "narration",
-        "text": "Alongside them was also a slightly younger man, a 35 year old (race). The boys recognized him.",
+        "text": "Alongside them was also a slightly younger man, a 35 year old elf. The boys recognized him.",
         "background": "...",
         "next": "intro_06"
     },
@@ -191,21 +191,21 @@
     {
         "id": "intro_28",
         "type": "narration",
-        "text": "The man repeats his journey in and out of the cave, each time, carrying another infant. A tiefling, a half-elf, a halfing and a (race).",
+        "text": "The man repeats his journey in and out of the cave, each time, carrying another infant. A tiefling, a half-elf, a halfing and a wood elf.",
         "background": "...",
         "next": "intro_29"
     },
     {
         "id": "intro_29",
         "type": "narration",
-        "text": "The young (race) laid his eyes on the baby (race). It was uncanny, the little (race) shared a striking resemblance with him.",
+        "text": "The young wood elf laid his eyes on the baby wood elf. It was uncanny, the little elf shared a striking resemblance with him.",
         "background": "...",
         "next": "intro_30"
     },
     {
         "id": "intro_30",
         "type": "narration",
-        "text": "The (race) brought his hands to pick up the little one, raising them up to eye-level.",
+        "text": "The elf brought his hands to pick up the little one, raising them up to eye-level.",
         "background": "...",
         "next": "intro_31"
     },

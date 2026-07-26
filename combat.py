@@ -146,6 +146,8 @@ def owlbear_fight():
                                             if (chosen_target == "mother_owlbear" and updated_HP <= win_HP_boundary):
                                                 fight_over = True
                                                 win = True
+                                                state.owlbearfight_guidance[character] = 0
+                                                turn_over = True
                                                 break
                                             state.owlbearfight_guidance[character] = 0
                                             turn_over = True

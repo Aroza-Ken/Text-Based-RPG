@@ -1,0 +1,79 @@
+[
+    {
+        "id": "line_01",
+        "speaker": "narrator",
+        "text": "“I'll save you, Reid!”",
+        "background": "...",
+        "next": "line_02"
+    },
+    {
+        "id": "line_02",
+        "speaker": "narrator",
+        "text": "Suddenly, emerging out from the sides, out comes a familiar older figure. Caine. The skilled village guard rushed towards the weakened mother owlbear, a sword in hand and a goal in sight.",
+        "background": "...",
+        "next": "line_03"
+    },
+    {
+        "id": "line_03",
+        "speaker": "narrator",
+        "text": "He swiftly raised his longsword in the air before bringing it down to strike the beast. The already heavily-injured beast was no match for the elf’s attack as its legs gave out and it fell onto the ground. Dead.",
+        "background": "...",
+        "next": "line_04"
+    },
+    {
+        "id": "line_04",
+        "speaker": "fursttryl",
+        "text": "Fursttryl: “Of course Caine only worries about Reid…”",
+        "background": "...",
+        "next": null
+    },
+    {
+        "id": "line_05",
+        "speaker": "narrator",
+        "text": "...",
+        "background": "...",
+        "next": null
+    },
+    {
+        "id": "line_06",
+        "speaker": "willow",
+        "text": "Willow: “Hey! That was our kill!”",
+        "background": "...",
+        "next": null
+    },
+    {
+        "id": "line_07",
+        "speaker": "ingot",
+        "text": "Ingot: “I could’ve handled it”",
+        "background": "...",
+        "next": null
+    },
+    {
+        "id": "line_08",
+        "speaker": "illydia",
+        "text": "Illydia: “Took him long enough…”",
+        "background": "...",
+        "next": null
+    },
+    {
+        "id": "line_09",
+        "speaker": "john",
+        "text": "John: “A little too late, Caine…”",
+        "background": "...",
+        "next": null
+    },
+    {
+        "id": "line_10",
+        "speaker": "narrator",
+        "text": "The last owlbear cub, now having watched its mother and sibling slain, knows that it has no choice left but to retreat. The small creature turns on its heels and rushes out of the scene, disappearing into the bushes.",
+        "background": "...",
+        "next": null
+    },
+    {
+        "id": "line_11",
+        "speaker": "narrator",
+        "text": "The two owlbear cubs watch in horror as their mother is killed before them. With the knowledge that they would likely follow suit if they stayed, the pair quickly flee for their own survival.",
+        "background": "...",
+        "next": null
+    }
+]
