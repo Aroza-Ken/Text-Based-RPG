@@ -1,0 +1,226 @@
+[
+    {
+        "id": "line_01",
+        "speaker": "narrator",
+        "text": "A young boy opens his eyes and finds himself in a peculiar environment",
+        "background": "...",
+        "next": "line_02"
+    },
+    {
+        "id": "line_02",
+        "speaker": "narrator",
+        "text": "The boy scans around, the place resembles that of a court room of sorts. Except, unlike a regular courtroom, there were no lights or windows of any kind that would help illuminate the space.",
+        "background": "...",
+        "next": "line_03"
+    },
+    {
+        "id": "line_03",
+        "speaker": "narrator",
+        "text": "The young boy still had the ability to see his surroundings and the contents in the room, though, wherever the source of light was originating from was unknown to him.",
+        "background": "...",
+        "next": "line_04"
+    },
+    {
+        "id": "line_04",
+        "speaker": "narrator",
+        "text": "Before him was this intimidatingly tall stand that seemed to be stretched across the entire side of the room.",
+        "background": "...",
+        "next": "line_05"
+    },
+    {
+        "id": "line_05",
+        "speaker": "narrator",
+        "text": "He turns his head up to find a line of cloaked figures positioned in the stand. The faces of these individuals, obscured by their hoods, were concealed to the boy.",
+        "background": "...",
+        "next": null
+    },
+    {
+        "id": "line_06",
+        "speaker": "narrator",
+        "text": "But thankfully, not everyone in the place had their face shrouded by a hood. As the boy turned beside him and saw that he wasn’t alone.",
+        "background": "...",
+        "next": "line_07"
+    },
+    {
+        "id": "line_07",
+        "speaker": "narrator",
+        "text": "Though, that still did little to ease the boy’s overwhelming fear and confusion on his situation.",
+        "background": "...",
+        "next": null
+    },
+    {
+        "id": "line_08",
+        "speaker": "reid",
+        "text": "Reid: “Where am I?! What is this place!? I don’t like it! Caine! Caineeeee!”",
+        "background": "...",
+        "next": null
+    },
+    {
+        "id": "line_09",
+        "speaker": "willow",
+        "text": "Willow: “Reid! Would you stop freaking out for one second?! I can’t properly take in where we are and everything around us if you keep crying!”",
+        "background": "...",
+        "next": null
+    },
+    {
+        "id": "line_10",
+        "speaker": "ingot",
+        "text": "Ingot: “Am I not dead? Are we not dead? Is this what comes after death? What Mamu has given us?”",
+        "background": "...",
+        "next": null
+    },
+    {
+        "id": "line_11",
+        "speaker": "illydia",
+        "text": "Illydia: “This place…these people…we must be careful. We don’t know what could happen to us next.”",
+        "background": "...",
+        "next": null
+    },
+    {
+        "id": "line_12",
+        "speaker": "john",
+        "text": "John: “...So this is what a god can do. Mamu.”",
+        "background": "...",
+        "next": null
+    },
+    {
+        "id": "line_13",
+        "speaker": "fursttryl",
+        "text": "Fursttryl: “Could this be…? My beloved Mamu…!? Am I in the presence of, and being currently seen, by my dear Mamu?!”",
+        "background": "...",
+        "next": null
+    },
+    {
+        "id": "line_14",
+        "speaker": "narrator",
+        "text": "But before another word of confusion can be uttered, the row of cloaked figures, who were earlier merely just standing in pure silence, speak.",
+        "background": "...",
+        "next": "line_15"
+    },
+    {
+        "id": "line_15",
+        "speaker": "narrator",
+        "text": "Like a hivemind, they speak in complete, uncanny unison. Only uttering one single word.",
+        "background": "...",
+        "next": "line_16"
+    },
+    {
+        "id": "line_16",
+        "speaker": "narrator",
+        "text": "“Worthy”",
+        "background": "...",
+        "next": null
+    },
+    {
+        "id": "line_17",
+        "speaker": "narrator",
+        "text": "Suddenly, Reid jumped as the young child standing right next him vanished into thin air as if they were never there to begin with.",
+        "background": "...",
+        "next": "line_18"
+    },
+    {
+        "id": "line_18",
+        "speaker": "narrator",
+        "text": "Young Reid stood there, in pure shock, confusion, and fear at what just occurred before him. He couldn’t hear or focus on anything anymore.",
+        "background": "...",
+        "next": "line_19"
+    },
+    {
+        "id": "line_19",
+        "speaker": "narrator",
+        "text": "Too consumed by what he’d just witnessed, all he could do was stand there, as it felt like the world around him disappeared.",
+        "background": "...",
+        "next": "line_20"
+    },
+    {
+        "id": "line_20",
+        "speaker": "narrator",
+        "text": "But he wasn’t able to stand there speechless forever as the chorus of hooded figures repeatedly uttered.",
+        "background": "...",
+        "next": "line_21"
+    },
+    {
+        "id": "line_21",
+        "speaker": "narrator",
+        "text": "“Worthy”",
+        "background": "...",
+        "next": "line_22"
+    },
+    {
+        "id": "line_22",
+        "speaker": "narrator",
+        "text": "And Reid too, disappeared.",
+        "background": "...",
+        "next": null
+    },
+    {
+        "id": "line_23",
+        "speaker": "narrator",
+        "text": "As Reid opens his eyes once more, he finds himself no longer in that peculiar place.",
+        "background": "...",
+        "next": "line_24"
+    },
+    {
+        "id": "line_24",
+        "speaker": "narrator",
+        "text": "The elf boy scans around, and unlike before, he knows this place. Reid is all too familiar with this place.",
+        "background": "...",
+        "next": "line_25"
+    },
+    {
+        "id": "line_25",
+        "speaker": "narrator",
+        "text": "It’s the place where it all started. The place where he and all the other children were born. The cave.",
+        "background": "...",
+        "next": "line_26"
+    },
+    {
+        "id": "line_26",
+        "speaker": "narrator",
+        "text": "As soon as Reid exits the cave, he is immediately embraced by a taller individual. The man holds Reid tight, clearly having been incredibly worried about the little elf.",
+        "background": "...",
+        "next": "line_27"
+    },
+    {
+        "id": "line_27",
+        "speaker": "narrator",
+        "text": "The man is none other than Caine, of course.",
+        "background": "...",
+        "next": "line_28"
+    },
+    {
+        "id": "line_28",
+        "speaker": "narrator",
+        "text": "Then, as he always does, Reid hugs Caine back and begins to sob uncontrollably into his brother’s arms.",
+        "background": "...",
+        "next": "line_29"
+    },
+    {
+        "id": "line_29",
+        "speaker": "narrator",
+        "text": "...",
+        "background": "...",
+        "next": "line_30"
+    },
+    {
+        "id": "line_30",
+        "speaker": "narrator",
+        "text": "...",
+        "background": "...",
+        "next": "line_31"
+    },
+    {
+        "id": "line_31",
+        "speaker": "narrator",
+        "text": "All I could think when I saw the brothers’ display before me, having just experienced my first ever near-death experience, was simply…",
+        "background": "...",
+        "next": "line_32"
+    },
+    {
+        "id": "line_32",
+        "speaker": "narrator",
+        "text": "“Mamu is never wrong. My beloved Mamu is perfect and never wrong…But why was *he* deemed “worthy”?”",
+        "background": "...",
+        "next": null
+    }
+]

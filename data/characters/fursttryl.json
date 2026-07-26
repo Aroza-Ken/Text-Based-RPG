@@ -16,7 +16,11 @@
     "charisma": 10
   },
   "sprites": {
-    "smile": "assets/sprites/fursttryl_smile.png"
+    "angry": "assets/sprites/fursttryl_sprites/fursttryl_angry.png",
+    "blush": "assets/sprites/fursttryl_sprites/fursttryl_blush.png",
+    "default": "assets/sprites/fursttryl_sprites/fursttryl_default.png",
+    "happy": "assets/sprites/fursttryl_sprites/fursttryl_happy.png",
+    "worried": "assets/sprites/fursttryl_sprites/fursttryl_worried.png"
   },
   "abilities": [
     {
