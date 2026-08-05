@@ -10,8 +10,9 @@ def owlbear_fight():
         party_HP = {}
         enemy_HP = {}
         win_HP_boundary = encounter["win_hp_condition"]
-
         party_files = []
+        fight_over = False
+        win = False
 
         # store HP for all party in a dict
         for member in party:
@@ -37,8 +38,6 @@ def owlbear_fight():
             updated_rotation = []
             alive_party = []
             alive_enemy = []
-            fight_over = False
-            win = False
 
             # check if character is alive
             for character in initial_rotation:
@@ -51,6 +50,10 @@ def owlbear_fight():
             
             # loop through updated rotation
             for character in updated_rotation:
+
+                # check if win or loss conditions are met
+                if (fight_over == True):
+                    break
                 
                 if (character not in alive_enemy and character not in alive_party and character != "fursttryl"):
                     continue
@@ -354,7 +357,6 @@ def owlbear_fight():
                             state.owlbearfight_alive["fursttryl"] = False
                             fight_over = True
                             print(f"{party_lookup["fursttryl"]["name"]} falls!")
-                            alive_party.remove("fursttryl") # remove the dead party member from alive_enemy
                             break
                 else: # party NPC
                     attacks = []
@@ -412,7 +414,7 @@ def owlbear_fight():
                         healing = random.randint(min_healing, max_healing)
 
                         target = 0
-                        if (len(alive_party) > 1): # if there is more than one party member (besides the payer) alive, randomize target
+                        if (len(alive_party) > 1): # if there is more than one party member (besides the player) alive, randomize target
                             target = random.randint(0, len(alive_party) - 1)
 
                         chosen_target = alive_party[target]
@@ -425,11 +427,10 @@ def owlbear_fight():
                         party_HP.update({chosen_target: updated_HP})
                         print(f"{party_lookup[character]["name"]} heals {party_lookup[chosen_target]["name"]} for {healing} using {assists[0]["name"]}")
 
-            # check if win or loss conditions are met
+            # end combat
             if (fight_over == True):
-                if (win == True):
-                    win_scene()
-                    break
-                else:
-                    postfight_scene()
-                    break
+                break
+        if (win == True):
+            win_scene()
+        else:
+            postfight_scene()

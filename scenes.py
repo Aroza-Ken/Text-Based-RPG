@@ -8,10 +8,47 @@ def load_and_play(filepath, start):
     
     current_id = start
     while current_id is not None:
-        text = scene[current_id]["text"] # get the current line of text
-        print(text)
-        input("\n")
-        current_id = scene[current_id]["next"] # get the next line of text
+        if ("options" in scene[current_id]):
+            choices = {}
+            while (True):
+                count = 1
+                for options in scene[current_id]["options"]:
+                    choices.update({count: options})
+                    print(scene[current_id]["text"])
+                    print(options["label"])
+                    count += 1
+
+                choice = input("\n")
+                try:
+                    number = int(choice)
+                except ValueError:
+                    continue
+
+                if (choice == "1"):
+                    if (options["target"] != None):
+                        # do work
+                        continue
+                    current_id = choices[int(choice)]["next"]
+                    break
+                elif (choice == "2"):
+                    if (options["target"] != None):
+                        # do work
+                        continue
+                    current_id = choices[int(choice)]["next"]
+                    break
+                elif (choice == "3"):
+                    if (options["target"] != None):
+                        # do work
+                        continue
+                    current_id = choices[int(choice)]["next"]
+                    break
+                else:
+                    continue
+        else:
+            text = scene[current_id]["text"] # get the current line of text
+            print(text)
+            input("\n")
+            current_id = scene[current_id]["next"] # get the next line of text
 
 def win_scene():
     load_and_play("data/scenes/owlbearfight_win.json", "line_01")
@@ -74,4 +111,3 @@ def postfight_scene():
                 load_and_play("data/scenes/postfight.json", "line_17")
 
             load_and_play("data/scenes/postfight.json", "line_23")
-    

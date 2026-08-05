@@ -1,0 +1,182 @@
+[
+    {
+        "id": "funeral_01",
+        "type": "narration",
+        "text": "Years have passed. Me and the other children are grown adults now, all 35 years olds. We went on to live very different lives.",
+        "background": "...",
+        "sprites": "...",
+        "next": "funeral_02"
+    },
+    {
+        "id": "funeral_02",
+        "type": "narration",
+        "text": "I became the advisor to the current chieftain, Chief Ruckers, my beloved Chief.",
+        "background": "...",
+        "sprites": "...",
+        "next": "funeral_03"
+    },
+    {
+        "id": "funeral_02",
+        "type": "narration",
+        "text": "I became the advisor to the current chieftain, Chief Ruckers, my beloved Chief.",
+        "background": "...",
+        "sprites": "...",
+        "next": "funeral_03"
+    },
+    {
+        "id": "funeral_02",
+        "type": "narration",
+        "text": "I became the advisor to the current chieftain, Chief Ruckers, my beloved Chief.",
+        "background": "...",
+        "sprites": "...",
+        "next": "funeral_03"
+    },
+    {
+        "id": "funeral_02",
+        "type": "narration",
+        "text": "Though me and the others became very busy with our respective lives, we soon all reunited on this very important occasion.",
+        "background": "...",
+        "sprites": "...",
+        "next": "funeral_03"
+    },
+    {
+        "id": "funeral_03",
+        "type": "narration",
+        "text": "Caine’s funeral.",
+        "background": "...",
+        "sprites": "...",
+        "next": "funeral_04"
+    },
+    {
+        "id": "funeral_04",
+        "type": "narration",
+        "text": "His coffin, placed in the middle of the hall with its lid closed, rests in front of a smiling picture of him. The picture looks so small in comparison to the array of flowers surrounding it and the large closed curtain behind it.",
+        "background": "...",
+        "sprites": "...",
+        "next": "funeral_05"
+    },
+    {
+        "id": "funeral_05",
+        "type": "narration",
+        "text": "All of us approach the coffin one by one, placing our flowers on the coffin. My turn soon approaches and as I go to place my flower in respect to Caine, someone who was often there for me growing up…",
+        "background": "...",
+        "sprites": "...",
+        "next": "funeral_06"
+    },
+    {
+        "id": "funeral_06",
+        "type": "narration",
+        "text": "I suddenly slip and fall on the floor.",
+        "background": "...",
+        "sprites": "...",
+        "next": "funeral_07"
+    },
+    {
+        "id": "funeral_07",
+        "type": "narration",
+        "text": "This is so embarrassing! I immediately look around the room.",
+        "background": "...",
+        "sprites": "...",
+        "next": "funeral_08"
+    },
+    {
+        "id": "funeral_08",
+        "type": "narration",
+        "text": "Thank Mamu that the chief didn’t attend the funeral, how could I face him if he saw such an embarrassing display from me.",
+        "background": "...",
+        "sprites": "...",
+        "next": "funeral_09"
+    },
+    {
+        "id": "funeral_09",
+        "type": "narration",
+        "text": "Ugh! But even though the chief isn’t here to see me fall, everyone else probably did! What do I do?",
+        "background": "...",
+        "sprites": "...",
+        "options": [
+            {"label": "1: Go around the room and try to save whatever is left of your reputation", "points": "0", "target": null, "next": "funeral_10"},
+            {"label": "2: Pretend that it never happened and go talk to the others", "points": "0", "target": null, "next": "funeral_16"},
+            {"label": "3: Apologize to Caine’s coffin", "points": "0", "target": null, "next": "funeral_17"}
+        ]
+    },
+    {
+        "id": "funeral_10",
+        "type": "narration",
+        "text": "I can’t let this damage my reputation! I have to fix this at all cost! I make my way to the closest person to me.",
+        "background": "...",
+        "sprites": "...",
+        "next": "funeral_11"
+    },
+    {
+        "id": "funeral_11",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Man…these floors…they surely need to get fixed am i right? I mean…that fall of mine earlier wasn’t my fault. It was the floors!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "funeral_12"
+    },
+    {
+        "id": "funeral_12",
+        "type": "narration",
+        "text": "The lady I have approached looks at me with a somewhat uncomfortable expression on her face.",
+        "background": "...",
+        "sprites": "...",
+        "next": "funeral_13"
+    },
+    {
+        "id": "funeral_13",
+        "type": "lady",
+        "text": "Mourning Lady: “Yeah…um…we’re kind of in the middle of something right now…”",
+        "background": "...",
+        "sprites": "...",
+        "next": "funeral_14"
+    },
+    {
+        "id": "funeral_14",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Oh right! Um…yes! I’ll leave you that!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "funeral_15"
+    },
+    {
+        "id": "funeral_15",
+        "type": "narration",
+        "text": "Great…I think I just made things even worse…dammit…well I should probably just cut my losses and go speak with the others while I’m here.",
+        "background": "...",
+        "sprites": "...",
+        "next": null
+    },
+    {
+        "id": "funeral_16",
+        "type": "narration",
+        "text": "Everyone is probably too distracted by the funeral to care about me falling anyways. I’m overthinking it. I should go speak with everyone else while I’m here",
+        "background": "...",
+        "sprites": "...",
+        "next": null
+    },
+    {
+        "id": "funeral_17",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Caine, I’m so sorry for acting so improper at your funeral. It was not my intention to bring such shame during your memorial. Let this not be a reflection of how I feel towards you and I hope your spirit finds rest.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "funeral_18"
+    },
+    {
+        "id": "funeral_18",
+        "type": "narration",
+        "text": "I take a bow before his coffin. Showing my remorse and my respect. After doing so, I believe now I can continue my time at this gathering in peace.",
+        "background": "...",
+        "sprites": "...",
+        "next": "funeral_19"
+    },
+    {
+        "id": "funeral_19",
+        "type": "narration",
+        "text": "I should go and speak with everyone else while I’m here.",
+        "background": "...",
+        "sprites": "...",
+        "next": null
+    }
+]
