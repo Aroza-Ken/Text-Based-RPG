@@ -12,9 +12,12 @@ def load_and_play(filepath, start):
             choices = {}
             while (True):
                 count = 1
+
+                print(scene[current_id]["text"]) # print the current line of text
+
+                # store all the options in a dict
                 for options in scene[current_id]["options"]:
                     choices.update({count: options})
-                    print(scene[current_id]["text"])
                     print(options["label"])
                     count += 1
 
@@ -26,20 +29,17 @@ def load_and_play(filepath, start):
 
                 if (choice == "1"):
                     if (options["target"] != None):
-                        # do work
-                        continue
+                        state.relationship[options["target"]] += choices[int(choice)]["points"]
                     current_id = choices[int(choice)]["next"]
                     break
                 elif (choice == "2"):
                     if (options["target"] != None):
-                        # do work
-                        continue
+                        state.relationship[options["target"]] += choices[int(choice)]["points"]
                     current_id = choices[int(choice)]["next"]
                     break
                 elif (choice == "3"):
                     if (options["target"] != None):
-                        # do work
-                        continue
+                        state.relationship[options["target"]] += choices[int(choice)]["points"]
                     current_id = choices[int(choice)]["next"]
                     break
                 else:

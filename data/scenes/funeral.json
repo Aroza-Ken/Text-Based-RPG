@@ -94,9 +94,9 @@
         "background": "...",
         "sprites": "...",
         "options": [
-            {"label": "1: Go around the room and try to save whatever is left of your reputation", "points": "0", "target": null, "next": "funeral_10"},
-            {"label": "2: Pretend that it never happened and go talk to the others", "points": "0", "target": null, "next": "funeral_16"},
-            {"label": "3: Apologize to Caine’s coffin", "points": "0", "target": null, "next": "funeral_17"}
+            {"label": "1: Go around the room and try to save whatever is left of your reputation", "points": 0, "target": null, "next": "funeral_10"},
+            {"label": "2: Pretend that it never happened and go talk to the others", "points": 0, "target": null, "next": "funeral_16"},
+            {"label": "3: Apologize to Caine’s coffin", "points": 0, "target": null, "next": "funeral_17"}
         ]
     },
     {
