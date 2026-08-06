@@ -27,6 +27,7 @@ def load_and_play(filepath, start):
                 except ValueError:
                     continue
 
+                # state of character relationship and next dialogue depending on player's choice
                 if (choice == "1"):
                     if (options["target"] != None):
                         state.relationship[options["target"]] += choices[int(choice)]["points"]

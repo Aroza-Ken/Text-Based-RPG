@@ -14,6 +14,9 @@ def run_game():
 
     # ingot interaction
     load_and_play("data/scenes/ingot_interaction01.json", "line_01")
+
+    # illydia interaction
+    load_and_play("data/scenes/illydia_interaction.json", "line_01")
     print(state.relationship) # temp print to check point system
 
 if __name__ == "__main__":
