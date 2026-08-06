@@ -1,0 +1,662 @@
+[
+    {
+        "id": "line_01",
+        "type": "narration",
+        "text": "And with that final farewell, Illydia turns and makes her way to the exit. Leaving only me and Willow left at the bar.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_02"
+    },
+    {
+        "id": "line_02",
+        "type": "narration",
+        "text": "I switch seats to the one closer to Willow who has now turned her attention from flirting with the bartender to downing a few drinks.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_03"
+    },
+    {
+        "id": "line_03",
+        "type": "narration",
+        "text": "Willow was always such a personality. A noisy thrillseeker and I guess that thrill included flirting with her bartender, in her own bar.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_04"
+    },
+    {
+        "id": "line_04",
+        "type": "narration",
+        "text": "I wonder if she only hires people who she’s interested in.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_05"
+    },
+    {
+        "id": "line_05",
+        "type": "narration",
+        "text": "Is that not like professional misconduct? And power abuse? Well her co-owner and employees don’t really care so I guess it’s fine?",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_06"
+    },
+    {
+        "id": "line_06",
+        "type": "narration",
+        "text": "Not really my business I suppose, Willow can do whatever she was as long as it doesn’t affect me.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_07"
+    },
+    {
+        "id": "line_07",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Hi, Willow.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_08"
+    },
+    {
+        "id": "line_08",
+        "type": "willow",
+        "text": "Willow: “Oh, hi Fursttryl! Want a drink?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_09"
+    },
+    {
+        "id": "line_09",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Oh, um no I’m good, thanks.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_10"
+    },
+    {
+        "id": "line_10",
+        "type": "willow",
+        "text": "Willow: “Haha oh yeah! I forgot you’re a lightweight. Wouldn’t want another person dying today haha!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_11"
+    },
+    {
+        "id": "line_11",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Speaking of dying, how are you finding the funeral?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_12"
+    },
+    {
+        "id": "line_12",
+        "type": "willow",
+        "text": "Willow: “The funeral? Well there’s drinks so I’m happy, haha!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_13"
+    },
+    {
+        "id": "line_13",
+        "type": "willow",
+        "text": "Willow: “If you meant about Caine though, then you probably already have guessed that it doesn’t really bother me all too much.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_14"
+    },
+    {
+        "id": "line_14",
+        "type": "willow",
+        "text": "Willow: “I’m not like Reid, I was never that close or dependent on the guy.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_15"
+    },
+    {
+        "id": "line_15",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Speaking of Reid…he’s not here? I haven’t seen him around. That’s not like him at all to not attend his brother’s funeral.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_16"
+    },
+    {
+        "id": "line_16",
+        "type": "willow",
+        "text": "Willow: “Oh yeah, looking around the room now, I don’t seem to see him anywhere.”",
+        "background": "...",
+        "sprites": "...",
+        "options": [
+            {"label": "1: It’s probably nothing", "points": 0, "target": "willow", "next": "line_17"},
+            {"label": "2: Want to go look for him?", "points": -1, "target": "willow", "next": "line_20"},
+            {"label": "3: It’s a bit suspicious", "points": 1, "target": "willow", "next": "line_25"}
+        ]
+    },
+    {
+        "id": "line_17",
+        "type": "fursttryl",
+        "text": "Fursttryl: “It’s probably nothing, I might just be reading into things. I mean, I wouldn’t be surprised if that idiot just forgot that the funeral was today.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_18"
+    },
+    {
+        "id": "line_18",
+        "type": "willow",
+        "text": "Willow: “It would be very in character of him in all honesty. Even if he did remember it was today, I wouldn’t be surprised if he forgot the way to get here.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_19"
+    },
+    {
+        "id": "line_19",
+        "type": "fursttryl",
+        "text": "Fursttryl: “You’re so right. Yeah. I’m probably just reading into his absence too much.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_30"
+    },
+    {
+        "id": "line_20",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Want to go look for him then?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_21"
+    },
+    {
+        "id": "line_21",
+        "type": "willow",
+        "text": "Willow: “Like hell I would want to waste my time looking for that manchild. He can do whatever he wants, it’s not any of my business.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_22"
+    },
+    {
+        "id": "line_22",
+        "type": "fursttryl",
+        "text": "Fursttryl: “You know what? That’s fair.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_23"
+    },
+    {
+        "id": "line_23",
+        "type": "willow",
+        "text": "Willow: “Besides, I have better things to do anyways, like drinking.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_24"
+    },
+    {
+        "id": "line_24",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Of course you do…”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_30"
+    },
+    {
+        "id": "line_25",
+        "type": "fursttryl",
+        "text": "Fursttryl: “It's a bit suspicious, don’t you think? The fact that Reid of all people isn’t here.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_26"
+    },
+    {
+        "id": "line_26",
+        "type": "willow",
+        "text": "Willow: “My oh my, aren’t you perceptive, Fursttryl?~”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_27"
+    },
+    {
+        "id": "line_27",
+        "type": "willow",
+        "text": "Willow: “I would’ve thought that maybe you would be too focused on the chief not being here that you wouldn’t care at all about Reid’s absence.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_28"
+    },
+    {
+        "id": "line_28",
+        "type": "fursttryl",
+        "text": "Fursttryl: “The chief? Why would I be worried? I’m pretty sure he’s just back in his office as always? Is he not?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_29"
+    },
+    {
+        "id": "line_29",
+        "type": "willow",
+        "text": "Willow: “Haha of course! You already know where your “beloved” is so I guess you can focus on other things like Reid.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_30"
+    },
+    {
+        "id": "line_30",
+        "type": "willow",
+        "text": "Willow: “That Reid though…I honestly wonder what he’s going to do without Caine.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_31"
+    },
+    {
+        "id": "line_31",
+        "type": "willow",
+        "text": "Willow: “I mean, the guy is still living under Caine’s roof even at his grown age.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_32"
+    },
+    {
+        "id": "line_32",
+        "type": "fursttryl",
+        "text": "Fursttryl: “The man is unemployed too. He doesn’t have a job, all he does is train for whatever reason.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_33"
+    },
+    {
+        "id": "line_33",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Honestly, he is hopeless now and he is going to be even more hopeless without Caine.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_34"
+    },
+    {
+        "id": "line_34",
+        "type": "willow",
+        "text": "Willow: “Hah, I know right? I mean, the only reason why Reid is doing fine is because Caine is always there to coddle and take care of him. Always there to get whatever his baby brother wants and clean up all his messes.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_35"
+    },
+    {
+        "id": "line_35",
+        "type": "willow",
+        "text": "Willow: “Gosh, I know I shouldn’t be speaking ill of Caine at his funeral but even now, remembering Caine’s favouritism towards Reid just irritates me so much!",
+        "background": "...",
+        "sprites": "...",
+        "options": [
+            {"label": "1: Are you upset that you’re not the favourite?", "points": -1, "target": "willow", "next": "line_36"},
+            {"label": "2: Reid doesn’t deserve the special treatment", "points": 1, "target": "willow", "next": "line_42"},
+            {"label": "3: Well nothing we can do", "points": 0, "target": "willow", "next": "line_47"}
+        ]
+    },
+    {
+        "id": "line_36",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Are you upset that you’re not the favourite? Is that why you’re so irritated”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_37"
+    },
+    {
+        "id": "line_37",
+        "type": "willow",
+        "text": "Willow: “What? No! It’s nothing like that. I don’t care about being the favourite. It’s just that, isn’t it normal to be annoyed about favouritism in general?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_38"
+    },
+    {
+        "id": "line_38",
+        "type": "willow",
+        "text": "Willow: “I mean, who likes watching someone else get a disproportionate level of extra attention and you don’t.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_39"
+    },
+    {
+        "id": "line_39",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Hmm…”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_40"
+    },
+    {
+        "id": "line_40",
+        "type": "willow",
+        "text": "Willow: “It’s not jealousy if that's what you’re thinking!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_41"
+    },
+    {
+        "id": "line_41",
+        "type": "fursttryl",
+        "text": "Fursttryl: “I didn’t say anything…”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_52"
+    },
+    {
+        "id": "line_42",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Reid doesn’t even deserve the special treatment he gets from Caine. He just happens to resemble Caine a lot and then he just became the favourite immediately at birth.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_43"
+    },
+    {
+        "id": "line_43",
+        "type": "fursttryl",
+        "text": "Fursttryl: “He hasn’t done anything that would make him deserving of being the favourite.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_44"
+    },
+    {
+        "id": "line_44",
+        "type": "willow",
+        "text": "Willow: “Exactly. The man was just born lucky. And despite being lucky, he doesn’t even use said luck to do anything for himself. All he did was become a leech to Caine.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_45"
+    },
+    {
+        "id": "line_45",
+        "type": "fursttryl",
+        "text": "Fursttryl: “I would’ve expected him to at least mature a bit as he grew up but he’s still the same Reid from when we were 8.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_46"
+    },
+    {
+        "id": "line_46",
+        "type": "willow",
+        "text": "Willow: “Yeah, the same crybaby from back then even now.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_52"
+    },
+    {
+        "id": "line_47",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Well nothing we can do really. Caine’s a wood elf, Reid’s a wood elf, you and I aren’t wood elves. It’s not like we can change our race.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_48"
+    },
+    {
+        "id": "line_48",
+        "type": "willow",
+        "text": "Willow: “We shouldn’t even need to change our race in order for Caine to care about all of us equally.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_49"
+    },
+    {
+        "id": "line_49",
+        "type": "willow",
+        "text": "Willow: “I mean, look at the chief, he’s fair with how he treats everyone, he doesn’t play favourites.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_50"
+    },
+    {
+        "id": "line_50",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Unfortunately, not everyone can be as wonderful and perfect as our beloved chieftain~”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_51"
+    },
+    {
+        "id": "line_51",
+        "type": "willow",
+        "text": "Willow: “Of course that’s your main takeaway from what I said…”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_52"
+    },
+    {
+        "id": "line_52",
+        "type": "willow",
+        "text": "Willow: “I mean, do you remember when all of us were transitioning into adulthood? With Reid, Caine spent one on one time with him, going over every small little thing to prepare him for adulthood.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_53"
+    },
+    {
+        "id": "line_53",
+        "type": "willow",
+        "text": "Willow: “And then with us, he just holds a group session. No one on one time or focused attention on any of us.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_54"
+    },
+    {
+        "id": "line_54",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Honestly, if I had to remember every single time where Caine prioritized Reid or gave special treatment to him, we would be here all evening.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_55"
+    },
+    {
+        "id": "line_55",
+        "type": "willow",
+        "text": "Willow: “Yeah, I suppose listing every incident that occurred in the span of 35 years would take several hours and drinks.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_56"
+    },
+    {
+        "id": "line_56",
+        "type": "willow",
+        "text": "Willow: “Actually on that note, it’s been a while since my last drink. Hey cutie! Get me another round, would ya?~”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_57"
+    },
+    {
+        "id": "line_57",
+        "type": "narration",
+        "text": "Willow playfully fiddles with her empty cup as she asks the bartender she was flirting with earlier.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_58"
+    },
+    {
+        "id": "line_58",
+        "type": "narration",
+        "text": "The female bartender immediately reacts to Willow’s request and swiftly takes the empty cup to prepare another drink for her.",
+        "background": "...",
+        "sprites": "...",
+        "options": [
+            {"label": "1: Do you only hire people you find attractive?", "points": 0, "target": "willow", "next": "line_59"},
+            {"label": "2: Yuri in real life", "points": 1, "target": "willow", "next": "line_64"},
+            {"label": "3: Isn’t that professional misconduct?", "points": -1, "target": "willow", "next": "line_71"}
+        ]
+    },
+    {
+        "id": "line_58",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Do you only hire people you find attractive to work at your bar?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_59"
+    },
+    {
+        "id": "line_59",
+        "type": "willow",
+        "text": "Willow: “Take a wild guess, Fursttryl~”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_60"
+    },
+    {
+        "id": "line_60",
+        "type": "fursttryl",
+        "text": "Fursttryl: “So that’s a yes.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_61"
+    },
+    {
+        "id": "line_61",
+        "type": "willow",
+        "text": "Willow: “Haha! Look, I don’t judge you THAT much for your crush on the chief while you work as his advisor.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_62"
+    },
+    {
+        "id": "line_62",
+        "type": "willow",
+        "text": "Willow: “Sooooo. It’s only fair that you shouldn’t judge me THAT much for only hiring cute guys and girls.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_63"
+    },
+    {
+        "id": "line_63",
+        "type": "fursttryl",
+        "text": "Fursttryl: “...Touche.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_77"
+    },
+    {
+        "id": "line_64",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Yuri in real life…”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_65"
+    },
+    {
+        "id": "line_65",
+        "type": "willow",
+        "text": "Willow: “Hm? Oh! Hahaha, yeah, you could say that! Yuri in real life!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_66"
+    },
+    {
+        "id": "line_66",
+        "type": "willow",
+        "text": "Willow: “Speaking of which, I just finished the latest volume of Love and Council, you can borrow it now.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_67"
+    },
+    {
+        "id": "line_67",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Ah! Thank you so much, Willow! I’ve been dying to find out what happened after that cliffhanger of an ending last volume!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_68"
+    },
+    {
+        "id": "line_68",
+        "type": "willow",
+        "text": "Willow: “That’s so fair. Oh yeah, from what I heard from Illydia, the next volume won’t be out for a while so we should start a new yuri series while we wait for it.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_69"
+    },
+    {
+        "id": "line_69",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Oh, sure! You can pick one out and recommend it to me this time then.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_70"
+    },
+    {
+        "id": "line_70",
+        "type": "willow",
+        "text": "Willow: “Haha! alright!~”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_77"
+    },
+    {
+        "id": "line_71",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Isn’t that professional misconduct? To be flirting with your employee?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_72"
+    },
+    {
+        "id": "line_72",
+        "type": "willow",
+        "text": "Willow: “Pot calling the kettle black much? You literally have a crush on the chief while you’re his advisor.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_73"
+    },
+    {
+        "id": "line_73",
+        "type": "fursttryl",
+        "text": "Fursttryl: “How dare you! My love and devotion to the chief is far more sincere than the various relationships you have with your employees!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_74"
+    },
+    {
+        "id": "line_74",
+        "type": "willow",
+        "text": "Willow: “Didn’t you also have a crush on the previous chief? And I’m pretty sure when the next chief is chosen, you’ll have a crush on them too.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_75"
+    },
+    {
+        "id": "line_75",
+        "type": "fursttryl",
+        "text": "Fursttryl: “That’s different! A large period of time passed! I don’t change crushes often!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_76"
+    },
+    {
+        "id": "line_76",
+        "type": "fursttryl",
+        "text": "Fursttryl: “With all of my beloveds, I deeply devote myself to them for years!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_77"
+    },
+    {
+        "id": "line_77",
+        "type": "narration",
+        "text": "Before the conversation could continue, the bartender comes back and places not one, but two drinks in front of Willow. It seems like she assumed that I was going to drink as well.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_78"
+    },
+    {
+        "id": "line_78",
+        "type": "willow",
+        "text": "Willow: “Ah, looks like the cutie misunderstood and made an extra drink. While I do think the more drinks, the merrier. I prefer my drinks made fresh.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_79"
+    },
+    {
+        "id": "line_79",
+        "type": "willow",
+        "text": "Willow: “Fursttryl, could you go and give this drink to John? I hate to see a good drink go to waste.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_80"
+    },
+    {
+        "id": "line_80",
+        "type": "willow",
+        "text": "Fursttryl: “Oh, sure, I can do that.”",
+        "background": "...",
+        "sprites": "...",
+        "next": null
+    }
+]

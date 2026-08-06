@@ -17,6 +17,9 @@ def run_game():
 
     # illydia interaction
     load_and_play("data/scenes/illydia_interaction.json", "line_01")
+
+    # willow interaction
+    load_and_play("data/scenes/willow_interaction.json", "line_01")
     print(state.relationship) # temp print to check point system
 
 if __name__ == "__main__":
