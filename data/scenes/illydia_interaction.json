@@ -159,8 +159,8 @@
         "sprites": "...",
         "options": [
             {"label": "1: He was a bigger part in Reid’s life than ours", "points": -1, "target": "illydia", "next": "line_21"},
-            {"label": "2: How do you think Caine feels about dying", "points": 0, "target": "illydia", "next": "line_26"},
-            {"label": "3: We’ll join him in a few years", "points": 1, "target": "illydia", "next": "line_34"}
+            {"label": "2: How do you think Caine feels about dying", "points": 0, "target": "illydia", "next": "line_27"},
+            {"label": "3: We’ll join him in a few years", "points": 1, "target": "illydia", "next": "line_35"}
         ]
     },
     {
@@ -196,33 +196,25 @@
         "next": "line_25"
     },
     {
-        "id": "line_24",
+        "id": "line_25",
         "type": "illydia",
         "text": "Illydia: “I do agree that Caine was unfair but I do worry that you’re too harsh on both of them, especially Reid.”",
         "background": "...",
         "sprites": "...",
-        "next": "line_25"
-    },
-    {
-        "id": "line_25",
-        "type": "fursttryl",
-        "text": "Fursttryl: “I’m not.”",
-        "background": "...",
-        "sprites": "...",
-        "next": "line_41"
+        "next": "line_26"
     },
     {
         "id": "line_26",
         "type": "fursttryl",
-        "text": "Fursttryl: “How do you think Caine feels about dying? Sad? Acceptance? Fear”",
+        "text": "Fursttryl: “I’m not.”",
         "background": "...",
         "sprites": "...",
-        "next": "line_27"
+        "next": "line_42"
     },
     {
         "id": "line_27",
-        "type": "illydia",
-        "text": "Illydia: “Caine? How he feels? Hmmm…never really thought about that.”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “How do you think Caine feels about dying? Sad? Acceptance? Fear”",
         "background": "...",
         "sprites": "...",
         "next": "line_28"
@@ -230,7 +222,7 @@
     {
         "id": "line_28",
         "type": "illydia",
-        "text": "Illydia: “Caine always appeared so in control of everything so maybe, death isn’t a worry of his either. But…”",
+        "text": "Illydia: “Caine? How he feels? Hmmm…never really thought about that.”",
         "background": "...",
         "sprites": "...",
         "next": "line_29"
@@ -238,15 +230,15 @@
     {
         "id": "line_29",
         "type": "illydia",
-        "text": "Illydia: “But…I can’t say I know for sure.”",
+        "text": "Illydia: “Caine always appeared so in control of everything so maybe, death isn’t a worry of his either. But…”",
         "background": "...",
         "sprites": "...",
         "next": "line_30"
     },
     {
         "id": "line_30",
-        "type": "fursttryl",
-        "text": "Fursttryl: “Well no, Caine isn’t always in control of everything. I mean, have you seen the number of times he panicked over Reid doing something stupid?”",
+        "type": "illydia",
+        "text": "Illydia: “But…I can’t say I know for sure.”",
         "background": "...",
         "sprites": "...",
         "next": "line_31"
@@ -254,39 +246,39 @@
     {
         "id": "line_31",
         "type": "fursttryl",
-        "text": "Fursttryl: “So I wouldn’t say for certain that death is just a common passing thought for Caine.”",
+        "text": "Fursttryl: “Well no, Caine isn’t always in control of everything. I mean, have you seen the number of times he panicked over Reid doing something stupid?”",
         "background": "...",
         "sprites": "...",
         "next": "line_32"
     },
     {
         "id": "line_32",
-        "type": "illydia",
-        "text": "Illydia: “That's true…”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “So I wouldn’t say for certain that death is just a common passing thought for Caine.”",
         "background": "...",
         "sprites": "...",
         "next": "line_33"
     },
     {
         "id": "line_33",
-        "type": "fursttryl",
-        "text": "Fursttryl: “I guess the only one who knows is Caine himself.”",
+        "type": "illydia",
+        "text": "Illydia: “That's true…”",
         "background": "...",
         "sprites": "...",
-        "next": "line_41"
+        "next": "line_34"
     },
     {
         "id": "line_34",
         "type": "fursttryl",
-        "text": "Fursttryl: “We’ll join him in a few years, don’t worry! You’ll see him again then!”",
+        "text": "Fursttryl: “I guess the only one who knows is Caine himself.”",
         "background": "...",
         "sprites": "...",
-        "next": "line_35"
+        "next": "line_42"
     },
     {
         "id": "line_35",
-        "type": "illydia",
-        "text": "Illydia: “...”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “We’ll join him in a few years, don’t worry! You’ll see him again then!”",
         "background": "...",
         "sprites": "...",
         "next": "line_36"
@@ -294,7 +286,7 @@
     {
         "id": "line_36",
         "type": "illydia",
-        "text": "Illydia: “hahaha! I should’ve expected you would say something like that. Always saying what you truly think and feel.”",
+        "text": "Illydia: “...”",
         "background": "...",
         "sprites": "...",
         "next": "line_37"
@@ -302,47 +294,47 @@
     {
         "id": "line_37",
         "type": "illydia",
-        "text": "Illydia: “At least your lack of social skills always tell me you’re being sincere and honest.”",
+        "text": "Illydia: “hahaha! I should’ve expected you would say something like that. Always saying what you truly think and feel.”",
         "background": "...",
         "sprites": "...",
         "next": "line_38"
     },
     {
         "id": "line_38",
-        "type": "fursttryl",
-        "text": "Fursttryl: “Lack of social skills?”",
+        "type": "illydia",
+        "text": "Illydia: “At least your lack of social skills always tell me you’re being sincere and honest.”",
         "background": "...",
         "sprites": "...",
         "next": "line_39"
     },
     {
         "id": "line_39",
-        "type": "illydia",
-        "text": "Illydia: “I mean it endearingly.”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Lack of social skills?”",
         "background": "...",
         "sprites": "...",
         "next": "line_40"
     },
     {
         "id": "line_40",
-        "type": "fursttryl",
-        "text": "Fursttryl: “Okay…?”",
+        "type": "illydia",
+        "text": "Illydia: “I mean it endearingly.”",
         "background": "...",
         "sprites": "...",
         "next": "line_41"
     },
     {
         "id": "line_41",
-        "type": "narration",
-        "text": "Suddenly, from Illydia’s pocket, her sending stone starts to alert her of a message from someone.",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Okay…?”",
         "background": "...",
         "sprites": "...",
         "next": "line_42"
     },
     {
         "id": "line_42",
-        "type": "illydia",
-        "text": "Illyida: “Oh, it’s Merryweather. She says she needs my help back in the library right now.”",
+        "type": "narration",
+        "text": "Suddenly, from Illydia’s pocket, her sending stone starts to alert her of a message from someone.",
         "background": "...",
         "sprites": "...",
         "next": "line_43"
@@ -350,171 +342,171 @@
     {
         "id": "line_43",
         "type": "illydia",
-        "text": "Illyida: “Guess I’ll be heading off but I might come back since she says it’s something quick.”",
+        "text": "Illyida: “Oh, it’s Merryweather. She says she needs my help back in the library right now.”",
         "background": "...",
         "sprites": "...",
         "next": "line_44"
     },
     {
         "id": "line_44",
-        "type": "fursttryl",
-        "text": "Fursttryl: “Oh ok! Tell Merryweather that I said hi!”",
+        "type": "illydia",
+        "text": "Illyida: “Guess I’ll be heading off but I might come back since she says it’s something quick.”",
         "background": "...",
         "sprites": "...",
         "next": "line_45"
     },
     {
         "id": "line_45",
-        "type": "illydia",
-        "text": "Illydia: “Sure, I can do that.”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Oh ok! Tell Merryweather that I said hi!”",
         "background": "...",
         "sprites": "...",
         "next": "line_46"
     },
     {
         "id": "line_46",
-        "type": "fursttryl",
-        "text": "Fursttryl: “And ask her about the progress on the books I requested be ordered to the library too!”",
+        "type": "illydia",
+        "text": "Illydia: “Sure, I can do that.”",
         "background": "...",
         "sprites": "...",
         "next": "line_47"
     },
     {
         "id": "line_47",
-        "type": "illydia",
-        "text": "Illydia: “Fine, I can do that too.”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “And ask her about the progress on the books I requested be ordered to the library too!”",
         "background": "...",
         "sprites": "...",
         "next": "line_48"
     },
     {
         "id": "line_48",
-        "type": "narration",
-        "text": "I watch as Illydia rises from her barstool and turns her back to leave. But just before she even takes her first steps towards the exit, she quickly turns back to face me.",
+        "type": "illydia",
+        "text": "Illydia: “Fine, I can do that too.”",
         "background": "...",
         "sprites": "...",
         "next": "line_49"
     },
     {
         "id": "line_49",
+        "type": "narration",
+        "text": "I watch as Illydia rises from her barstool and turns her back to leave. But just before she even takes her first steps towards the exit, she quickly turns back to face me.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_50"
+    },
+    {
+        "id": "line_50",
         "type": "illydia",
         "text": "Illydia: “Before I go, about what I said earlier about being more careful with talking about **them**, I mean it.”",
         "background": "...",
         "sprites": "...",
         "options": [
-            {"label": "1: You know how much I care about **them**", "points": 1, "target": "illydia", "next": "line_50"},
-            {"label": "2: I promise I’ll be more careful", "points": 0, "target": "illydia", "next": "line_56"},
-            {"label": "3: You worry too much", "points": -1, "target": "illydia", "next": "line_60"}
+            {"label": "1: You know how much I care about **them**", "points": 1, "target": "illydia", "next": "line_51"},
+            {"label": "2: I promise I’ll be more careful", "points": 0, "target": "illydia", "next": "line_57"},
+            {"label": "3: You worry too much", "points": -1, "target": "illydia", "next": "line_61"}
         ]
-    },
-    {
-        "id": "line_50",
-        "type": "fursttryl",
-        "text": "Fursttryl: “You know how much I care about **them**, Illydia.”",
-        "background": "...",
-        "sprites": "...",
-        "next": "line_51"
     },
     {
         "id": "line_51",
         "type": "fursttryl",
-        "text": "Fursttryl: “I would never do anything that would go against my beloved’s desires. And that includes our safety.”",
+        "text": "Fursttryl: “You know how much I care about **them**, Illydia.”",
         "background": "...",
         "sprites": "...",
         "next": "line_52"
     },
     {
         "id": "line_52",
-        "type": "illydia",
-        "text": "Illydia: “That is true…you are…obsessively devoted to your “beloved” to put it lightly.”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “I would never do anything that would go against my beloved’s desires. And that includes our safety.”",
         "background": "...",
         "sprites": "...",
         "next": "line_53"
     },
     {
         "id": "line_53",
-        "type": "fursttryl",
-        "text": "Fursttryl: “I’ll have you know, nothing about my love for them is light.”",
+        "type": "illydia",
+        "text": "Illydia: “That is true…you are…obsessively devoted to your “beloved” to put it lightly.”",
         "background": "...",
         "sprites": "...",
         "next": "line_54"
     },
     {
         "id": "line_54",
-        "type": "illydia",
-        "text": "Illydia: “Yeah, you know what, maybe I was worried about nothing.”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “I’ll have you know, nothing about my love for them is light.”",
         "background": "...",
         "sprites": "...",
         "next": "line_55"
     },
     {
         "id": "line_55",
-        "type": "fursttryl",
-        "text": "Fursttryl: “Exactly, never doubt my unwavering love for my beloved!”",
+        "type": "illydia",
+        "text": "Illydia: “Yeah, you know what, maybe I was worried about nothing.”",
         "background": "...",
         "sprites": "...",
-        "next": "line_66"
+        "next": "line_56"
     },
     {
         "id": "line_56",
         "type": "fursttryl",
-        "text": "Fursttryl: “I promise I’ll be more careful. Really, I will.”",
+        "text": "Fursttryl: “Exactly, never doubt my unwavering love for my beloved!”",
         "background": "...",
         "sprites": "...",
-        "next": "line_57"
+        "next": "line_67"
     },
     {
         "id": "line_57",
-        "type": "illydia",
-        "text": "Illydia: “That’s good, I appreciate that a lot.”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “I promise I’ll be more careful. Really, I will.”",
         "background": "...",
         "sprites": "...",
         "next": "line_58"
     },
     {
         "id": "line_58",
-        "type": "fursttryl",
-        "text": "Fursttryl: “No worries, I know how much you care about our safety, so I’ll listen to your advice.”",
+        "type": "illydia",
+        "text": "Illydia: “That’s good, I appreciate that a lot.”",
         "background": "...",
         "sprites": "...",
         "next": "line_59"
     },
     {
         "id": "line_59",
+        "type": "fursttryl",
+        "text": "Fursttryl: “No worries, I know how much you care about our safety, so I’ll listen to your advice.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_60"
+    },
+    {
+        "id": "line_60",
         "type": "illydia",
         "text": "Illydia: “Thank you, Fursttryl.”",
         "background": "...",
         "sprites": "...",
-        "next": "line_66"
-    },
-    {
-        "id": "line_60",
-        "type": "fursttryl",
-        "text": "Fursttryl: “You worry too much, Illydia. Everything is fine, don’t get so paranoid.”",
-        "background": "...",
-        "sprites": "...",
-        "next": "line_61"
+        "next": "line_67"
     },
     {
         "id": "line_61",
-        "type": "illydia",
-        "text": "Illydia: “I think you don’t worry enough. You hardly ever look at the bigger picture, Fursttryl.”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “You worry too much, Illydia. Everything is fine, don’t get so paranoid.”",
         "background": "...",
         "sprites": "...",
         "next": "line_62"
     },
     {
         "id": "line_62",
-        "type": "fursttryl",
-        "text": "Fursttryl: “What’s that supposed to mean?”",
+        "type": "illydia",
+        "text": "Illydia: “I think you don’t worry enough. You hardly ever look at the bigger picture, Fursttryl.”",
         "background": "...",
         "sprites": "...",
         "next": "line_63"
     },
     {
         "id": "line_63",
-        "type": "illydia",
-        "text": "Illydia: “It means, despite your position, your view of things is quite narrow…”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “What’s that supposed to mean?”",
         "background": "...",
         "sprites": "...",
         "next": "line_64"
@@ -522,21 +514,29 @@
     {
         "id": "line_64",
         "type": "illydia",
-        "text": "Illydia: “narrow…I would go on but I don’t wish to cause a scene.”",
+        "text": "Illydia: “It means, despite your position, your view of things is quite narrow…”",
         "background": "...",
         "sprites": "...",
         "next": "line_65"
     },
     {
         "id": "line_65",
-        "type": "fursttryl",
-        "text": "Fursttryl: “...Fine. Even though it seems like you have much more you wish to say to me, let’s cut the conversation here.”",
+        "type": "illydia",
+        "text": "Illydia: “narrow…I would go on but I don’t wish to cause a scene.”",
         "background": "...",
         "sprites": "...",
         "next": "line_66"
     },
     {
         "id": "line_66",
+        "type": "fursttryl",
+        "text": "Fursttryl: “...Fine. Even though it seems like you have much more you wish to say to me, let’s cut the conversation here.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_67"
+    },
+    {
+        "id": "line_67",
         "type": "illydia",
         "text": "Illydia: “Enjoy the rest of the funeral and have a good evening, Fursttryl.”",
         "background": "...",

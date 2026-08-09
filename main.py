@@ -20,6 +20,9 @@ def run_game():
 
     # willow interaction
     load_and_play("data/scenes/willow_interaction.json", "line_01")
+
+    # john interaction
+    load_and_play("data/scenes/john_interaction.json", "line_01")
     print(state.relationship) # temp print to check point system
 
 if __name__ == "__main__":

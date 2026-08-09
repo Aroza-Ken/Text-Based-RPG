@@ -40,45 +40,17 @@
         "next": "line_06"
     },
     {
-        "id": "line_05",
+        "id": "line_06",
         "type": "narration",
         "text": "That was also probably why their relationship didn’t last.",
-        "background": "...",
-        "sprites": "...",
-        "next": "line_06"
-    },
-    {
-        "id": "line_06",
-        "type": "fursttryl",
-        "text": "Fursttryl: “Should one of Kingswood’s town guards be downing drinks like that?”",
         "background": "...",
         "sprites": "...",
         "next": "line_07"
     },
     {
         "id": "line_07",
-        "type": "ingot",
-        "text": "Ingot: “Firstly, I am currently off-duty. Secondly, I need it. My ex will be arriving at the funeral soon and I am going to have to use all the resources I need to face that shrew.”",
-        "background": "...",
-        "sprites": "...",
-        "next": "line_08"
-    },
-    {
-        "id": "line_06",
         "type": "fursttryl",
         "text": "Fursttryl: “Should one of Kingswood’s town guards be downing drinks like that?”",
-        "background": "...",
-        "sprites": "...",
-        "options": [
-            {"label": "1: Oh, speaking of which, how’s Nugget?", "points": 1, "target": "ingot", "next": "line_07"},
-            {"label": "2: You shouldn’t be calling your ex wife that", "points": -1, "target": "ingot", "next": "line_12"},
-            {"label": "3: Fair enough, want me to get you another round?", "points": 0, "target": "ingot", "next": "line_16"}
-        ]
-    },
-    {
-        "id": "line_07",
-        "type": "fursttryl",
-        "text": "Fursttryl: “Oh, speaking of which, how’s Nugget? I haven’t seen the kid in a while”",
         "background": "...",
         "sprites": "...",
         "next": "line_08"
@@ -86,7 +58,7 @@
     {
         "id": "line_08",
         "type": "ingot",
-        "text": "Ingot: “Nugget? She’s doing great, growing up so fast already. I remember how tiny she used to be. Now, she’s even taller than her old man despite only being 12. Haha.”",
+        "text": "Ingot: “Firstly, I am currently off-duty. Secondly, I need it. My ex will be arriving at the funeral soon and I am going to have to use all the resources I need to face that shrew.”",
         "background": "...",
         "sprites": "...",
         "next": "line_09"
@@ -94,31 +66,35 @@
     {
         "id": "line_09",
         "type": "fursttryl",
-        "text": "Fursttryl: “Well, I mean, you’re like 4’’7, it’s that hard to be taller than you.”",
+        "text": "Fursttryl: “Should one of Kingswood’s town guards be downing drinks like that?”",
         "background": "...",
         "sprites": "...",
-        "next": "line_10"
+        "options": [
+            {"label": "1: Oh, speaking of which, how’s Nugget?", "points": 1, "target": "ingot", "next": "line_10"},
+            {"label": "2: You shouldn’t be calling your ex wife that", "points": -1, "target": "ingot", "next": "line_15"},
+            {"label": "3: Fair enough, want me to get you another round?", "points": 0, "target": "ingot", "next": "line_19"}
+        ]
     },
     {
         "id": "line_10",
-        "type": "ingot",
-        "text": "Ingot: “Rich coming from the 4’’0 gnome.”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Oh, speaking of which, how’s Nugget? I haven’t seen the kid in a while”",
         "background": "...",
         "sprites": "...",
         "next": "line_11"
     },
     {
         "id": "line_11",
-        "type": "fursttryl",
-        "text": "Fursttryl: “Touche.”",
+        "type": "ingot",
+        "text": "Ingot: “Nugget? She’s doing great, growing up so fast already. I remember how tiny she used to be. Now, she’s even taller than her old man despite only being 12. Haha.”",
         "background": "...",
         "sprites": "...",
-        "next": "line_21"
+        "next": "line_12"
     },
     {
         "id": "line_12",
         "type": "fursttryl",
-        "text": "Fursttryl: “You shouldn’t be calling your ex wife that. That’s really disrespectful”",
+        "text": "Fursttryl: “Well, I mean, you’re like 4’’7, it’s that hard to be taller than you.”",
         "background": "...",
         "sprites": "...",
         "next": "line_13"
@@ -126,7 +102,7 @@
     {
         "id": "line_13",
         "type": "ingot",
-        "text": "Ingot: “You were never married to her. You don’t know what she’s like. So I don’t want you lecturing me on something you know nothing about”",
+        "text": "Ingot: “Rich coming from the 4’’0 gnome.”",
         "background": "...",
         "sprites": "...",
         "next": "line_14"
@@ -134,135 +110,135 @@
     {
         "id": "line_14",
         "type": "fursttryl",
-        "text": "Fursttryl: “I’m just saying, she is still the mother of your child.”",
+        "text": "Fursttryl: “Touche.”",
         "background": "...",
         "sprites": "...",
-        "next": "line_15"
+        "next": "line_24"
     },
     {
         "id": "line_15",
-        "type": "ingot",
-        "text": "Ingot: “Yeah, and some mother she is.”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “You shouldn’t be calling your ex wife that. That’s really disrespectful”",
         "background": "...",
         "sprites": "...",
-        "next": "line_21"
+        "next": "line_16"
     },
     {
         "id": "line_16",
-        "type": "fursttryl",
-        "text": "Fursttryl: “Fair enough, want me to get you another round?”",
+        "type": "ingot",
+        "text": "Ingot: “You were never married to her. You don’t know what she’s like. So I don’t want you lecturing me on something you know nothing about”",
         "background": "...",
         "sprites": "...",
         "next": "line_17"
     },
     {
         "id": "line_17",
-        "type": "ingot",
-        "text": "Ingot: “Heh. Well well, maybe you’re not so bad after all, Fursttryl.”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “I’m just saying, she is still the mother of your child.”",
         "background": "...",
         "sprites": "...",
         "next": "line_18"
     },
     {
         "id": "line_18",
-        "type": "fursttryl",
-        "text": "Fursttryl: “Did you think I was bad? Maybe you don't deserve a free drink after all.”",
+        "type": "ingot",
+        "text": "Ingot: “Yeah, and some mother she is.”",
         "background": "...",
         "sprites": "...",
-        "next": "line_19"
+        "next": "line_24"
     },
     {
         "id": "line_19",
-        "type": "ingot",
-        "text": "Ingot: “Hey hey, relax now. You said it so no take backs.”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Fair enough, want me to get you another round?”",
         "background": "...",
         "sprites": "...",
         "next": "line_20"
     },
     {
         "id": "line_20",
-        "type": "fursttryl",
-        "text": "Fursttryl: “Fine…only because you need it for when your wife arrives.”",
+        "type": "ingot",
+        "text": "Ingot: “Heh. Well well, maybe you’re not so bad after all, Fursttryl.”",
         "background": "...",
         "sprites": "...",
         "next": "line_21"
     },
     {
         "id": "line_21",
-        "type": "ingot",
-        "text": "Ingot: “The only thing about my ex wife coming to the funeral that I’m looking forward to, is seeing Nugget”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Did you think I was bad? Maybe you don't deserve a free drink after all.”",
         "background": "...",
         "sprites": "...",
         "next": "line_22"
     },
     {
         "id": "line_22",
-        "type": "fursttryl",
-        "text": "Fursttryl: “Right. Since you only see your daughter on the weekend while your wife has her on weekdays.”",
+        "type": "ingot",
+        "text": "Ingot: “Hey hey, relax now. You said it so no take backs.”",
         "background": "...",
         "sprites": "...",
         "next": "line_23"
     },
     {
         "id": "line_23",
-        "type": "ingot",
-        "text": "Ingot: “Ex-wife.”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Fine…only because you need it for when your wife arrives.”",
         "background": "...",
         "sprites": "...",
         "next": "line_24"
     },
     {
         "id": "line_24",
-        "type": "fursttryl",
-        "text": "Fursttryl: “Right. Ex-wife”",
+        "type": "ingot",
+        "text": "Ingot: “The only thing about my ex wife coming to the funeral that I’m looking forward to, is seeing Nugget”",
         "background": "...",
         "sprites": "...",
         "next": "line_25"
     },
     {
         "id": "line_25",
-        "type": "ingot",
-        "text": "Ingot: “Anyways, I don’t want to think about that woman anymore until she actually gets here…you know what I think *you* don’t want to think about? You falling early. Haha”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Right. Since you only see your daughter on the weekend while your wife has her on weekdays.”",
         "background": "...",
         "sprites": "...",
         "next": "line_26"
     },
     {
         "id": "line_26",
-        "type": "fursttryl",
-        "text": "Fursttryl: “Be quiet! That wasn’t my fault at all! The floor was strange, I swear”",
+        "type": "ingot",
+        "text": "Ingot: “Ex-wife.”",
         "background": "...",
         "sprites": "...",
         "next": "line_27"
     },
     {
         "id": "line_27",
-        "type": "ingot",
-        "text": "Ingot: “You swear?”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Right. Ex-wife”",
         "background": "...",
         "sprites": "...",
         "next": "line_28"
     },
     {
         "id": "line_28",
-        "type": "fursttryl",
-        "text": "Fursttryl: “I swear!”",
+        "type": "ingot",
+        "text": "Ingot: “Anyways, I don’t want to think about that woman anymore until she actually gets here…you know what I think *you* don’t want to think about? You falling early. Haha”",
         "background": "...",
         "sprites": "...",
         "next": "line_29"
     },
     {
         "id": "line_29",
-        "type": "ingot",
-        "text": "Ingot: “Do you swear to Mamu?”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Be quiet! That wasn’t my fault at all! The floor was strange, I swear”",
         "background": "...",
         "sprites": "...",
         "next": "line_30"
     },
     {
         "id": "line_30",
-        "type": "fursttryl",
-        "text": "Fursttryl: “...”",
+        "type": "ingot",
+        "text": "Ingot: “You swear?”",
         "background": "...",
         "sprites": "...",
         "next": "line_31"
@@ -270,7 +246,7 @@
     {
         "id": "line_31",
         "type": "fursttryl",
-        "text": "Fursttryl: “That’s not fair.”",
+        "text": "Fursttryl: “I swear!”",
         "background": "...",
         "sprites": "...",
         "next": "line_32"
@@ -278,91 +254,91 @@
     {
         "id": "line_32",
         "type": "ingot",
-        "text": "Ingot: “Sure it ain’t. You’re just upset that you got outsmarted by me of all people.”",
+        "text": "Ingot: “Do you swear to Mamu?”",
         "background": "...",
         "sprites": "...",
-        "options": [
-            {"label": "1: Spell “Library”", "points": 0, "target": "ingot", "next": "line_33"},
-            {"label": "2: And you’re happy to outsmart me of all people?", "points": 1, "target": "ingot", "next": "line_42"},
-            {"label": "3: Well, why didn’t you use that intelligence to win child custody over Nugget?", "points": -1, "target": "ingot", "next": "line_47"}
-        ]
+        "next": "line_33"
     },
     {
         "id": "line_33",
         "type": "fursttryl",
-        "text": "Fursttryl: “Spell “Library” then if you’re sooooo smart.”",
+        "text": "Fursttryl: “...”",
         "background": "...",
         "sprites": "...",
         "next": "line_34"
     },
     {
         "id": "line_34",
-        "type": "ingot",
-        "text": "Ingot: “I can do that. Easy. L - Y - B - E - R - R - Y.”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “That’s not fair.”",
         "background": "...",
         "sprites": "...",
         "next": "line_35"
     },
     {
         "id": "line_35",
-        "type": "fursttryl",
-        "text": "Fursttryl: “Not even close.”",
+        "type": "ingot",
+        "text": "Ingot: “Sure it ain’t. You’re just upset that you got outsmarted by me of all people.”",
         "background": "...",
         "sprites": "...",
-        "next": "line_36"
+        "options": [
+            {"label": "1: Spell “Library”", "points": 0, "target": "ingot", "next": "line_36"},
+            {"label": "2: And you’re happy to outsmart me of all people?", "points": 1, "target": "ingot", "next": "line_45"},
+            {"label": "3: Well, why didn’t you use that intelligence to win child custody over Nugget?", "points": -1, "target": "ingot", "next": "line_50"}
+        ]
     },
     {
         "id": "line_36",
-        "type": "ingot",
-        "text": "Ingot: “Is it not?”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Spell “Library” then if you’re sooooo smart.”",
         "background": "...",
         "sprites": "...",
         "next": "line_37"
     },
     {
         "id": "line_37",
-        "type": "fursttryl",
-        "text": "Fursttryl: “It really isn’t.”",
+        "type": "ingot",
+        "text": "Ingot: “I can do that. Easy. L - Y - B - E - R - R - Y.”",
         "background": "...",
         "sprites": "...",
         "next": "line_38"
     },
     {
         "id": "line_38",
-        "type": "ingot",
-        "text": "Ingot: “Well you already knew I can’t even read.”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Not even close.”",
         "background": "...",
         "sprites": "...",
         "next": "line_39"
     },
     {
         "id": "line_39",
-        "type": "fursttryl",
-        "text": "Fursttryl: “So I’m smarter.”",
+        "type": "ingot",
+        "text": "Ingot: “Is it not?”",
         "background": "...",
         "sprites": "...",
         "next": "line_40"
     },
     {
         "id": "line_40",
-        "type": "ingot",
-        "text": "Ingot: “No.”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “It really isn’t.”",
         "background": "...",
         "sprites": "...",
         "next": "line_41"
     },
     {
         "id": "line_41",
-        "type": "fursttryl",
-        "text": "Fursttryl: “Yes.”",
+        "type": "ingot",
+        "text": "Ingot: “Well you already knew I can’t even read.”",
         "background": "...",
         "sprites": "...",
-        "next": "line_52"
+        "next": "line_42"
     },
     {
         "id": "line_42",
         "type": "fursttryl",
-        "text": "Fursttryl: “And you’re happy to outsmart me of all people? We’re basically equals in terms of intelligence.”",
+        "text": "Fursttryl: “So I’m smarter.”",
         "background": "...",
         "sprites": "...",
         "next": "line_43"
@@ -370,7 +346,7 @@
     {
         "id": "line_43",
         "type": "ingot",
-        "text": "Ingot: “Hahaha, I guess you’re right. We’re both not the brightest so it’s basically the dumb outsmarting the dumber.”",
+        "text": "Ingot: “No.”",
         "background": "...",
         "sprites": "...",
         "next": "line_44"
@@ -378,31 +354,31 @@
     {
         "id": "line_44",
         "type": "fursttryl",
-        "text": "Fursttryl: “I am NOT the dumber, excuse you!”",
+        "text": "Fursttryl: “Yes.”",
         "background": "...",
         "sprites": "...",
-        "next": "line_45"
+        "next": "line_55"
     },
     {
         "id": "line_45",
-        "type": "ingot",
-        "text": "Ingot: “Fine. The dumb outsmarting the dumb. Happy?”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “And you’re happy to outsmart me of all people? We’re basically equals in terms of intelligence.”",
         "background": "...",
         "sprites": "...",
         "next": "line_46"
     },
     {
         "id": "line_46",
-        "type": "fursttryl",
-        "text": "Fursttryl: “Happy.”",
+        "type": "ingot",
+        "text": "Ingot: “Hahaha, I guess you’re right. We’re both not the brightest so it’s basically the dumb outsmarting the dumber.”",
         "background": "...",
         "sprites": "...",
-        "next": "line_52"
+        "next": "line_47"
     },
     {
         "id": "line_47",
         "type": "fursttryl",
-        "text": "Fursttryl: “Well, why didn’t you use that intelligence to win child custody over Nugget?”",
+        "text": "Fursttryl: “I am NOT the dumber, excuse you!”",
         "background": "...",
         "sprites": "...",
         "next": "line_48"
@@ -410,7 +386,7 @@
     {
         "id": "line_48",
         "type": "ingot",
-        "text": "Ingot: “...what?”",
+        "text": "Ingot: “Fine. The dumb outsmarting the dumb. Happy?”",
         "background": "...",
         "sprites": "...",
         "next": "line_49"
@@ -418,29 +394,53 @@
     {
         "id": "line_49",
         "type": "fursttryl",
-        "text": "Fursttryl: “You heard me, *genius*.”",
+        "text": "Fursttryl: “Happy.”",
         "background": "...",
         "sprites": "...",
-        "next": "line_50"
+        "next": "line_55"
     },
     {
         "id": "line_50",
-        "type": "ingot",
-        "text": "Ingot: “See, you really are stupid. You’re lucky that we’re at a funeral right now and I don’t want to cause a scene from smashing my glass against the side of your empty skull.”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Well, why didn’t you use that intelligence to win child custody over Nugget?”",
         "background": "...",
         "sprites": "...",
         "next": "line_51"
     },
     {
         "id": "line_51",
-        "type": "fursttryl",
-        "text": "Fursttryl: “How scary.”",
+        "type": "ingot",
+        "text": "Ingot: “...what?”",
         "background": "...",
         "sprites": "...",
         "next": "line_52"
     },
     {
         "id": "line_52",
+        "type": "fursttryl",
+        "text": "Fursttryl: “You heard me, *genius*.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_53"
+    },
+    {
+        "id": "line_53",
+        "type": "ingot",
+        "text": "Ingot: “See, you really are stupid. You’re lucky that we’re at a funeral right now and I don’t want to cause a scene from smashing my glass against the side of your empty skull.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_54"
+    },
+    {
+        "id": "line_54",
+        "type": "fursttryl",
+        "text": "Fursttryl: “How scary.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_55"
+    },
+    {
+        "id": "line_55",
         "type": "ingot",
         "text": "Ingot: “Well anyways, now that I think about it, I should probably stop drinking. Don’t want Nugget seeing me fully drunk. If you need me, I’m just going back to the main hall.”",
         "background": "...",

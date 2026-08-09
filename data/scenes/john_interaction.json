@@ -1,0 +1,578 @@
+[
+    {
+        "id": "line_01",
+        "type": "narration",
+        "text": "Drink in hand, I move away from the bar and go to find John. I find him sitting alone at one of the seats in the main hall of the funeral.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_02"
+    },
+    {
+        "id": "line_02",
+        "type": "narration",
+        "text": "As I approach him from behind, before I go and sit down beside him, I peer over his shoulder to see what he’s up to.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_03"
+    },
+    {
+        "id": "line_03",
+        "type": "narration",
+        "text": "In his hand, he holds a small silver locket. He peers lovingly into the contents within the necklace.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_04"
+    },
+    {
+        "id": "line_04",
+        "type": "narration",
+        "text": "Inside the locket…",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_05"
+    },
+    {
+        "id": "line_05",
+        "type": "narration",
+        "text": "…is a picture of his favourite cow.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_06"
+    },
+    {
+        "id": "line_06",
+        "type": "narration",
+        "text": "John is a farmer and while on his farm, he raises various animals such as boars, chickens and more.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_07"
+    },
+    {
+        "id": "line_07",
+        "type": "narration",
+        "text": "His favourite has always been his darling cows, which he makes really clear. And not just with putting them in his locket.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_08"
+    },
+    {
+        "id": "line_08",
+        "type": "narration",
+        "text": "John also likes to dress up his cows with various different hats, of course, the more he likes a certain cow, the nicer the hat he gives them.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_09"
+    },
+    {
+        "id": "line_09",
+        "type": "narration",
+        "text": "In particular, the cow in the locket is brandishing a really fancy looking top hat.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_10"
+    },
+    {
+        "id": "line_10",
+        "type": "narration",
+        "text": "You would think someone with such a peculiar hobby would be quite eccentric, but our dear John is quite reserved and quiet.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_11"
+    },
+    {
+        "id": "line_11",
+        "type": "narration",
+        "text": "I go and sit down right beside the still-enamoured John.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_12"
+    },
+    {
+        "id": "line_12",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Hi, John!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_13"
+    },
+    {
+        "id": "line_13",
+        "type": "john",
+        "text": "John: “Oh. Hi, Fursttryl. Did you need something?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_14"
+    },
+    {
+        "id": "line_14",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Willow wanted me to give you this. You don’t have to worry about the payment, I think she’s giving it for free.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_15"
+    },
+    {
+        "id": "line_15",
+        "type": "john",
+        "text": "John: “Oh, that’s oddly nice of Willow.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_16"
+    },
+    {
+        "id": "line_16",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Don’t expect this to be a common occurrence though, John, haha!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_17"
+    },
+    {
+        "id": "line_17",
+        "type": "john",
+        "text": "John: “Right, of course of course.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_18"
+    },
+    {
+        "id": "line_18",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Now. How have you been John? How’s the farm?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_19"
+    },
+    {
+        "id": "line_19",
+        "type": "john",
+        "text": "John: “Hm? Me? You know, same old same old. Just been taking care of my animals on the farm.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_20"
+    },
+    {
+        "id": "line_20",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Oh yeah! Ingot told me a few days ago that a certain incident happened on your farm involving your boars.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_21"
+    },
+    {
+        "id": "line_21",
+        "type": "john",
+        "text": "John: “Ugh, those pesky boars. Yeah. There was an incident. You know that kid? Freeman, he was visiting my farm.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_22"
+    },
+    {
+        "id": "line_22",
+        "type": "john",
+        "text": "John: “I guess the boars could smell how much of a pushover the kid was because when Freeman was opening the gate to get in, they rammed past him, escaping into the street.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_23"
+    },
+    {
+        "id": "line_23",
+        "type": "john",
+        "text": "John: “Managed to get them all back at the end of the day but damn, those boars, they’ve been more rebellious than usual.”",
+        "background": "...",
+        "sprites": "...",
+        "options": [
+            {"label": "1: Scare the boars to assert authority", "points": 1, "target": "john", "next": "line_24"},
+            {"label": "2: Give the boars hats to please them", "points": -1, "target": "john", "next": "line_30"},
+            {"label": "3: Ban Freeman from the farm", "points": 0, "target": "john", "next": "line_37"}
+        ]
+    },
+    {
+        "id": "line_24",
+        "type": "fursttryl",
+        "text": "Fursttryl: “You should do something to scare the boars to assert your authority over them. Like, maybe…”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_25"
+    },
+    {
+        "id": "line_25",
+        "type": "fursttryl",
+        "text": "Fursttryl: “get a stuffed toy in the likeness of your boars and then beat it up in front of them. Then, they would think twice before rebelling against you again, John!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_26"
+    },
+    {
+        "id": "line_26",
+        "type": "john",
+        "text": "John: “So use a fake boar to set an example for the boars on my farm?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_27"
+    },
+    {
+        "id": "line_27",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Exactly! And using a stuffed toy would also mean you don’t actually have to harm any of your animals too!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_28"
+    },
+    {
+        "id": "line_28",
+        "type": "john",
+        "text": "John: “Hmm…I’ll think about it. Thank you though, Fursttryl.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_29"
+    },
+    {
+        "id": "line_29",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Anytime, John!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_42"
+    },
+    {
+        "id": "line_30",
+        "type": "fursttryl",
+        "text": "Fursttryl: “You know, you should also give your boars hats to wear, John! Maybe that’ll please them and they’ll become less rebellious.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_31"
+    },
+    {
+        "id": "line_31",
+        "type": "john",
+        "text": "John: “Give…hats…to my boars?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_32"
+    },
+    {
+        "id": "line_32",
+        "type": "john",
+        "text": "John: “Absolutely not. Those hats are for and only for the cows. The boars aren’t worthy of wearing hats.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_33"
+    },
+    {
+        "id": "line_33",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Oh…”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_34"
+    },
+    {
+        "id": "line_34",
+        "type": "john",
+        "text": "John: “And besides, if I bend over to please the boars, they won’t be less rebellious, they would instead develop a superiority complex and think they can push me around.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_35"
+    },
+    {
+        "id": "line_35",
+        "type": "john",
+        "text": "John: “I can’t have those good for nothing boars have that sort of mindset on my farm.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_36"
+    },
+    {
+        "id": "line_36",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Oh…right…my bad.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_42"
+    },
+    {
+        "id": "line_37",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Ban Freeman from the farm.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_38"
+    },
+    {
+        "id": "line_38",
+        "type": "john",
+        "text": "John: “Huh? Ban the kid from the farm?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_39"
+    },
+    {
+        "id": "line_39",
+        "type": "fursttryl",
+        "text": "Fursttryl: “I mean, the only reason why your boars got out in the first place was technically because of Freeman.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_40"
+    },
+    {
+        "id": "line_40",
+        "type": "john",
+        "text": "John: “I guess so…but…I don’t think simply removing Freeman will stop my boars from being so rebellious.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_41"
+    },
+    {
+        "id": "line_41",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Yeah…I suppose keeping Freeman away from the farm wouldn’t solve the whole problem.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_42"
+    },
+    {
+        "id": "line_42",
+        "type": "john",
+        "text": "John: “Enough about me and my farm though. How have you been, Fursttryl?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_43"
+    },
+    {
+        "id": "line_43",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Hm? Me? I guess also same old same old.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_44"
+    },
+    {
+        "id": "line_44",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Wake up. Look for the chief. Help the chief with whatever he needs. Maybe read some yuri if I have the time. Sleep. Repeat.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_45"
+    },
+    {
+        "id": "line_45",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Nothing really out of the ordinary for me so far, John.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_46"
+    },
+    {
+        "id": "line_46",
+        "type": "john",
+        "text": "John: “I see. You know, it’s pretty admirable how diligent and devoted you are to the chief.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_47"
+    },
+    {
+        "id": "line_47",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Admirable? You think that I am admirable, John?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_48"
+    },
+    {
+        "id": "line_48",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Me? Truly? Most people just describe me as obsessive.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_49"
+    },
+    {
+        "id": "line_49",
+        "type": "john",
+        "text": "John: “Well…I wouldn’t say those two things are…mutually exclusive. Most of your routine and daily life does revolve around **our community**.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_50"
+    },
+    {
+        "id": "line_50",
+        "type": "john",
+        "text": "John: “But that does make me wonder… Fursttryl, do you ever desire to become the next chieftain?”",
+        "background": "...",
+        "sprites": "...",
+        "options": [
+            {"label": "1: Yes", "points": -1, "target": "john", "next": "line_51"},
+            {"label": "2: No", "points": 1, "target": "john", "next": "line_54"},
+            {"label": "3: Maybe", "points": 0, "target": "john", "next": "line_60"}
+        ]
+    },
+    {
+        "id": "line_51",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Yes. I mean. The position of chieftain is the closest role to my beloved.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_52"
+    },
+    {
+        "id": "line_52",
+        "type": "fursttryl",
+        "text": "Fursttryl: “As you know John, certain knowledge regarding my beloved is only bestowed upon the chieftain.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_53"
+    },
+    {
+        "id": "line_53",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Hence, if I were to be chieftain, I would be closer to my beloved than ever before. And I would be closer to my ultimate goal of marrying them!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_63"
+    },
+    {
+        "id": "line_54",
+        "type": "fursttryl",
+        "text": "Fursttryl: “No. I mean. While the position of chieftain is the closest role to my beloved, I much prefer simply being the chieftain’s advisor.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_55"
+    },
+    {
+        "id": "line_55",
+        "type": "fursttryl",
+        "text": "Fursttryl: “I think I would find the responsibility of being chieftain to be too much. For me, I enjoy being on the side, close to the one with the role rather than be the one with the role.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_56"
+    },
+    {
+        "id": "line_56",
+        "type": "fursttryl",
+        "text": "Fursttryl: “I know that…that doesn’t make much sense since obviously most people would think “Oh, you love your beloved so much and you want to be close to them, so why don’t you want to be in the position closest to them?” but...”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_57"
+    },
+    {
+        "id": "line_57",
+        "type": "fursttryl",
+        "text": "Fursttryl: “I guess if I were to explain…its like…similar to my ultimate goal in a way.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_58"
+    },
+    {
+        "id": "line_58",
+        "type": "fursttryl",
+        "text": "Fursttryl: “I want to marry a god, not become one.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_59"
+    },
+    {
+        "id": "line_59",
+        "type": "fursttryl",
+        "text": "Fursttryl: “I want to be the chieftain’s advisor, not the chief.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_63"
+    },
+    {
+        "id": "line_60",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Maybe. I don’t know. Honestly, I’ve never really thought of myself to be in the position of chieftain.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_61"
+    },
+    {
+        "id": "line_61",
+        "type": "fursttryl",
+        "text": "Fursttryl: “I always envisioned myself just being the advisor, the one on the side next to everything.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_62"
+    },
+    {
+        "id": "line_62",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Being chieftain…it has both benefits and drawbacks. On one hand, I get to be closer to my beloved but on the other hand, I have to bear a lot of responsibility.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_63"
+    },
+    {
+        "id": "line_63",
+        "type": "john",
+        "text": "John: “Hm…I see.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_64"
+    },
+    {
+        "id": "line_64",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Did my answer satisfy you, John?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_65"
+    },
+    {
+        "id": "line_65",
+        "type": "john",
+        "text": "John: “I guess so. It told me a lot about your way of thinking. I appreciate you being so honest with me, Fursttryl.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_66"
+    },
+    {
+        "id": "line_66",
+        "type": "narration",
+        "text": "*Click-clack. Click-clack*",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_67"
+    },
+    {
+        "id": "line_67",
+        "type": "narration",
+        "text": "My attention is pulled away from John by the sound of a pair of high heels entering the venue.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_68"
+    },
+    {
+        "id": "line_68",
+        "type": "narration",
+        "text": "I turn to the direction of where the sound is emanating from and I see a very tall, a very gorgeous and a very familiar Dark Elf.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_69"
+    },
+    {
+        "id": "line_69",
+        "type": "narration",
+        "text": "It’s none other than Ingot’s ex-wife. Seems she’s finally made it to the funeral…alone though, as I don’t see Nugget anywhere near her.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_70"
+    },
+    {
+        "id": "line_70",
+        "type": "narration",
+        "text": "Ingot must be disappointed.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_71"
+    },
+    {
+        "id": "line_71",
+        "type": "narration",
+        "text": "Speaking of Ingot, I wonder what he is doing now with his ex-wife in the same vicinity.",
+        "background": "...",
+        "sprites": "...",
+        "next": null
+    }
+]

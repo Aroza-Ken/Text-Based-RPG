@@ -153,7 +153,7 @@
         "text": "Fursttryl: “You’re so right. Yeah. I’m probably just reading into his absence too much.”",
         "background": "...",
         "sprites": "...",
-        "next": "line_30"
+        "next": "line_20"
     },
     {
         "id": "line_20",
@@ -471,38 +471,30 @@
         "sprites": "...",
         "options": [
             {"label": "1: Do you only hire people you find attractive?", "points": 0, "target": "willow", "next": "line_59"},
-            {"label": "2: Yuri in real life", "points": 1, "target": "willow", "next": "line_64"},
-            {"label": "3: Isn’t that professional misconduct?", "points": -1, "target": "willow", "next": "line_71"}
+            {"label": "2: Yuri in real life", "points": 1, "target": "willow", "next": "line_65"},
+            {"label": "3: Isn’t that professional misconduct?", "points": -1, "target": "willow", "next": "line_72"}
         ]
     },
     {
-        "id": "line_58",
+        "id": "line_59",
         "type": "fursttryl",
         "text": "Fursttryl: “Do you only hire people you find attractive to work at your bar?”",
-        "background": "...",
-        "sprites": "...",
-        "next": "line_59"
-    },
-    {
-        "id": "line_59",
-        "type": "willow",
-        "text": "Willow: “Take a wild guess, Fursttryl~”",
         "background": "...",
         "sprites": "...",
         "next": "line_60"
     },
     {
         "id": "line_60",
-        "type": "fursttryl",
-        "text": "Fursttryl: “So that’s a yes.”",
+        "type": "willow",
+        "text": "Willow: “Take a wild guess, Fursttryl~”",
         "background": "...",
         "sprites": "...",
         "next": "line_61"
     },
     {
         "id": "line_61",
-        "type": "willow",
-        "text": "Willow: “Haha! Look, I don’t judge you THAT much for your crush on the chief while you work as his advisor.”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “So that’s a yes.”",
         "background": "...",
         "sprites": "...",
         "next": "line_62"
@@ -510,31 +502,31 @@
     {
         "id": "line_62",
         "type": "willow",
-        "text": "Willow: “Sooooo. It’s only fair that you shouldn’t judge me THAT much for only hiring cute guys and girls.”",
+        "text": "Willow: “Haha! Look, I don’t judge you THAT much for your crush on the chief while you work as his advisor.”",
         "background": "...",
         "sprites": "...",
         "next": "line_63"
     },
     {
         "id": "line_63",
-        "type": "fursttryl",
-        "text": "Fursttryl: “...Touche.”",
+        "type": "willow",
+        "text": "Willow: “Sooooo. It’s only fair that you shouldn’t judge me THAT much for only hiring cute guys and girls.”",
         "background": "...",
         "sprites": "...",
-        "next": "line_77"
+        "next": "line_64"
     },
     {
         "id": "line_64",
         "type": "fursttryl",
-        "text": "Fursttryl: “Yuri in real life…”",
+        "text": "Fursttryl: “...Touche.”",
         "background": "...",
         "sprites": "...",
-        "next": "line_65"
+        "next": "line_78"
     },
     {
         "id": "line_65",
-        "type": "willow",
-        "text": "Willow: “Hm? Oh! Hahaha, yeah, you could say that! Yuri in real life!”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Yuri in real life…”",
         "background": "...",
         "sprites": "...",
         "next": "line_66"
@@ -542,79 +534,79 @@
     {
         "id": "line_66",
         "type": "willow",
-        "text": "Willow: “Speaking of which, I just finished the latest volume of Love and Council, you can borrow it now.”",
+        "text": "Willow: “Hm? Oh! Hahaha, yeah, you could say that! Yuri in real life!”",
         "background": "...",
         "sprites": "...",
         "next": "line_67"
     },
     {
         "id": "line_67",
-        "type": "fursttryl",
-        "text": "Fursttryl: “Ah! Thank you so much, Willow! I’ve been dying to find out what happened after that cliffhanger of an ending last volume!”",
+        "type": "willow",
+        "text": "Willow: “Speaking of which, I just finished the latest volume of Love and Council, you can borrow it now.”",
         "background": "...",
         "sprites": "...",
         "next": "line_68"
     },
     {
         "id": "line_68",
-        "type": "willow",
-        "text": "Willow: “That’s so fair. Oh yeah, from what I heard from Illydia, the next volume won’t be out for a while so we should start a new yuri series while we wait for it.”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Ah! Thank you so much, Willow! I’ve been dying to find out what happened after that cliffhanger of an ending last volume!”",
         "background": "...",
         "sprites": "...",
         "next": "line_69"
     },
     {
         "id": "line_69",
-        "type": "fursttryl",
-        "text": "Fursttryl: “Oh, sure! You can pick one out and recommend it to me this time then.”",
+        "type": "willow",
+        "text": "Willow: “That’s so fair. Oh yeah, from what I heard from Illydia, the next volume won’t be out for a while so we should start a new yuri series while we wait for it.”",
         "background": "...",
         "sprites": "...",
         "next": "line_70"
     },
     {
         "id": "line_70",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Oh, sure! You can pick one out and recommend it to me this time then.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_71"
+    },
+    {
+        "id": "line_71",
         "type": "willow",
         "text": "Willow: “Haha! alright!~”",
         "background": "...",
         "sprites": "...",
-        "next": "line_77"
-    },
-    {
-        "id": "line_71",
-        "type": "fursttryl",
-        "text": "Fursttryl: “Isn’t that professional misconduct? To be flirting with your employee?”",
-        "background": "...",
-        "sprites": "...",
-        "next": "line_72"
+        "next": "line_78"
     },
     {
         "id": "line_72",
-        "type": "willow",
-        "text": "Willow: “Pot calling the kettle black much? You literally have a crush on the chief while you’re his advisor.”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Isn’t that professional misconduct? To be flirting with your employee?”",
         "background": "...",
         "sprites": "...",
         "next": "line_73"
     },
     {
         "id": "line_73",
-        "type": "fursttryl",
-        "text": "Fursttryl: “How dare you! My love and devotion to the chief is far more sincere than the various relationships you have with your employees!”",
+        "type": "willow",
+        "text": "Willow: “Pot calling the kettle black much? You literally have a crush on the chief while you’re his advisor.”",
         "background": "...",
         "sprites": "...",
         "next": "line_74"
     },
     {
         "id": "line_74",
-        "type": "willow",
-        "text": "Willow: “Didn’t you also have a crush on the previous chief? And I’m pretty sure when the next chief is chosen, you’ll have a crush on them too.”",
+        "type": "fursttryl",
+        "text": "Fursttryl: “How dare you! My love and devotion to the chief is far more sincere than the various relationships you have with your employees!”",
         "background": "...",
         "sprites": "...",
         "next": "line_75"
     },
     {
         "id": "line_75",
-        "type": "fursttryl",
-        "text": "Fursttryl: “That’s different! A large period of time passed! I don’t change crushes often!”",
+        "type": "willow",
+        "text": "Willow: “Didn’t you also have a crush on the previous chief? And I’m pretty sure when the next chief is chosen, you’ll have a crush on them too.”",
         "background": "...",
         "sprites": "...",
         "next": "line_76"
@@ -622,23 +614,23 @@
     {
         "id": "line_76",
         "type": "fursttryl",
-        "text": "Fursttryl: “With all of my beloveds, I deeply devote myself to them for years!”",
+        "text": "Fursttryl: “That’s different! A large period of time passed! I don’t change crushes often!”",
         "background": "...",
         "sprites": "...",
         "next": "line_77"
     },
     {
         "id": "line_77",
-        "type": "narration",
-        "text": "Before the conversation could continue, the bartender comes back and places not one, but two drinks in front of Willow. It seems like she assumed that I was going to drink as well.",
+        "type": "fursttryl",
+        "text": "Fursttryl: “With all of my beloveds, I deeply devote myself to them for years!”",
         "background": "...",
         "sprites": "...",
         "next": "line_78"
     },
     {
         "id": "line_78",
-        "type": "willow",
-        "text": "Willow: “Ah, looks like the cutie misunderstood and made an extra drink. While I do think the more drinks, the merrier. I prefer my drinks made fresh.”",
+        "type": "narration",
+        "text": "Before the conversation could continue, the bartender comes back and places not one, but two drinks in front of Willow. It seems like she assumed that I was going to drink as well.",
         "background": "...",
         "sprites": "...",
         "next": "line_79"
@@ -646,13 +638,21 @@
     {
         "id": "line_79",
         "type": "willow",
-        "text": "Willow: “Fursttryl, could you go and give this drink to John? I hate to see a good drink go to waste.”",
+        "text": "Willow: “Ah, looks like the cutie misunderstood and made an extra drink. While I do think the more drinks, the merrier. I prefer my drinks made fresh.”",
         "background": "...",
         "sprites": "...",
         "next": "line_80"
     },
     {
         "id": "line_80",
+        "type": "willow",
+        "text": "Willow: “Fursttryl, could you go and give this drink to John? I hate to see a good drink go to waste.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_81"
+    },
+    {
+        "id": "line_81",
         "type": "willow",
         "text": "Fursttryl: “Oh, sure, I can do that.”",
         "background": "...",
