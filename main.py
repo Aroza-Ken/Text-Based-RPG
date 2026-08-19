@@ -23,6 +23,9 @@ def run_game():
 
     # john interaction
     load_and_play("data/scenes/john_interaction.json", "line_01")
+
+    # ingot second interaction
+    load_and_play("data/scenes/ingot_interaction02.json", "line_01")
     print(state.relationship) # temp print to check point system
 
 if __name__ == "__main__":

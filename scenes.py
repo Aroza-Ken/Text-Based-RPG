@@ -1,6 +1,14 @@
 import json
 import state
 
+def check_relationship(character):
+    if (character == "ingot" or character == "willow"):
+        if state.relationship[character] == -3:
+            state.scene_flags[character] = True
+    if (character == "illydia" or character == "john"):
+        if state.relationship[character] == 3:
+            state.scene_flags[character] = True
+
 def load_and_play(filepath, start):
     with open(filepath, 'r', encoding='utf-8') as f:
         scenes = json.load(f) # returns a list of dicts
@@ -31,17 +39,41 @@ def load_and_play(filepath, start):
                 if (choice == "1"):
                     if (options["target"] != None):
                         state.relationship[options["target"]] += choices[int(choice)]["points"]
-                    current_id = choices[int(choice)]["next"]
+                    next_text = choices[int(choice)]["next"]
+                    if (next_text == "check_status"):
+                        check_relationship(options["target"])
+                        if (state.scene_flags[options["target"]] == True):
+                            current_id = choices[int(choice)]["scene_A"]
+                        else:
+                            current_id = choices[int(choice)]["scene_B"]
+                    else:
+                        current_id = choices[int(choice)]["next"]
                     break
                 elif (choice == "2"):
                     if (options["target"] != None):
                         state.relationship[options["target"]] += choices[int(choice)]["points"]
-                    current_id = choices[int(choice)]["next"]
+                    next_text = choices[int(choice)]["next"]
+                    if (next_text == "check_status"):
+                        check_relationship(options["target"])
+                        if (state.scene_flags[options["target"]] == True):
+                            current_id = choices[int(choice)]["scene_A"]
+                        else:
+                            current_id = choices[int(choice)]["scene_B"]
+                    else:
+                        current_id = choices[int(choice)]["next"]
                     break
                 elif (choice == "3"):
                     if (options["target"] != None):
                         state.relationship[options["target"]] += choices[int(choice)]["points"]
-                    current_id = choices[int(choice)]["next"]
+                    next_text = choices[int(choice)]["next"]
+                    if (next_text == "check_status"):
+                        check_relationship(options["target"])
+                        if (state.scene_flags[options["target"]] == True):
+                            current_id = choices[int(choice)]["scene_A"]
+                        else:
+                            current_id = choices[int(choice)]["scene_B"]
+                    else:
+                        current_id = choices[int(choice)]["next"]
                     break
                 else:
                     continue

@@ -1,0 +1,774 @@
+[
+    {
+        "id": "line_01",
+        "type": "narration",
+        "text": "I start to wander around the venue in search of Ingot. It takes a few minutes until I finally spot him along one of the walls in the room.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_02"
+    },
+    {
+        "id": "line_02",
+        "type": "narration",
+        "text": "He seems to be pressing himself against the wall quite intensely, almost as if trying to merge with the wall itself.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_03"
+    },
+    {
+        "id": "line_03",
+        "type": "narration",
+        "text": "How strange.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_04"
+    },
+    {
+        "id": "line_04",
+        "type": "narration",
+        "text": "I decide to go and approach the strange Ingot.",
+        "background": "...",
+        "sprites": "...",
+        "options": [
+            {"label": "1: I can distract her so you can escape", "points": 1, "target": "ingot", "next": "line_05"},
+            {"label": "2: Want another drink?", "points": 0, "target": "ingot", "next": "line_30"},
+            {"label": "3: Isn’t that your wife?", "points": -1, "target": "ingot", "next": "check_status", "scene_A": "line_39", "scene_B": "line_84"}
+        ]
+    },
+    {
+        "id": "line_05",
+        "type": "fursttryl",
+        "text": "Fursttryl: “I can distract her so you can escape unseen if you want.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_06"
+    },
+    {
+        "id": "line_06",
+        "type": "ingot",
+        "text": "Ingot: “...You’d do that for me? Really?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_07"
+    },
+    {
+        "id": "line_07",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Yeah?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_08"
+    },
+    {
+        "id": "line_08",
+        "type": "ingot",
+        "text": "Ingot: “Since when were you so nice?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_09"
+    },
+    {
+        "id": "line_09",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Do you want me to help you out or not!?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_10"
+    },
+    {
+        "id": "line_10",
+        "type": "ingot",
+        "text": "Ingot: “Ahaha! Thanks, Fursttryl.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_11"
+    },
+    {
+        "id": "line_11",
+        "type": "narration",
+        "text": "I give Ingot a final nod before turning to make my way towards Forged on the other side of the room.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_12"
+    },
+    {
+        "id": "line_12",
+        "type": "narration",
+        "text": "She’s currently just standing before Caine’s closed coffin, already having placed her flower on it.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_13"
+    },
+    {
+        "id": "line_13",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Hi, Forged!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_14"
+    },
+    {
+        "id": "line_14",
+        "type": "forged",
+        "text": "Forged: “Fursttryl?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_15"
+    },
+    {
+        "id": "line_15",
+        "type": "fursttryl",
+        "text": "Fursttryl: “How have you been, Forged? It’s been ages!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_16"
+    },
+    {
+        "id": "line_16",
+        "type": "forged",
+        "text": "Forged: “I’ve been…fine…Why are you talking to me? You never do that.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_17"
+    },
+    {
+        "id": "line_17",
+        "type": "fursttryl",
+        "text": "Fursttryl: “What do you mean?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_18"
+    },
+    {
+        "id": "line_18",
+        "type": "forged",
+        "text": "Forged: “I mean…you hardly ever talk to me. Or people in general.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_19"
+    },
+    {
+        "id": "line_19",
+        "type": "forged",
+        "text": "Forged: “Besides the chief, of course.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_20"
+    },
+    {
+        "id": "line_20",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Ahahah! Well umm…I just uhhh…wanted to seek your advice on…”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_21"
+    },
+    {
+        "id": "line_21",
+        "type": "fursttryl",
+        "text": "Fursttryl: “…how to change my appearance…to attract the chieftain better…?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_22"
+    },
+    {
+        "id": "line_22",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Because you’re absolutely radiant, Forged!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_23"
+    },
+    {
+        "id": "line_23",
+        "type": "forged",
+        "text": "Forged: “Well~ You’re not wrong~ I guess, I could help you out a bit, Fursttryl. So…”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_24"
+    },
+    {
+        "id": "line_24",
+        "type": "narration",
+        "text": "As Forged starts to, more or less, drown me with a mountain of advice and suggestions regarding my appearance (honestly, should I be offended with how much changes she’s suggesting?), I tilt my head to peer behind her.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_25"
+    },
+    {
+        "id": "line_25",
+        "type": "narration",
+        "text": "I can see short Ingot stealthily moving his way through the funeral, trying to reach the exit without drawing his ex-wife's attention.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_26"
+    },
+    {
+        "id": "line_26",
+        "type": "narration",
+        "text": "As soon as he manages to leave the venue, I immediately try to remove myself from the conversation with Forged.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_27"
+    },
+    {
+        "id": "line_27",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Wow, Forged! Thank you for the many…many pieces of advice on how I can “fix” my appearance.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_28"
+    },
+    {
+        "id": "line_28",
+        "type": "fursttryl",
+        "text": "Fursttryl: “But I should probably get going now. The chief most likely needs me! Ok, good night!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_29"
+    },
+    {
+        "id": "line_29",
+        "type": "narration",
+        "text": "And without another word, I rush out of there as fast as I can.",
+        "background": "...",
+        "sprites": "...",
+        "next": null
+    },
+    {
+        "id": "line_30",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Want another drink?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_31"
+    },
+    {
+        "id": "line_31",
+        "type": "fursttryl",
+        "text": "Fursttryl: “I mean, your daughter isn’t here so she won’t see you drunk.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_32"
+    },
+    {
+        "id": "line_32",
+        "type": "ingot",
+        "text": "Ingot: “Nugget isn’t here, normally, I would say yes but…”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_33"
+    },
+    {
+        "id": "line_33",
+        "type": "ingot",
+        "text": "Ingot: “I am also seeing her tomorrow when I get her for the weekends so I also don’t want to be hungover for that…”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_34"
+    },
+    {
+        "id": "line_34",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Then…what are you going to do now? Especially with your wife here now.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_35"
+    },
+    {
+        "id": "line_35",
+        "type": "ingot",
+        "text": "Ingot: “Ex-wife.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_36"
+    },
+    {
+        "id": "line_36",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Right. Ex-wife.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_37"
+    },
+    {
+        "id": "line_37",
+        "type": "ingot",
+        "text": "Ingot: “Well…since I don’t really have anything else to do here, I think I’ll just head off now. Good night, Fursttryl.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_38"
+    },
+    {
+        "id": "line_38",
+        "type": "narration",
+        "text": "Ingot looks across the funeral over at Forged one last time before he makes his way to leave the funeral.",
+        "background": "...",
+        "sprites": "...",
+        "next": null
+    },
+    {
+        "id": "line_39",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Hey, isn’t that your wife?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_40"
+    },
+    {
+        "id": "line_40",
+        "type": "narration",
+        "text": "My question, directed at Ingot, seemed to not only land on Ingot’s ears but Forged’s as well.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_41"
+    },
+    {
+        "id": "line_41",
+        "type": "narration",
+        "text": "As from across the room, Forged turned her head in the direction of my question, her eyes landing on me briefly before quickly turning to Ingot who was standing right next to me. Her expression sours immediately.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_42"
+    },
+    {
+        "id": "line_42",
+        "type": "narration",
+        "text": "Ingot turns to glare at me, giving me his “what the heck!” face. Seemingly furious with me, he goes and jerks his arm back to elbow me…",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_43"
+    },
+    {
+        "id": "line_43",
+        "type": "narration",
+        "text": "Though unfortunately for him, he misses me entirely and instead slips back, falling straight onto the floor on his back.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_44"
+    },
+    {
+        "id": "line_44",
+        "type": "narration",
+        "text": "Though unfortunately for him, he misses me entirely and instead slips back, falling straight onto the floor on his back.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_45"
+    },
+    {
+        "id": "line_45",
+        "type": "forged",
+        "text": "Forged: “What are YOU doing here? Lazing around as always?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_46"
+    },
+    {
+        "id": "line_46",
+        "type": "ingot",
+        "text": "Ingot: “I’m off duty to come to Caine’s funeral, obviously. Where’s Nugget?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_47"
+    },
+    {
+        "id": "line_47",
+        "type": "narration",
+        "text": "Ingot replies back to Forged while still laying on the ground. He appears to make no effort on getting up from the ground.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_48"
+    },
+    {
+        "id": "line_48",
+        "type": "narration",
+        "text": "Despite his embarrassing position, it seems like he plans on standing his ground in this argument even when he’s not actually standing on the ground.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_49"
+    },
+    {
+        "id": "line_49",
+        "type": "forged",
+        "text": "Forged: “Nugget? She’s at home, sleeping. It’s past her curfew. You would know that if you actually cared about her?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_50"
+    },
+    {
+        "id": "line_50",
+        "type": "ingot",
+        "text": "Ingot: “Hey! I care about Nugget! I always spend time with her.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_51"
+    },
+    {
+        "id": "line_51",
+        "type": "forged",
+        "text": "Forged: “Barely.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_52"
+    },
+    {
+        "id": "line_52",
+        "type": "ingot",
+        "text": "Ingot: “That’s because you get to have her on weekdays while I only see her on the weekends.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_53"
+    },
+    {
+        "id": "line_53",
+        "type": "forged",
+        "text": "Forged: “Doesn’t change the fact that you’re not the most present father out there. Do you even know how old she is now?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_54"
+    },
+    {
+        "id": "line_54",
+        "type": "ingot",
+        "text": "Ingot: “12?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_55"
+    },
+    {
+        "id": "line_55",
+        "type": "forged",
+        "text": "Forged: “She’s 13. Her birthday was this week.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_56"
+    },
+    {
+        "id": "line_56",
+        "type": "ingot",
+        "text": "Ingot: “I…I knew that.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_57"
+    },
+    {
+        "id": "line_57",
+        "type": "ingot",
+        "text": "Ingot: “I already bought her a gift, I’m just planning to give it later on the weekend when I see her.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_58"
+    },
+    {
+        "id": "line_58",
+        "type": "forged",
+        "text": "Forged: “Did you? Do you even know what she likes?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_59"
+    },
+    {
+        "id": "line_59",
+        "type": "ingot",
+        "text": "Ingot: “Coloring books?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_60"
+    },
+    {
+        "id": "line_60",
+        "type": "forged",
+        "text": "Forged: “She’s 13!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_61"
+    },
+    {
+        "id": "line_60",
+        "type": "ingot",
+        "text": "Ingot: “So? Kids love coloring books!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_61"
+    },
+    {
+        "id": "line_61",
+        "type": "forged",
+        "text": "Forged: “She doesn’t like those childish things anymore! She’s too old for them!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_62"
+    },
+    {
+        "id": "line_62",
+        "type": "forged",
+        "text": "Forged: “Honestly! You complain about only getting her on the weekends but when you do get time with her, you’re not even spending it to really get to know your own daughter!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_63"
+    },
+    {
+        "id": "line_63",
+        "type": "forged",
+        "text": "Forged: “What do you even do when she’s over at yours?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_64"
+    },
+    {
+        "id": "line_64",
+        "type": "ingot",
+        "text": "Ingot: “I do spend time with her! Like, tomorrow, I’m planning to watch a play with her.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_65"
+    },
+    {
+        "id": "line_65",
+        "type": "forged",
+        "text": "Forged: “Hah! Like you would even know what she enjoys watching.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_66"
+    },
+    {
+        "id": "line_66",
+        "type": "ingot",
+        "text": "Ingot: “If you know our daughter sooo much better than me, then please, go ahead and enlighten me on what our daughter enjoys watching.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_67"
+    },
+    {
+        "id": "line_67",
+        "type": "forged",
+        "text": "Forged: “...You’re hopeless. I’m not even going to bother.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_68"
+    },
+    {
+        "id": "line_68",
+        "type": "forged",
+        "text": "Forged: “Enjoy disappointing our daughter tomorrow when you go and watch a play she’s going to find absolutely boring.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_69"
+    },
+    {
+        "id": "line_69",
+        "type": "narration",
+        "text": "With a look of pure, unadulterated irritation, Forged turns away from Ingot and starts making her way to leave the venue. Seemingly done with their public argument.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_70"
+    },
+    {
+        "id": "line_70",
+        "type": "ingot",
+        "text": "Ingot: “See! This is your problem! Instead of actually communicating and telling me how to be a better father to our daughter, you just like to make yourself out to be the better parent!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_71"
+    },
+    {
+        "id": "line_71",
+        "type": "ingot",
+        "text": "Ingot: “All you do is be condescending and patronize me instead of actually working with me for our daughter’s sake!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_72"
+    },
+    {
+        "id": "line_72",
+        "type": "forged",
+        "text": "Forged: “Good night, Ingot”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_73"
+    },
+    {
+        "id": "line_73",
+        "type": "narration",
+        "text": "Forged exits through the main door, leaving behind Ingot, who is still just on the ground of the funeral venue.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_74"
+    },
+    {
+        "id": "line_74",
+        "type": "narration",
+        "text": "After just watching that whole…scene transpire before me, I go and kneel down besides the troubled Ingot.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_75"
+    },
+    {
+        "id": "line_75",
+        "type": "narration",
+        "text": "I place my hand on his shoulder and start to pat him as an act of comfort.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_76"
+    },
+    {
+        "id": "line_76",
+        "type": "fursttryl",
+        "text": "Fursttryl: “That’s rough, buddy.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_77"
+    },
+    {
+        "id": "line_77",
+        "type": "narration",
+        "text": "As I pat his shoulder though, Ingot finally decided now was the time to rise to his feet.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_78"
+    },
+    {
+        "id": "line_78",
+        "type": "narration",
+        "text": "Without any hesitation, he turns to me and grabs me by the collar of my robe.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_79"
+    },
+    {
+        "id": "line_79",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Woah woah woah, why?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_80"
+    },
+    {
+        "id": "line_79",
+        "type": "ingot",
+        "text": "Ingot: “Why? YOU were the cause of all that! None of that wouldn’t have happened if it wasn’t for you and your stupid big mouth!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_80"
+    },
+    {
+        "id": "line_80",
+        "type": "fursttryl",
+        "text": "Fursttryl: “...my bad?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_81"
+    },
+    {
+        "id": "line_81",
+        "type": "narration",
+        "text": "Ingot lets go of my collar harshly, shoving me back a bit before turning around and going to leave the funeral as well.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_82"
+    },
+    {
+        "id": "line_82",
+        "type": "narration",
+        "text": "...",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_83"
+    },
+    {
+        "id": "line_83",
+        "type": "narration",
+        "text": "Well that was certainly…something.",
+        "background": "...",
+        "sprites": "...",
+        "next": null
+    },
+    {
+        "id": "line_84",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Hey, isn’t that your wife?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_85"
+    },
+    {
+        "id": "line_85",
+        "type": "narration",
+        "text": "Ingot quickly smacks me over the head without a word.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_86"
+    },
+    {
+        "id": "line_86",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Ow! What was that for?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_87"
+    },
+    {
+        "id": "line_87",
+        "type": "ingot",
+        "text": "Ingot: “What do you think, idiot? Are you trying to get me caught by Forged?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_88"
+    },
+    {
+        "id": "line_88",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Caught? It’s not like you’re doing anything wrong right now.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_89"
+    },
+    {
+        "id": "line_89",
+        "type": "ingot",
+        "text": "Ingot: “It’s not about whether or not I’m doing something wrong right now.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_90"
+    },
+    {
+        "id": "line_90",
+        "type": "ingot",
+        "text": "Ingot: “If Forged sees me merely existing, she’s going to pick a fight.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_91"
+    },
+    {
+        "id": "line_91",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Why?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_92"
+    },
+    {
+        "id": "line_92",
+        "type": "ingot",
+        "text": "Ingot: “Oh my…I give up.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_93"
+    },
+    {
+        "id": "line_93",
+        "type": "ingot",
+        "text": "Ingot: “You’re not smart enough to understand these social dynamics. And I don't think you’ll even understand if I explain to you. I’m just going to go.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_94"
+    },
+    {
+        "id": "line_94",
+        "type": "narration",
+        "text": "Ingot looks across the funeral over at Forged one last time before he makes his way to leave the funeral.",
+        "background": "...",
+        "sprites": "...",
+        "next": null
+    }
+]
