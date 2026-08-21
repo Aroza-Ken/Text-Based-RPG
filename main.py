@@ -26,6 +26,9 @@ def run_game():
 
     # ingot second interaction
     load_and_play("data/scenes/ingot_interaction02.json", "line_01")
+
+    # post funeral scene
+    load_and_play("data/scenes/post_funeral.json", "line_01")
     print(state.relationship) # temp print to check point system
 
 if __name__ == "__main__":

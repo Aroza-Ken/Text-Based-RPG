@@ -2,6 +2,7 @@ import json
 import state
 
 def check_relationship(character):
+    # for the respective characters, set the flag depending if the relationship is positive or negative
     if (character == "ingot" or character == "willow"):
         if state.relationship[character] == -3:
             state.scene_flags[character] = True
@@ -40,6 +41,7 @@ def load_and_play(filepath, start):
                     if (options["target"] != None):
                         state.relationship[options["target"]] += choices[int(choice)]["points"]
                     next_text = choices[int(choice)]["next"]
+                    # if the next text branches, check the relationship status and proceed to the respective scene
                     if (next_text == "check_status"):
                         check_relationship(options["target"])
                         if (state.scene_flags[options["target"]] == True):
@@ -53,6 +55,7 @@ def load_and_play(filepath, start):
                     if (options["target"] != None):
                         state.relationship[options["target"]] += choices[int(choice)]["points"]
                     next_text = choices[int(choice)]["next"]
+                    # if the next text branches, check the relationship status and proceed to the respective scene
                     if (next_text == "check_status"):
                         check_relationship(options["target"])
                         if (state.scene_flags[options["target"]] == True):
@@ -66,6 +69,7 @@ def load_and_play(filepath, start):
                     if (options["target"] != None):
                         state.relationship[options["target"]] += choices[int(choice)]["points"]
                     next_text = choices[int(choice)]["next"]
+                    # if the next text branches, check the relationship status and proceed to the respective scene
                     if (next_text == "check_status"):
                         check_relationship(options["target"])
                         if (state.scene_flags[options["target"]] == True):
@@ -77,6 +81,13 @@ def load_and_play(filepath, start):
                     break
                 else:
                     continue
+        # if there is no next field, check the relationship status and proceed to the respective scene branch
+        elif ("next" not in scene[current_id]):
+            check_relationship(scene[current_id]["target"])
+            if (state.scene_flags[scene[current_id]["target"]] == True):
+                current_id = scene[current_id]["scene_A"]
+            else:
+                current_id = scene[current_id]["scene_B"]
         else:
             text = scene[current_id]["text"] # get the current line of text
             print(text)

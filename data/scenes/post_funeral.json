@@ -1,0 +1,708 @@
+[
+    {
+        "id": "line_01",
+        "type": "narration",
+        "text": "Now that I have done all I wanted to do at Caine’s funeral, I suppose it is time I take my leave.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_02"
+    },
+    {
+        "id": "line_02",
+        "type": "narration",
+        "text": "With one final look towards the framed picture of Caine resting by his coffin, I leave the venue and exit into the dark outdoors accompanied by the cold air of the night.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_03"
+    },
+    {
+        "id": "line_03",
+        "type": "narration",
+        "text": "It’s really cold, what if the chieftain is really cold right now too!? I can’t have that! I should go check up on him in his office.",
+        "background": "...",
+        "sprites": "...",
+        "target": "willow",
+        "scene_A": "line_04",
+        "scene_B": "line_49"
+    },
+    {
+        "id": "line_04",
+        "type": "narration",
+        "text": "I start making my way towards the edge of Kingswood. At the edge, there stands the forest. One which I’m all too familiar with, of course.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_05"
+    },
+    {
+        "id": "line_05",
+        "type": "narration",
+        "text": "I begin to traverse through the trees, letting my legs guide me without much thought in my mind.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_06"
+    },
+    {
+        "id": "line_06",
+        "type": "narration",
+        "text": "Despite the darkness of the night combined with the covered sky caused by the trees, I know where I’m going.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_07"
+    },
+    {
+        "id": "line_07",
+        "type": "narration",
+        "text": "Well, as a gnome, I am gifted with darkvision so the lack of light would have never been an issue.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_08"
+    },
+    {
+        "id": "line_08",
+        "type": "narration",
+        "text": "Though, even if I didn’t have darkvision, I would still know how to find my way through the trees.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_09"
+    },
+    {
+        "id": "line_09",
+        "type": "narration",
+        "text": "I traverse past tree after tree after tree after tree, and what was after that tree?",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_10"
+    },
+    {
+        "id": "line_10",
+        "type": "narration",
+        "text": "Another tree. Then another tree. Then another tree.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_11"
+    },
+    {
+        "id": "line_11",
+        "type": "narration",
+        "text": "And then soon, no more trees.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_12"
+    },
+    {
+        "id": "line_12",
+        "type": "narration",
+        "text": "As I have now reached an opening. And in that opening, a village.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_13"
+    },
+    {
+        "id": "line_13",
+        "type": "narration",
+        "text": "My village. The village where I live. The village of Mamu. Home.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_14"
+    },
+    {
+        "id": "line_14",
+        "type": "narration",
+        "text": "I head towards the chieftain’s office building in search of the chief, as I always do. Once inside the building, I’m already so excited to see my beloved chieftain again.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_15"
+    },
+    {
+        "id": "line_15",
+        "type": "narration",
+        "text": "Did I see him earlier today already? Yes. But were we also apart for a while today? Also yes. Therefore!",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_16"
+    },
+    {
+        "id": "line_16",
+        "type": "narration",
+        "text": "It’s perfectly normal for me to be excited to see him again.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_17"
+    },
+    {
+        "id": "line_17",
+        "type": "narration",
+        "text": "I happily go and open the door to his office.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_18"
+    },
+    {
+        "id": "line_18",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Chieftain! I’m bac-”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_19"
+    },
+    {
+        "id": "line_19",
+        "type": "narration",
+        "text": "But to my absolute horror…the chieftain wasn’t there.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_20"
+    },
+    {
+        "id": "line_20",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Chieftain! Chieftain! Where are you?!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_21"
+    },
+    {
+        "id": "line_21",
+        "type": "narration",
+        "text": "I start running around the village, in search of the chief, calling out to him over and over again. Where could he be?",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_22"
+    },
+    {
+        "id": "line_22",
+        "type": "narration",
+        "text": "This made no sense! He’s always in his office! Where could he have gone?",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_23"
+    },
+    {
+        "id": "line_23",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Chieftain! Chieftain!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_24"
+    },
+    {
+        "id": "line_24",
+        "type": "narration",
+        "text": "I didn’t care if it was in the dead of night and the other Mamuist were likely already sleeping. I needed to find the chief. I can’t lose the chief.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_25"
+    },
+    {
+        "id": "line_25",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Chieftain! Where did you go!? Chieftain!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_26"
+    },
+    {
+        "id": "line_26",
+        "type": "narration",
+        "text": "After an incredibly long time of trying to locate the chieftain, my search finally comes to an end when I hear a voice calling for me.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_27"
+    },
+    {
+        "id": "line_27",
+        "type": "ruckers",
+        "text": "Ruckers: “Fursttryl!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_28"
+    },
+    {
+        "id": "line_28",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Chieftain!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_29"
+    },
+    {
+        "id": "line_29",
+        "type": "ruckers",
+        "text": "Ruckers: “What are you doing? Why are you running around? Why haven’t you come to the village hall?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_30"
+    },
+    {
+        "id": "line_30",
+        "type": "ruckers",
+        "text": "Ruckers: “What are you doing? Why are you running around? Why haven’t you come to the village hall?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_31"
+    },
+    {
+        "id": "line_31",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Village hall? Why would I intend to go there?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_32"
+    },
+    {
+        "id": "line_32",
+        "type": "ruckers",
+        "text": "Ruckers: “Didn’t Caine tell you to come for the gathering?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_33"
+    },
+    {
+        "id": "line_33",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Caine? I haven’t seen him all day today. No?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_34"
+    },
+    {
+        "id": "line_34",
+        "type": "ruckers",
+        "text": "Ruckers: “What…? Well, anyways, you should come along, Fursttryl.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_35"
+    },
+    {
+        "id": "line_35",
+        "type": "fursttryl",
+        "text": "Fursttryl: “...”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_36"
+    },
+    {
+        "id": "line_36",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Yes, chief! Whatever you say!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_37"
+    },
+    {
+        "id": "line_37",
+        "type": "narration",
+        "text": "Though, I still had so many questions to ask like “What do we need to go to the village hall for?” and “What is this gathering for?”,",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_38"
+    },
+    {
+        "id": "line_38",
+        "type": "narration",
+        "text": "Why would I ever not go along with my dear chieftain?",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_39"
+    },
+    {
+        "id": "line_39",
+        "type": "narration",
+        "text": "And so, I eagerly and merrily follow behind the chieftain as he leads us towards the village hall.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_40"
+    },
+    {
+        "id": "line_40",
+        "type": "narration",
+        "text": "Upon entering the hall, I see that just about everyone else is here. John, Willow, Illydia, Ingot, Caine…",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_41"
+    },
+    {
+        "id": "line_41",
+        "type": "narration",
+        "text": "…and Reid.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_42"
+    },
+    {
+        "id": "line_42",
+        "type": "narration",
+        "text": "I guess this explains the reason as to why Reid didn’t show up at Caine’s funeral.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_43"
+    },
+    {
+        "id": "line_43",
+        "type": "narration",
+        "text": "He was probably already informed, likely by Caine, about this gathering before everyone else.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_44"
+    },
+    {
+        "id": "line_44",
+        "type": "narration",
+        "text": "Of course he was. Why wouldn’t Caine tell only Reid first?",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_45"
+    },
+    {
+        "id": "line_45",
+        "type": "ruckers",
+        "text": "Ruckers: “Caine, did you not tell Fursttryl about coming to the village hall?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_46"
+    },
+    {
+        "id": "line_46",
+        "type": "caine",
+        "text": "Caine: “What? I told Willow to tell everyone to come here. Willow, did you not inform Fursttryl?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_47"
+    },
+    {
+        "id": "line_47",
+        "type": "willow",
+        "text": "Willow: “Oh…It must’ve slipped my mind~ Sorry~”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_48"
+    },
+    {
+        "id": "line_48",
+        "type": "narration",
+        "text": "…Yeah I don’t believe it slipped her mind. But that doesn’t matter, I’m here now.",
+        "background": "...",
+        "sprites": "...",
+        "next": null
+    },
+    {
+        "id": "line_49",
+        "type": "narration",
+        "text": "But before I even take a step towards my intended destination, I am stopped by a voice calling out to me from behind.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_50"
+    },
+    {
+        "id": "line_50",
+        "type": "willow",
+        "text": "Willow: “Fursttryl!~ Hold up a second!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_51"
+    },
+    {
+        "id": "line_51",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Oh? Willow? Did you need something from me?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_52"
+    },
+    {
+        "id": "line_52",
+        "type": "willow",
+        "text": "Willow: “No not really but…earlier at the funeral, did you see or notice anything?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_53"
+    },
+    {
+        "id": "line_53",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Um…I’m not quite certain what you’re referring to? Could you be a bit more specific?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_54"
+    },
+    {
+        "id": "line_54",
+        "type": "willow",
+        "text": "Willow: “Did you see Caine?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_55"
+    },
+    {
+        "id": "line_55",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Like his picture?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_56"
+    },
+    {
+        "id": "line_56",
+        "type": "willow",
+        "text": "Willow: “No. Caine. He was behind the curtains at the funeral.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_57"
+    },
+    {
+        "id": "line_57",
+        "type": "fursttryl",
+        "text": "Fursttryl: “What?! Caine!? Are you serious? I didn’t see him at all!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_58"
+    },
+    {
+        "id": "line_58",
+        "type": "willow",
+        "text": "Willow: “I think you were too preoccupied with falling. Haha~”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_59"
+    },
+    {
+        "id": "line_59",
+        "type": "fursttryl",
+        "text": "Fursttryl: “...”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_60"
+    },
+    {
+        "id": "line_60",
+        "type": "willow",
+        "text": "Willow: “Kidding kidding. Don’t worry, it seems like I was the only one who noticed him. Everyone else also missed him like you did.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_61"
+    },
+    {
+        "id": "line_61",
+        "type": "willow",
+        "text": "Willow: “That’s why I had to be the one to tell all of you about it.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_62"
+    },
+    {
+        "id": "line_62",
+        "type": "fursttryl",
+        "text": "Fursttryl: “What was he doing at the funeral? What if he gets caught? Does the chief know about this?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_63"
+    },
+    {
+        "id": "line_63",
+        "type": "willow",
+        "text": "Willow: “Most likely, don’t worry about that aspect too much. The important bit is what Caine told me.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_64"
+    },
+    {
+        "id": "line_64",
+        "type": "willow",
+        "text": "Willow: “He said that we should all meet up at the village hall. I’m not particularly sure what he needs us there for but it seems important.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_65"
+    },
+    {
+        "id": "line_65",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Village hall, huh? I see. Then I’ll make my way there with you. Thank you for telling me this, Willow.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_66"
+    },
+    {
+        "id": "line_66",
+        "type": "willow",
+        "text": "Willow: “Of course I would tell you, Fursttryl!~ You’re like my favourite person!...After all my other favourite people who I care about before you but still!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_67"
+    },
+    {
+        "id": "line_67",
+        "type": "willow",
+        "text": "Willow: “You’re my favourite, Fursttryl!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_68"
+    },
+    {
+        "id": "line_68",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Thank you…?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_69"
+    },
+    {
+        "id": "line_69",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Well, I’m going to head there now. Would you like to start making your way there with me as well?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_70"
+    },
+    {
+        "id": "line_70",
+        "type": "willow",
+        "text": "Willow: “Oh! Not yet! I still need to go and inform Ingot but I’ll see you there. See you in a bit, Fursttryl!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_71"
+    },
+    {
+        "id": "line_71",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Oh ok! See you!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_72"
+    },
+    {
+        "id": "line_72",
+        "type": "narration",
+        "text": "I start making my way towards the edge of Kingswood. At the edge, there stands the forest. One which I’m all too familiar with, of course.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_73"
+    },
+    {
+        "id": "line_73",
+        "type": "narration",
+        "text": "I begin to traverse through the trees, letting my legs guide me without much thought in my mind.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_74"
+    },
+    {
+        "id": "line_74",
+        "type": "narration",
+        "text": "Despite the darkness of the night combined with the covered sky caused by the trees, I know where I’m going.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_75"
+    },
+    {
+        "id": "line_75",
+        "type": "narration",
+        "text": "Well, as a gnome, I am gifted with darkvision so the lack of light would have never been an issue.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_76"
+    },
+    {
+        "id": "line_76",
+        "type": "narration",
+        "text": "Though, even if I didn’t have darkvision, I would still know how to find my way through the trees.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_77"
+    },
+    {
+        "id": "line_77",
+        "type": "narration",
+        "text": "I traverse past tree after tree after tree after tree, and what was after that tree?",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_78"
+    },
+    {
+        "id": "line_78",
+        "type": "narration",
+        "text": "Another tree. Then another tree. Then another tree.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_79"
+    },
+    {
+        "id": "line_79",
+        "type": "narration",
+        "text": "And then soon, no more trees.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_80"
+    },
+    {
+        "id": "line_80",
+        "type": "narration",
+        "text": "As I have now reached an opening. And in that opening, a village.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_81"
+    },
+    {
+        "id": "line_81",
+        "type": "narration",
+        "text": "My village. The village where I live. The village of Mamu. Home.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_82"
+    },
+    {
+        "id": "line_82",
+        "type": "narration",
+        "text": "I head towards the village hall near the center of the village. As I enter, I already see a few people who have arrived before me.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_83"
+    },
+    {
+        "id": "line_83",
+        "type": "narration",
+        "text": "My beloved chief, John, Illydia, Caine and…",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_84"
+    },
+    {
+        "id": "line_84",
+        "type": "narration",
+        "text": "…Reid",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_85"
+    },
+    {
+        "id": "line_85",
+        "type": "narration",
+        "text": "I guess this explains the reason as to why Reid didn’t show up at Caine’s funeral.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_86"
+    },
+    {
+        "id": "line_86",
+        "type": "narration",
+        "text": "He was probably already informed, likely by Caine, about this gathering before everyone else.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_87"
+    },
+    {
+        "id": "line_87",
+        "type": "narration",
+        "text": "Of course he was. Why wouldn’t Caine tell only Reid first?",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_88"
+    },
+    {
+        "id": "line_88",
+        "type": "narration",
+        "text": "Now, because Caine decided to not inform everyone else besides Reid himself, we have to wait for Willow to bring over the others before we can even begin whatever it is we were gathered here for.",
+        "background": "...",
+        "sprites": "...",
+        "next": null
+    }
+]
