@@ -1,0 +1,506 @@
+[
+    {
+        "id": "line_01",
+        "type": "narration",
+        "text": "Once everyone has gathered in the hall, well, all besides Forged. It appears she was uninterested in coming.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_02"
+    },
+    {
+        "id": "line_02",
+        "type": "narration",
+        "text": "Ruckers goes and clears his voice before he begins speaking to everyone in the room.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_03"
+    },
+    {
+        "id": "line_03",
+        "type": "ruckers",
+        "text": "Ruckers: “So, everyone, as you know, we just held the “funeral” for Caine today.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_04"
+    },
+    {
+        "id": "line_04",
+        "type": "narration",
+        "text": "Ruckers gestures towards Caine in the room, who is very much alive and not inside the closed coffin back in the funeral.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_05"
+    },
+    {
+        "id": "line_05",
+        "type": "ruckers",
+        "text": "Ruckers: “That means, now, every Mamuist, who is approaching the age of 48, has had a funeral held for them.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_06"
+    },
+    {
+        "id": "line_06",
+        "type": "ruckers",
+        "text": "Ruckers: “Which means, the sacrifice ritual can now be held without drawing suspicion from the other inhabitants of Kingswood.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_07"
+    },
+    {
+        "id": "line_07",
+        "type": "narration",
+        "text": "The sacrifice ritual. It is a ritual that is performed for our dear Mamu. It is also the ritual where me and everyone else from my “batch” was born from.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_08"
+    },
+    {
+        "id": "line_08",
+        "type": "narration",
+        "text": "When a “batch” of Mamuist turns 48 years old, they are to be sacrificed to Mamu. And in their place, another “batch” of Mamuist is born.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_09"
+    },
+    {
+        "id": "line_09",
+        "type": "narration",
+        "text": "It is an honourable sacrifice. One I believe to be the greatest love letter to our beloved Mamu.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_10"
+    },
+    {
+        "id": "line_10",
+        "type": "narration",
+        "text": "It is only right to give our life to Mamu, who repeatedly brings us back from death if they deem us worthy…",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_11"
+    },
+    {
+        "id": "line_11",
+        "type": "narration",
+        "text": "Death.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_12"
+    },
+    {
+        "id": "line_12",
+        "type": "narration",
+        "text": "Most people fear death. But I don’t really find it all that frightening. After all, there are only two ways to permanently die as a Mamuist.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_13"
+    },
+    {
+        "id": "line_13",
+        "type": "narration",
+        "text": "Either be deemed unworthy of revival from Mamu or give your life honourably through the sacrifice ritual.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_14"
+    },
+    {
+        "id": "line_14",
+        "type": "ruckers",
+        "text": "Ruckers: “However. As you know, I too will be taking part in the sacrifice ritual. Which means that it is now time for me to step down from the position of chieftain.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_15"
+    },
+    {
+        "id": "line_15",
+        "type": "ruckers",
+        "text": "Ruckers: “That is why all of you are gathered here today. As the second oldest batch of our community, one of you will need to take over the role of village chief.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_16"
+    },
+    {
+        "id": "line_16",
+        "type": "ruckers",
+        "text": "Ruckers: “I know that the position appears intimidating and I am well aware that many of you will be hesitant on becoming the next chieftain.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_17"
+    },
+    {
+        "id": "line_17",
+        "type": "ruckers",
+        "text": "Ruckers: “But I believe that all of you here have the potential of becoming a great leader for our community, maybe even greater than I.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_18"
+    },
+    {
+        "id": "line_18",
+        "type": "ruckers",
+        "text": "Ruckers: “So, I would like a show of hands now on who would be interested in stepping into the role of chieftain.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_19"
+    },
+    {
+        "id": "line_19",
+        "type": "narration",
+        "text": "The next chieftain, someone who will have to bear an enormous amount of responsibility.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_20"
+    },
+    {
+        "id": "line_20",
+        "type": "narration",
+        "text": "Do I even want to be ch-DID REID JUST RAISE HIS HAND?",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_21"
+    },
+    {
+        "id": "line_21",
+        "type": "narration",
+        "text": "Before I can even contemplate on whether or not I would be interested in becoming the next village chief, Reid, of all people, Reid’s arm shoots up immediately after the chieftain finishes speaking.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_22"
+    },
+    {
+        "id": "line_22",
+        "type": "narration",
+        "text": "The look of him. That man never grew up. I could see the child-like excitement in his eyes.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_23"
+    },
+    {
+        "id": "line_23",
+        "type": "narration",
+        "text": "That naive look that he truly believes that he could become the next chieftain…",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_24"
+    },
+    {
+        "id": "line_24",
+        "type": "narration",
+        "text": "Like hell I’m letting HIM become the next chieftain of our community.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_25"
+    },
+    {
+        "id": "line_25",
+        "type": "narration",
+        "text": "It doesn’t matter whether or not I want to become chieftain anymore.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_26"
+    },
+    {
+        "id": "line_26",
+        "type": "narration",
+        "text": "I have to make sure REID doesn’t become the next chief.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_27"
+    },
+    {
+        "id": "line_27",
+        "type": "narration",
+        "text": "And so, I raise my hand. To my surprise, as well as the current chieftain’s surprise, everyone else in the room appears to have also put their hands up.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_28"
+    },
+    {
+        "id": "line_28",
+        "type": "narration",
+        "text": "At the sight, the chief starts tearing up for a moment before he allows himself to freely cry.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_29"
+    },
+    {
+        "id": "line_29",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Chief! Are you alright!?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_30"
+    },
+    {
+        "id": "line_30",
+        "type": "ruckers",
+        "text": "Ruckers: “I’m…so touched that all of you are so willing to step up. It fills me with great confidence that when I leave, our community will be in capable hands.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_31"
+    },
+    {
+        "id": "line_31",
+        "type": "narration",
+        "text": "With the announcement now made, the chief dismisses everyone. Well, everyone besides me as he requests that I stay behind to discuss something with me.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_32"
+    },
+    {
+        "id": "line_32",
+        "type": "ruckers",
+        "text": "Ruckers: “I didn’t know you wanted to become chieftain. What brought about this?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_33"
+    },
+    {
+        "id": "line_33",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Uhhhh…ummm…”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_34"
+    },
+    {
+        "id": "line_34",
+        "type": "narration",
+        "text": "I can’t let the chieftain know that I only volunteered for a petty reason! What would he think of me!?",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_35"
+    },
+    {
+        "id": "line_35",
+        "type": "narration",
+        "text": "Come on Fursttryl, think of some believable excuse!",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_36"
+    },
+    {
+        "id": "line_36",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Ummmm…Mamu came to me in a dream…?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_37"
+    },
+    {
+        "id": "line_37",
+        "type": "ruckers",
+        "text": "Ruckers: “Wow…Mamu has never come to me in my dreams before…”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_38"
+    },
+    {
+        "id": "line_38",
+        "type": "narration",
+        "text": "FUCK!",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_39"
+    },
+    {
+        "id": "line_39",
+        "type": "narration",
+        "text": "But before my anxiety can escalate, the chieftain places his hand on one of my shoulders.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_40"
+    },
+    {
+        "id": "line_40",
+        "type": "ruckers",
+        "text": "Ruckers: “It must have been very important then.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_41"
+    },
+    {
+        "id": "line_41",
+        "type": "narration",
+        "text": "…He believed my excuse?",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_42"
+    },
+    {
+        "id": "line_42",
+        "type": "narration",
+        "text": "Meanwhile, outside of the village hall, Caine and Reid are loitering around the back with one another.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_43"
+    },
+    {
+        "id": "line_43",
+        "type": "caine",
+        "text": "Caine: “…I was not expecting the others to express interest in becoming the next chieftain of our village. I was hoping that you would be able to go unopposed.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_44"
+    },
+    {
+        "id": "line_44",
+        "type": "reid",
+        "text": "Reid: “It doesn’t matter whether or not I have to compete with the others! I am still going to win in the end anyways!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_45"
+    },
+    {
+        "id": "line_45",
+        "type": "caine",
+        "text": "Caine: “Right…Yes. Yes. I think…if you try your hardest and be smart, I believe you can become chieftain, Reid.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_46"
+    },
+    {
+        "id": "line_46",
+        "type": "reid",
+        "text": "Reid: “Of course! I mean, out of everyone, I train my body physically the most! I’m the strongest!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_47"
+    },
+    {
+        "id": "line_47",
+        "type": "caine",
+        "text": "Caine: “But what if Ruckers chooses a non-physical trial?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_48"
+    },
+    {
+        "id": "line_48",
+        "type": "reid",
+        "text": "Reid: “Brother, what was your trial like?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_49"
+    },
+    {
+        "id": "line_49",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Chief! Can you tell me the tale of your trial once more!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_50"
+    },
+    {
+        "id": "line_50",
+        "type": "ruckers",
+        "text": "Ruckers: “My trial? Again? Well if you’re so eager…”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_51"
+    },
+    {
+        "id": "line_51",
+        "type": "ruckers",
+        "text": "Ruckers: “The trial that I was put through to become chieftain was grueling! It was an intense race!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_52"
+    },
+    {
+        "id": "line_52",
+        "type": "ruckers",
+        "text": "Ruckers: “The path from the start to finish was filled with FIRE! CHAINSAW! SWINGING AXES! SPIKES!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_53"
+    },
+    {
+        "id": "line_53",
+        "type": "ruckers",
+        "text": "Ruckers: “And when I reached the finish line, Reid wasn’t even halfway.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_54"
+    },
+    {
+        "id": "line_54",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Wowowowow! You’re so cool, Chieftain! So chief, what do you plan on making the upcoming trials be?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_55"
+    },
+    {
+        "id": "line_55",
+        "type": "fursttryl",
+        "text": "Fursttryl: “So chief, what do you plan on making the upcoming trials be?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_56"
+    },
+    {
+        "id": "line_56",
+        "type": "ruckers",
+        "text": "Ruckers: “Well I can’t tell you that, then it would be unfair for everyone else.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_57"
+    },
+    {
+        "id": "line_57",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Wow chief…so fair…so just…as incredible as always! I would expect nothing less of the chieftain!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_58"
+    },
+    {
+        "id": "line_58",
+        "type": "ruckers",
+        "text": "Ruckers: “I am simply acting in a way a proper chieftain should.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_59"
+    },
+    {
+        "id": "line_59",
+        "type": "ruckers",
+        "text": "Ruckers: “Besides, I already have an idea for one of the trials so far, I’m thinking of making two more.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_60"
+    },
+    {
+        "id": "line_60",
+        "type": "ruckers",
+        "text": "Ruckers: “I’m a bit stuck on what they should be but I have a week left until the day of trials so I have time to ponder on them.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_61"
+    },
+    {
+        "id": "line_61",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Do you need my assistance with anything, chieftain?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_62"
+    },
+    {
+        "id": "line_62",
+        "type": "ruckers",
+        "text": "Ruckers: “Not right now. You should return home, Fursttryl. It is getting late.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_63"
+    },
+    {
+        "id": "line_63",
+        "type": "fursttryl",
+        "text": "Fursttryl: “As you wish, chieftain! Have a good night, chieftain!”",
+        "background": "...",
+        "sprites": "...",
+        "next": null
+    }
+]

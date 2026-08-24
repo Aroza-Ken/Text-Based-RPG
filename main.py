@@ -29,6 +29,9 @@ def run_game():
 
     # post funeral scene
     load_and_play("data/scenes/post_funeral.json", "line_01")
+
+    # announcement scene
+    load_and_play("data/scenes/annoucement_scene.json", "line_01")
     print(state.relationship) # temp print to check point system
 
 if __name__ == "__main__":
