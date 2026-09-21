@@ -32,6 +32,9 @@ def run_game():
 
     # announcement scene
     load_and_play("data/scenes/annoucement_scene.json", "line_01")
+
+    # library scene
+    load_and_play("data/scenes/library_scene.json", "line_01")
     print(state.relationship) # temp print to check point system
 
 if __name__ == "__main__":

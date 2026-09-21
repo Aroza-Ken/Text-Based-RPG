@@ -1,0 +1,638 @@
+[
+    {
+        "id": "line_01",
+        "type": "narration",
+        "text": "…I SHOULD head home like the chieftain told me to do…It is late…but…",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_02"
+    },
+    {
+        "id": "line_02",
+        "type": "narration",
+        "text": "I have been really busy and hardly have had any free time. Soooooo…",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_03"
+    },
+    {
+        "id": "line_03",
+        "type": "narration",
+        "text": "…now that I do have some free time, I can finally head to the library again. I can finally see if there’s new yuri to read there!",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_04"
+    },
+    {
+        "id": "line_04",
+        "type": "narration",
+        "text": "I excitedly make my way back into Kingswood and towards the library. As I approach the entrance, I see Illydia come out of the door with a key in her hand to, what I assume, lock up the library.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_05"
+    },
+    {
+        "id": "line_05",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Illydia! Wait!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_06"
+    },
+    {
+        "id": "line_06",
+        "type": "illydia",
+        "text": "Illydia: “Fursttryl? What are you doing here so late?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_07"
+    },
+    {
+        "id": "line_07",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Chief dismissed me for the day…so I wanted to come by since I’m free now to get more yuri.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_08"
+    },
+    {
+        "id": "line_08",
+        "type": "illydia",
+        "text": "Illydia: “Well…ummm…I’m already closing up the library though.”",
+        "background": "...",
+        "sprites": "...",
+        "options": [
+            {"label": "1: I’ll just come back tomorrow", "points": 0, "target": "illydia", "next": "line_09"},
+            {"label": "2: Please?", "points": 1, "target": "illydia", "next": "check_status", "scene_A": "line_15", "scene_B": "line_65"},
+            {"label": "3: I won’t be long", "points": -1, "target": "illydia", "next": "line_75"}
+        ]
+    },
+    {
+        "id": "line_09",
+        "type": "fursttryl",
+        "text": "Fursttryl: “That’s alright then. I’ll just come back tomorrow. Good night, Illydia.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_10"
+    },
+    {
+        "id": "line_10",
+        "type": "illydia",
+        "text": "Illydia: “Ah, yes. Oh but before you go, I should tell you that Merryweather has informed me that the books you requested has arrived so you can come pick them up tomorrow when you come by..”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_11"
+    },
+    {
+        "id": "line_11",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Ah! Really? That’s wonderful! Thank you thank you so much, Illydia.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_12"
+    },
+    {
+        "id": "line_12",
+        "type": "illydia",
+        "text": "Illydia: “It’s no problem at all. Good night, Fursttryl. Get home safe.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_13"
+    },
+    {
+        "id": "line_13",
+        "type": "fursttryl",
+        "text": "Fursttryl: “You as well, Illydia. Have a good night.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_14"
+    },
+    {
+        "id": "line_14",
+        "type": "narration",
+        "text": "Unfortunately, I wasn’t able to get more yuri tonight but that’s alright. I can always come back another day.",
+        "background": "...",
+        "sprites": "...",
+        "next": null
+    },
+    {
+        "id": "line_15",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Please?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_16"
+    },
+    {
+        "id": "line_16",
+        "type": "illydia",
+        "text": "Illydia: “…”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_17"
+    },
+    {
+        "id": "line_17",
+        "type": "illydia",
+        "text": "Illydia: “Alright…Come on inside.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_18"
+    },
+    {
+        "id": "line_18",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Thank you so much, Illydia! I am forever in your debt!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_19"
+    },
+    {
+        "id": "line_19",
+        "type": "narration",
+        "text": "Illdyia proceeds to open the door for me and I happily take the invitation as I excitedly make my way inside.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_20"
+    },
+    {
+        "id": "line_20",
+        "type": "narration",
+        "text": "While Illydia just goes to stand behind the counter as she always does when she’s on duty, I head straight towards my favorite section of the library. The romance section.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_21"
+    },
+    {
+        "id": "line_21",
+        "type": "narration",
+        "text": "But not just any romance. Yuri.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_22"
+    },
+    {
+        "id": "line_22",
+        "type": "narration",
+        "text": "I absolutely adore the genre. How could anyone not? The notion of being chosen by someone, of being loved and adored by them.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_23"
+    },
+    {
+        "id": "line_23",
+        "type": "narration",
+        "text": "I absolutely adore the genre. How could anyone not? The notion of being chosen by someone, of being loved and adored by them.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_24"
+    },
+    {
+        "id": "line_24",
+        "type": "narration",
+        "text": "It reminds me of how one day, Mamu will see me, choose me and we’ll be together forever. When that day comes, I’ll be ready.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_25"
+    },
+    {
+        "id": "line_25",
+        "type": "narration",
+        "text": "But for now, I will wait, I’ll be patient like a good heroine. I’ll be devoted to my beloved Mamu as a good lover should be. I’ll consume all his teachings.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_26"
+    },
+    {
+        "id": "line_26",
+        "type": "narration",
+        "text": "And when I’m not reading my scriptures on my darling Mamu, I’m reading Yuri.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_27"
+    },
+    {
+        "id": "line_27",
+        "type": "narration",
+        "text": "It’s basically the only thing I do in my free time. As well as have book club with Willow, my fellow yuri enjoyer, while Illydia, our yuri supplier, watches us from the side.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_28"
+    },
+    {
+        "id": "line_28",
+        "type": "narration",
+        "text": "Merryweather, the sweet old lady who runs this library, also sometimes shows up to our book club meetings.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_29"
+    },
+    {
+        "id": "line_29",
+        "type": "narration",
+        "text": "You would think an elderly woman such as herself would be quite pure and innocent but she’s quite the opposite. She is quite knowledgeable on yuri, both on the wholesome variety and the more…mature variety.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_30"
+    },
+    {
+        "id": "line_30",
+        "type": "narration",
+        "text": "Speaking of which, she did recommend me a particular novel that she said I would enjoy greatly.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_31"
+    },
+    {
+        "id": "line_31",
+        "type": "narration",
+        "text": "I scan through all the rows on the shelves, looking for the book with only its name as my mark.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_32"
+    },
+    {
+        "id": "line_32",
+        "type": "narration",
+        "text": "My eyes eventually find themselves on the rightmost shelf, on the bottom row, pressed up against the corner. I kneel down to retrieve it and as I pull it out from its home, I naturally go to look at the cover.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_33"
+    },
+    {
+        "id": "line_33",
+        "type": "narration",
+        "text": "The design is…certainly something. Merryweather certainly knows me very well huh?",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_34"
+    },
+    {
+        "id": "line_34",
+        "type": "narration",
+        "text": "Besides the novel that Merryweather suggested I pick up, I also quickly snatch the books I requested from their respective shelves before I head to Illydia.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_35"
+    },
+    {
+        "id": "line_35",
+        "type": "narration",
+        "text": "I place my large tower of books on the desk, and Illydia, unfazed, slides me the sheet to fill out. I begin enthusiastically filling out the form regarding the details of my checkout.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_36"
+    },
+    {
+        "id": "line_36",
+        "type": "narration",
+        "text": "While I’m writing on the sheet, I notice that someone else has checked out one of my favorite yuri novels earlier today.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_37"
+    },
+    {
+        "id": "line_37",
+        "type": "narration",
+        "text": "Cecilia.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_38"
+    },
+    {
+        "id": "line_38",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Oh! Someone borrowed the first volume of Love and Council?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_39"
+    },
+    {
+        "id": "line_39",
+        "type": "illydia",
+        "text": "Illydia: “Hm. Oh yeah. She came earlier today. Someone from the council ironically.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_40"
+    },
+    {
+        "id": "line_40",
+        "type": "fursttryl",
+        "text": "Fursttryl: “The council? Like someone from Kingswood’s council? Never would’ve imagined someone so esteemed would take an interest in yuri.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_41"
+    },
+    {
+        "id": "line_41",
+        "type": "illydia",
+        "text": "Illydia: “Funny coming from the chieftain’s assistant herself.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_42"
+    },
+    {
+        "id": "line_42",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Touché.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_43"
+    },
+    {
+        "id": "line_43",
+        "type": "illydia",
+        "text": "Illydia: “What was strange though was…before she checked out the book, she was asking me about Reid.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_44"
+    },
+    {
+        "id": "line_44",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Reid? What she is asking about Reid for?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_45"
+    },
+    {
+        "id": "line_45",
+        "type": "illydia",
+        "text": "Illydia: “I’m not sure…She was asking if I’ve seen him recently and I just told her that I’m not personally that close to Reid.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_46"
+    },
+    {
+        "id": "line_46",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Did that idiot get himself into some sort of trouble? With the council of all people too?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_47"
+    },
+    {
+        "id": "line_47",
+        "type": "illydia",
+        "text": "Illydia: “…I’m not sure, all I know is that Cecilia appeared very serious about the matter…”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_48"
+    },
+    {
+        "id": "line_48",
+        "type": "illydia",
+        "text": "Illydia: “…I don’t like this.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_49"
+    },
+    {
+        "id": "line_49",
+        "type": "fursttryl",
+        "text": "Fursttryl: “That damn idiot…well…”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_50"
+    },
+    {
+        "id": "line_50",
+        "type": "fursttryl",
+        "text": "Fursttryl: “...even if I hate him, it’s not good for our community if the council gets to him. Especially since we don’t know what that imbecile could end up telling them.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_51"
+    },
+    {
+        "id": "line_51",
+        "type": "fursttryl",
+        "text": "Fursttryl: “So I suppose, we should keep our mouths shut to the council.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_52"
+    },
+    {
+        "id": "line_52",
+        "type": "illydia",
+        "text": "Illydia: “Yeah. I think that’s the safest option for now too.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_53"
+    },
+    {
+        "id": "line_53",
+        "type": "narration",
+        "text": "I nod before turning my attention back to finishing the sheet. Once it's been completed, I slide the paper back to Illydia.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_54"
+    },
+    {
+        "id": "line_54",
+        "type": "narration",
+        "text": "We exchange farewells then I proceed to collect my borrowed books and make my way back home for the night.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_55"
+    },
+    {
+        "id": "line_55",
+        "type": "narration",
+        "text": "Reid. Stupid stupid Reid.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_56"
+    },
+    {
+        "id": "line_56",
+        "type": "narration",
+        "text": "Hah. He thinks he can become chieftain? He thinks he can handle all that responsibility? He can’t even handle not causing problems for the other Mamuists.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_57"
+    },
+    {
+        "id": "line_57",
+        "type": "narration",
+        "text": "Pathetic.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_58"
+    },
+    {
+        "id": "line_58",
+        "type": "narration",
+        "text": "Ridiculous.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_59"
+    },
+    {
+        "id": "line_59",
+        "type": "narration",
+        "text": "Hopeless.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_60"
+    },
+    {
+        "id": "line_60",
+        "type": "narration",
+        "text": "Good-for-nothing.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_61"
+    },
+    {
+        "id": "line_61",
+        "type": "narration",
+        "text": "Weak.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_62"
+    },
+    {
+        "id": "line_62",
+        "type": "narration",
+        "text": "Worthless.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_63"
+    },
+    {
+        "id": "line_63",
+        "type": "narration",
+        "text": "He’s not becoming chieftain.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_64"
+    },
+    {
+        "id": "line_64",
+        "type": "narration",
+        "text": "I won’t let him.",
+        "background": "...",
+        "sprites": "...",
+        "next": null
+    },
+    {
+        "id": "line_65",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Please?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_66"
+    },
+    {
+        "id": "line_66",
+        "type": "illydia",
+        "text": "Illydia: “…”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_67"
+    },
+    {
+        "id": "line_67",
+        "type": "illydia",
+        "text": "Illydia: “Fine…I’ll go grab your books for you. Wait here.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_68"
+    },
+    {
+        "id": "line_68",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Thank you so much, Illydia!”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_69"
+    },
+    {
+        "id": "line_69",
+        "type": "narration",
+        "text": "Illdyia, with a tired sigh, heads back inside the library. I happily wait outside, eager for her return.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_70"
+    },
+    {
+        "id": "line_70",
+        "type": "narration",
+        "text": "After about 10 minutes, Illydia re-emerges with the numerous books I requested for, stacked on top of each other. Forming a tower, a beautiful tower of romance and love.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_71"
+    },
+    {
+        "id": "line_71",
+        "type": "narration",
+        "text": "I feel a rush of absolute bliss the moment she plants the books in my hand.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_72"
+    },
+    {
+        "id": "line_72",
+        "type": "fursttryl",
+        "text": "Fursttryl: “Thank you, thank you so much, Illydia! Have a good rest of the night.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_73"
+    },
+    {
+        "id": "line_73",
+        "type": "narration",
+        "text": "After showing my immense gratitude to Illydia and wishing her well, I make my way back home for the night.",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_74"
+    },
+    {
+        "id": "line_74",
+        "type": "narration",
+        "text": "Like the chieftain told me to. And who am I to argue with my lovely chieftain.",
+        "background": "...",
+        "sprites": "...",
+        "next": null
+    },
+    {
+        "id": "line_75",
+        "type": "fursttryl",
+        "text": "Fursttryl: “I won’t be long. I’ll just grab some books really quickly.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_76"
+    },
+    {
+        "id": "line_76",
+        "type": "illydia",
+        "text": "Illydia: “No, Fursttryl, I’m sorry but it’s really late and I am somewhat eager to go home. Could you just stop by tomorrow to borrow books?”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_77"
+    },
+    {
+        "id": "line_77",
+        "type": "fursttryl",
+        "text": "Fursttryl: “…Oh alright. I understand.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_78"
+    },
+    {
+        "id": "line_78",
+        "type": "illydia",
+        "text": "Illydia: “Thank you, Fursttryl. You should return home now. Get back safe and have a good evening.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_79"
+    },
+    {
+        "id": "line_79",
+        "type": "fursttryl",
+        "text": "Fursttryl: “You as well, Illydia. Have a good rest of the night.”",
+        "background": "...",
+        "sprites": "...",
+        "next": "line_14"
+    }
+]
