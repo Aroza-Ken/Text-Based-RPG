@@ -3,10 +3,10 @@ import sprite_frames
 
 char_move = {"boar1": "right", "boar2": "right", "boar3": "right", "boar4": "right", "boar5": "right", 
              "willow": "left", "john": "left", "reid": "left", "ingot": "left", "illydia": "left", "fursttryl": "left"}
-char_pos = {"boar1": {"x": 2, "y": 2}, "boar2": {"x": 11, "y": 1}, "boar3": {"x": 10, "y": 7}, 
-            "boar4": {"x": 6, "y": 12}, "boar5": {"x": 2, "y": 17}, "willow": {"x": 16, "y": 12}, 
-            "john": {"x": 16, "y": 2}, "reid": {"x": 16, "y": 6}, "ingot": {"x": 16, "y": 4}, 
-            "illydia": {"x": 16, "y": 10}, "fursttryl": {"x": 16, "y": 8}}
+char_pos = {"boar1": {"x": 1, "y": 1}, "boar2": {"x": 10, "y": 0}, "boar3": {"x": 9, "y": 6}, 
+            "boar4": {"x": 5, "y": 11}, "boar5": {"x": 1, "y": 16}, "willow": {"x": 16, "y": 11}, 
+            "john": {"x": 16, "y": 1}, "reid": {"x": 16, "y": 5}, "ingot": {"x": 16, "y": 3}, 
+            "illydia": {"x": 16, "y": 9}, "fursttryl": {"x": 16, "y": 7}}
 
 cur_animation = 0
 animation_timer = 0
@@ -32,7 +32,7 @@ def get_frame(char, sprite_sheet):
 
     # Get the Rect for that particular frame
     rect = None
-    if "boar" in char:
+    if ("boar" in char):
         rect = sprite_frames.boar_frames[direction][frame_number]
     else:
         rect = sprite_frames.character_frames[direction][frame_number]
@@ -55,11 +55,42 @@ def draw_char(char, sprite_sheet):
 
     screen.blit(frame, (pixel_x + offset_x, pixel_y + offset_y))
 
-def move(key):
-    if key == pygame.K_UP:
+def check_bounds(coordinates):
+    if (coordinates < 0):
+        return 0
+    elif (coordinates > 17):
+        return 17
+    return coordinates
+
+
+def move(char, key):
+    cur_x = char_pos[char]["x"]
+    cur_y = char_pos[char]["y"]
+
+    temp_x = cur_x
+    temp_y = cur_y
+
+    if (key == pygame.K_UP):
+        char_move[char] = "up"
         print("up arrow pressed")
-    elif key == pygame.K_DOWN:
+        temp_y = cur_y - 1
+    elif (key == pygame.K_DOWN):
+        char_move[char] = "down"
         print("down arrow pressed")
+        temp_y = cur_y + 1
+    elif (key == pygame.K_LEFT):
+        char_move[char] = "left"
+        print("left arrow pressed")
+        temp_x = cur_x - 1
+    elif (key == pygame.K_RIGHT):
+        char_move[char] = "right"
+        print("right arrow pressed")
+        temp_x = cur_x + 1
+
+    new_x = check_bounds(temp_x)
+    new_y = check_bounds(temp_y)
+    char_pos[char]["x"] = new_x
+    char_pos[char]["y"] = new_y
 
 def draw_grid():
     for x in range(0, window_width, block_size):
@@ -81,10 +112,10 @@ def main():
         dt = clock.tick(30)
         animation_timer += dt
 
-        if animation_timer >= animation_delay:
+        if (animation_timer >= animation_delay):
             animation_timer = 0
 
-            if cur_animation < 2:
+            if (cur_animation < 2):
                 cur_animation += 1
             else:
                 cur_animation = 0
@@ -94,7 +125,7 @@ def main():
 
         for char in char_move:
             sprite_sheet = None
-            if "boar" in char:
+            if ("boar" in char):
                 sprite_sheet = pygame.image.load("assets/sprites/boar_sprite_sheet.png").convert_alpha()
             else:
                 path = f"assets/sprites/{char}_sprite_sheet.png"
@@ -102,10 +133,10 @@ def main():
             draw_char(char, sprite_sheet)
 
         for event in pygame.event.get():
-            if event.type == pygame.QUIT:  # player clicked the window's close button
+            if (event.type == pygame.QUIT):  # player clicked the window's close button
                 running = False
-            if event.type == pygame.KEYDOWN:  # a key was pressed
-                move(event.key)
+            if (event.type == pygame.KEYDOWN):  # a key was pressed
+                move("fursttryl", event.key)
 
         # show what we just drew
         pygame.display.flip()
